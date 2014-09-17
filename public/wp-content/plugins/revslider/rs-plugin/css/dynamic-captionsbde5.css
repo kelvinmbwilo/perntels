@@ -1,0 +1,35 @@
+.tp-caption.layer_1 {
+font-size:14px;
+font-family:Raleway;
+color:rgb(255, 255, 255);
+text-decoration:none;
+background-color:transparent;
+border-width:0px;
+border-color:rgb(34, 34, 34);
+border-style:none;
+}
+
+.tp-caption.layer_2 {
+font-size:60px;
+line-height:80px;
+font-weight:900;
+font-family:Raleway;
+color:rgb(255, 255, 255);
+text-decoration:none;
+background-color:transparent;
+text-transform:uppercase;
+border-width:0px;
+border-color:rgb(34, 34, 34);
+border-style:none;
+}
+
+.tp-caption.layer_button {
+color:#ffffff;
+background-color:transparent;
+text-decoration:none;
+text-transform:uppercase;
+border-width:0px;
+border-color:rgb(34, 34, 34);
+border-style:none;
+}
+
