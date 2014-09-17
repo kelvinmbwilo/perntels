@@ -90,7 +90,7 @@
     <script type='text/javascript' src="{{ asset('wp-content/themes/pharmacy/framework/widgets/sliders/assets/js/jquery.kwicks.minf9b8.js?ver=4.0') }}"></script>
 
     <script type='text/javascript' src="{{ asset('wp-content/themes/pharmacy/framework/assets/js/js_composer_front68b3.js?ver=1') }}"></script>
-
+    <script type='text/javascript' src='http://maps.google.com/maps/api/js?sensor=true&amp;ver=4.0'></script>
     <link rel="EditURI" type="application/rsd+xml" title="RSD" href="xmlrpc0db0.php?rsd" />
 
     <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="{{ asset('wp-includes/wlwmanifest.xml') }}" />
@@ -173,7 +173,7 @@
 <div class="collapse navbar-collapse navbar-ex1-collapse"><ul id="main-menu" class="nav navbar-nav megamenu navbar-left"><li class="active menu-item-1755 dropdown parent mega depth-0 aligned-left" data-id="1755"    data-alignsub="left" data-level="1"><a href="{{ route('home') }}" class="dropdown-toggle" >Home </a>
 </li>
 
-<li class="menu-item-1725 dropdown parent mega depth-0 aligned-fullwidth" data-id="1725"    data-alignsub="fullwidth" data-level="1"><a href="shop/index.html" class="dropdown-toggle" >Services <b class="caret"></b></a>
+<li class="menu-item-1725 dropdown parent mega depth-0 aligned-fullwidth" data-id="1725"    data-alignsub="fullwidth" data-level="1"><a href="{{ route('dashboard') }}" class="dropdown-toggle" >Services <b class="caret"></b></a>
 
     <div class="dropdown-menu mega-dropdown-menu"  ><div class="dropdown-menu-inner">
             <div class="row">
@@ -249,7 +249,8 @@
 <li class="menu-item-395 dropdown parent mega depth-0 aligned-left" data-id="395"    data-alignsub="left" data-level="1"><a href="{{route('about')}}" class="dropdown-toggle" >About Us </a>
     </li>
 
-<li class="menu-item-2593" data-id="2593"    data-alignsub="left" data-level="1"><a href="{{route('contact')}}" ">Team</a></li>
+<li class="menu-item-2593" data-id="2593"    data-alignsub="left" data-level="1"><a href="{{route('dashboard')}}" ">Team</a></li>
+<li class="menu-item-2593" data-id="2593"    data-alignsub="left" data-level="1"><a href="{{route('dashboard')}}" ">Environment</a></li>
 <li class="menu-item-2593" data-id="2593"    data-alignsub="left" data-level="1"><a href="{{route('contact')}}" ">Contact Us</a></li>
 </ul></div>                        </nav>
 <!-- //MENU -->
