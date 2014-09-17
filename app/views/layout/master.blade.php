@@ -18,7 +18,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"><!-- For SEO -->
     <meta name="description" content="">
     <meta name="keywords" content="">
-    <!-- End SEO--> <title>Pharmacy | Just another WordPress site</title>
+    <!-- End SEO--> <title>PERNTELS COMPANY LIMITED</title>
     <link rel="pingback" href="xmlrpc.php">            <style>
         .wishlist_table .add_to_cart, .yith-wcwl-add-button > a.button.alt { border-radius: 16px; -moz-border-radius: 16px; -webkit-border-radius: 16px; }            </style>
     <script type="text/javascript">
