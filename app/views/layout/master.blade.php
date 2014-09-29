@@ -131,7 +131,7 @@
 <!-- Top bar -->
 <section class="wpo-topbar wrapper-topbar" >
     <div class="container">
-        <div class="container-inner clearfix" style="background: darkgreen;">
+        <div class="container-inner clearfix" style="background: #146e4a;">
 
             <div class="pull-left">
                 <h3><small>POWER AND TELECOMMUNICATION COMPANY SERVICES</small> </h3>
@@ -395,7 +395,7 @@
 <footer id="wpo-footer" class="wpo-footer">
     <section class="footer-middle">
         <div class="container">
-            <div class="container-inner " style="background: darkgreen;">
+            <div class="container-inner " style="background: #146e4a;">
 
 
                 <div class="col-md-2 col-sm-4 col-xs-12">
