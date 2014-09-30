@@ -2,13 +2,14 @@
 
 @section('content')
 <section id="wpo-mainbody" class="page-space wpo-mainbody">
-    <div class="panel">
+    <div>
         <div class="row">
-           <div class="panel-body">
+           <div >
             <div class="col-md-6 col-sm-6 ">
                 <div class="image-detail">
-                    <div style="padding-top: 20px; padding-left: 8px;">
-                        <br>
+                    <div style="padding-top:0px; padding-left: 8px;" class="panel">
+                        <div class="panel-heading"><h5>TELECOMMUNICATIONS WORKS</h5></div>
+                        
                         <p>Perntels target has always been to deliver high quality services on installation, integration, commissioning and cost effective maintenance of both GSM and Transmission systems. We have team of technicians with experience on HUAWEI, AVIAT, ERICSSON, NSN EQUIPMENTS etc.</p>
    
                     </div>
@@ -16,10 +17,11 @@
             </div>
 
             <div class="col-md-6 col-sm-6">
-                <div class="summary entry-summary">
-                    <h7 itemprop="name"><b>Our service in Installation includes</b></h7>
-                    <div class="description" itemprop="description">
-                        <ul>
+                <div class="panel">
+                    <div class="panel-heading"><h7 itemprop="name"><b>Our service in Installation includes</b></h7></div>
+                    
+                    <div class="body" itemprop="description">
+                        <ul style="list-style: outside;">
                           <li>Materials kitting and Transport to site</li>
                           <li>Installation of BTS cabinet/Rack</li>
                           <li>Supply and installation of cable trays</li>

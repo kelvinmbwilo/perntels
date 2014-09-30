@@ -133,7 +133,7 @@
     <div class="container">
         <div class="container-inner clearfix" style="background: #146e4a;">
 
-            <div class="pull-left">
+            <div style="padding-left:30px ;" class="pull-left">
                 <h3><small>POWER AND TELECOMMUNICATION COMPANY SERVICES</small> </h3>
             </div>
             <div class="pull-right">
@@ -181,7 +181,7 @@
                 <div class="mega-col col-md-3 " >
                     <div class="mega-col-inner">
                         <div id="wid-30" class="wpo-widget">
-                            <h3 class="widget-title"><a href="{{route('networkdesign')}}">Planning and Optimization</a></h3>
+                            <h3 class="widget-title"><a style="text-decoration: none;" href="{{route('networkdesign')}}">Planning and Optimization</a></h3>
                             <div class="menu-footer-2-container">
                                 <ul id="menu-footer-2" class="megamenu-items">
                                     <li id="menu-item-43" class="menu-item-43" data-id="43"    data-alignsub="left" data-level="2"><a href="{{route('networkdesign')}}">Network Design And Optimization</a></li>
@@ -195,7 +195,7 @@
                 <div class="mega-col col-md-3 " >
                     <div class="mega-col-inner">
                         <div id="wid-31" class="wpo-widget">
-                            <h3 class="widget-title"><a href="{{route('power')}}">Power Constructs</a></h3>
+                            <h3 class="widget-title"><a style="text-decoration: none;" href="{{route('power')}}">Power Constructs</a></h3>
                             <div class="menu-footer-3-container">
                                 <ul id="menu-footer-3" class="megamenu-items">
                                     <li id="menu-item-48" class="menu-item-48" data-id="48"    data-alignsub="left" data-level="2"><a href="{{ route('power_line') }}">Power Line Installation & Commissioning,LV, HT Lines, Transformers</a>
@@ -224,7 +224,7 @@
                 <div class="mega-col col-md-3 " >
                     <div class="mega-col-inner">
                         <div id="wid-26" class="wpo-widget">
-                            <h3 class="widget-title"><a href="{{ route('telecoms') }}"> Telecommunication Works</a></h3>
+                            <h3 class="widget-title"><a style="text-decoration: none;" href="{{ route('telecoms') }}"> Telecommunication Works</a></h3>
                             <div class="menu-footer-1-container">
                                 <ul id="menu-footer-1" class="megamenu-items">
                                     <li id="menu-item-34" class="menu-item-34" data-id="34"    data-alignsub="left" data-level="2"><a href="{{ route('links') }}">MW Links Installations</a></li>
@@ -471,6 +471,11 @@
                     </div>
                 </div>
 
+<<<<<<< HEAD
+
+
+=======
+>>>>>>> 7367f8198d92523534b047291e4fe7ae35cd2dba
                 <div class="col-md-3 col-sm-4 col-xs-12">
                     <div class="inner wow fadeInUp" data-wow-duration='0.8s' data-wow-delay="200ms" >
                         <aside id="nav_menu-6" class="widget clearfix widget_nav_menu">
