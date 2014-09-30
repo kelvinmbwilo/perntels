@@ -107,9 +107,7 @@
                                     <div class="wpcf7-response-output wpcf7-display-none"></div></form></div>
                         </div>
                     </div>
-                </div>
-            </div>
-        </section>
+                </div></div></section>
     </article><!-- #post -->
 </div>
 <!-- //MAIN CONTENT -->
