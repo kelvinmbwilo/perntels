@@ -566,7 +566,7 @@ div.wpcf7-validation-errors {
 .contact-form-content {
   padding: 18px;
   background: white;
-  margin-bottom: 28px;
+  margin-bottom: 0px;
   min-height: 1px;
 }
 .contact-form-content .rounded {
@@ -920,7 +920,7 @@ body .blog:hover:before {
   /* block styles */
 }
 .widget .widget-content {
-  padding: 18px 9px;
+  padding: 1px 1px;
 }
 .widget .widget-content:before, .widget .widget-content:after {
   content: " ";
