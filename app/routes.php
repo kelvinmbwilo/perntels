@@ -19,3 +19,11 @@ Route::get('dashboard',array('as' => 'dashboard' , 'uses' => 'DashboardControlle
 Route::get('about_us',array('as' => 'about' , 'uses' => 'DashboardController@about'));
 
 Route::get('contact',array('as' => 'contact' , 'uses' => 'DashboardController@contact'));
+
+Route::get('planning', array('as' => 'planning', 'uses' => 'DashboardController@planning'));
+
+Route::get('civil', array('as' => 'civil', 'uses' => 'DashboardController@civil'));Route::get('contact',array('as' => 'contact' , 'uses' => 'DashboardController@contact'));
+
+Route::get('project/{id}',array('as' => 'contact' , 'uses' => 'DashboardController@project'));
+
+Route::get('contact',array('as' => 'contact' , 'uses' => 'DashboardController@contact'));

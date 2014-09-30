@@ -47,11 +47,12 @@
 .wpo-topbar {
   background: transparent;
   border: 0;
-  color: #aaaaaa;
+  color: #C4EEC9;
   font-size: 12px;
   text-transform: inherit;
-  padding-top: 0px;
-  padding-bottom: 0px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
 }
 .wpo-topbar a {
   color: white;
@@ -566,7 +567,7 @@ div.wpcf7-validation-errors {
   padding: 18px;
   background: white;
   margin-bottom: 28px;
-  min-height: 260px;
+  min-height: 1px;
 }
 .contact-form-content .rounded {
   display: table;

@@ -369,9 +369,9 @@ html {
 body {
   font-family: "Raleway", Helvetica, Arial, sans-serif;
   font-size: 15px;
-  line-height: 1.42857;
-  color: #999999;
-  background-color: #e3e3e3;
+  line-height: 2.1;
+  color: rgb(4, 73, 6);
+  background-color: #EBF5E4;
 }
 
 input,
@@ -467,7 +467,7 @@ h1, h2, h3, h4, h5, h6,
   font-family: "Raleway";
   font-weight: 900;
   line-height: 1.42857;
-  color: black;
+  color: rgb(4, 73, 6););
 }
 h1 small,
 h1 .small, h2 small,
@@ -485,7 +485,7 @@ h6 .small,
 .h6 .small {
   font-weight: normal;
   line-height: 1;
-  color: #777777;
+  color: #C4EEC9;
 }
 
 h1, .h1,

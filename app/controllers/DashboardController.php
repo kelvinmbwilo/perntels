@@ -27,6 +27,27 @@ class DashboardController extends BaseController {
         return View::make('contact');
     }
 
+    public function planning(){
+       return View::make('PlanningAndOptimization.planning');
+    }
+
+    public function civil(){
+        return View::make('civilworks.civilworks');
+    }
+
+    /**
+     * Display the specified resource.
+     *
+     * @param  int  $id
+     * @return Response
+     */
+    public function project($id)
+    {
+        $projectName="the project name";
+        $projectContent="the projcet content";
+
+        return View::make('project',compact('projectName','projectContent'));
+    }
 
     /**
 	 * Show the form for creating a new resource.

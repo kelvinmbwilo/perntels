@@ -131,7 +131,7 @@
 <!-- Top bar -->
 <section class="wpo-topbar wrapper-topbar" >
     <div class="container">
-        <div class="container-inner clearfix" style="background: darkgreen;">
+        <div class="container-inner clearfix" style="background: #146e4a;">
 
             <div class="pull-left">
                 <h3><small>POWER AND TELECOMMUNICATION COMPANY SERVICES</small> </h3>
@@ -184,11 +184,11 @@
                             <h3 class="widget-title">Planning and Optimization</h3>
                             <div class="menu-footer-2-container">
                                 <ul id="menu-footer-2" class="megamenu-items">
-                                    <li id="menu-item-43" class="menu-item-43" data-id="43"    data-alignsub="left" data-level="2"><a href="#">Site Planning Tools</a></li>
-                                    <li id="menu-item-44" class="menu-item-44" data-id="44"    data-alignsub="left" data-level="2"><a href="#">Site Survey</a></li>
-                                    <li id="menu-item-45" class="menu-item-45" data-id="45"    data-alignsub="left" data-level="2"><a href="#"> Site Audit, Site Sharing Plans, Power Audit</a></li>
-                                    <li id="menu-item-46" class="menu-item-46" data-id="46"    data-alignsub="left" data-level="2"><a href="#">Drive Test</a></li>
-                                    <li id="menu-item-47" class="menu-item-47" data-id="47"    data-alignsub="left" data-level="2"><a href="#">Site Tunning</a></li>
+                                    <li id="menu-item-43" class="menu-item-43" data-id="43"    data-alignsub="left" data-level="2"><a href="{{ route('planning') }}">Network Design And Optimization</a></li>
+                                    <li id="menu-item-44" class="menu-item-44" data-id="44"    data-alignsub="left" data-level="2"><a href="{{ route('planning') }}">Transmission Planning</a></li>
+                                    <li id="menu-item-45" class="menu-item-45" data-id="45"    data-alignsub="left" data-level="2"><a href="{{ route('planning') }}">Site Sharing Plans </a></li>
+                                    <li id="menu-item-46" class="menu-item-46" data-id="46"    data-alignsub="left" data-level="2"><a href="{{ route('planning') }}">Site Audit</a></li>
+                                    <li id="menu-item-47" class="menu-item-47" data-id="47"    data-alignsub="left" data-level="2"><a href="{{ route('planning') }}">Drive Test And Optimization</a></li>
                                 </ul>
                             </div></div></div></div>
 
@@ -214,11 +214,11 @@
                             <h3 class="widget-title">Civil Works & Building</h3>
                             <div class="menu-products-container">
                                 <ul id="menu-products" class="megamenu-items">
-                                    <li id="menu-item-2403" class="menu-item-2403" data-id="2403"    data-alignsub="left" data-level="2"><a href="#">Tower construction</a></li>
-                                    <li id="menu-item-2404" class="menu-item-2404" data-id="2404"    data-alignsub="left" data-level="2"><a href="#">Site Sharing Preparations</a></li>
-                                    <li id="menu-item-2405" class="menu-item-2405" data-id="2405"    data-alignsub="left" data-level="2"><a href="#">Supply and Install HFrame, Slabs, Poles and Special brackets etc.</a></li>
-                                    <li id="menu-item-2406" class="menu-item-2406" data-id="2406"    data-alignsub="left" data-level="2"><a href="#">Access Road Construction</a></li>
-                                    <li id="menu-item-2406" class="menu-item-2406" data-id="2406"    data-alignsub="left" data-level="2"><a href="#">Building Construction Services</a></li>
+                                    <li id="menu-item-2403" class="menu-item-2403" data-id="2403"    data-alignsub="left" data-level="2"><a href="{{ route('civil') }}">Tower construction</a></li>
+                                    <li id="menu-item-2404" class="menu-item-2404" data-id="2404"    data-alignsub="left" data-level="2"><a href="{{ route('civil') }}">Site Sharing Preparations</a></li>
+                                    <li id="menu-item-2405" class="menu-item-2405" data-id="2405"    data-alignsub="left" data-level="2"><a href="{{ route('civil') }}">Supply and Installations of Telecom, Civil and Power Materials</a></li>
+                                    <li id="menu-item-2406" class="menu-item-2406" data-id="2406"    data-alignsub="left" data-level="2"><a href="{{ route('civil') }}">Access Road Construction</a></li>
+                                    <li id="menu-item-2406" class="menu-item-2406" data-id="2406"    data-alignsub="left" data-level="2"><a href="{{ route('civil') }}">Road Constructions</a></li>
                                 </ul>
                             </div></div></div></div>
 
@@ -395,25 +395,10 @@
 <footer id="wpo-footer" class="wpo-footer">
     <section class="footer-middle">
         <div class="container">
-            <div class="container-inner " style="background: darkgreen;">
+            <div class="container-inner " style="background: #146e4a;">
 
 
-                <div class="col-md-2 col-sm-4 col-xs-12">
-                    <div class="inner wow fadeInUp" data-wow-duration='0.8s' data-wow-delay="200ms" >
-                        <aside id="nav_menu-6" class="widget clearfix widget_nav_menu">
-                            <h3 class="widget-title"><span>Telecommunication Works</span></h3>
-                            <div class="menu-footer-1-container">
-                                <ul id="menu-footer-4" class="menu">
-                                    <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-34"><a href="#">Installation</a></li>
-                                    <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-35"><a href="#">Maintanance</a></li>
-
-                                </ul>
-                            </div>
-                        </aside>
-                    </div>
-                </div>
-
-                <div class="col-md-2 col-sm-4 col-xs-12">
+                <div class="col-md-3 col-sm-4 col-xs-12">
                     <div class="inner wow fadeInUp" data-wow-duration='0.8s' data-wow-delay="400ms" >
                         <aside id="nav_menu-7" class="widget clearfix widget_nav_menu">
                             <h3 class="widget-title"><span>Planning & Optimization</span></h3>
@@ -429,6 +414,27 @@
                         </aside>
                     </div>
                 </div>
+
+
+                <div class="col-md-3 sm-clear col-sm-4 col-xs-12">
+                    <div class="inner wow fadeInUp" data-wow-duration='0.8s' data-wow-delay="800ms" >
+                        <aside id="nav_menu-8" class="widget clearfix widget_nav_menu">
+                            <h3 class="widget-title">
+                                <span>Civil Works &#038; Buildings</span>
+                            </h3>
+                            <div class="menu-footer-4-container">
+                                <ul id="menu-footer-7" class="menu">
+                                    <li id="menu-item-2261" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2261"><a href="#">Towr Construction</a></li>
+                                    <li id="menu-item-2262" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2262"><a href="#">Site Sharing Preparations</a></li>
+                                    <li id="menu-item-2263" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2263"><a href="#">Supply &#038; Install HFrames, Slabs, Poles ans Special Brackets etc</a></li>
+                                    <li id="menu-item-2264" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2264"><a href="#">Access Road Construction</a></li>
+                                    <li id="menu-item-2265" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2265"><a href="#">building Construction Systems</a></li>
+                                </ul>
+                            </div>
+                        </aside>
+                    </div>
+                </div>
+
 
                 <div class="col-md-3 col-sm-4 col-xs-12">
                     <div class="inner wow fadeInUp" data-wow-duration='0.8s' data-wow-delay="600ms" >
@@ -450,26 +456,7 @@
                     </div>
                 </div>
 
-                <div class="col-md-3 sm-clear col-sm-4 col-xs-12">
-                    <div class="inner wow fadeInUp" data-wow-duration='0.8s' data-wow-delay="800ms" >
-                        <aside id="nav_menu-8" class="widget clearfix widget_nav_menu">
-                            <h3 class="widget-title">
-                                <span>Civil Works &#038; Buildings</span>
-                            </h3>
-                            <div class="menu-footer-4-container">
-                                <ul id="menu-footer-7" class="menu">
-                                    <li id="menu-item-2261" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2261"><a href="#">Towr Construction</a></li>
-                                    <li id="menu-item-2262" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2262"><a href="#">Site Sharing Preparations</a></li>
-                                    <li id="menu-item-2263" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2263"><a href="#">Supply &#038; Install HFrames, Slabs, Poles ans Special Brackets etc</a></li>
-                                    <li id="menu-item-2264" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2264"><a href="#">Access Road Construction</a></li>
-                                    <li id="menu-item-2265" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2265"><a href="#">building Construction Systems</a></li>
-                                </ul>
-                            </div>
-                        </aside>
-                    </div>
-                </div>
-
-                <div class="col-md-2 col-sm-4 col-xs-12">
+                <div class="col-md-3 col-sm-4 col-xs-12">
                     <div class="inner wow fadeInUp" data-wow-duration='0.8s' data-wow-delay="200ms" >
                         <aside id="nav_menu-6" class="widget clearfix widget_nav_menu">
                             <h3 class="widget-title"><span> Project Management </span></h3>
@@ -478,6 +465,23 @@
                                     <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-34"><a href="#">Tamkey Projects</a></li>
                                     <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-35"><a href="#">Line Projects</a></li>
                                     <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-35"><a href="#">Team Management</a></li>
+
+                                </ul>
+                            </div>
+                        </aside>
+                    </div>
+                </div>
+
+
+
+                <div class="col-md-2 col-sm-4 col-xs-12">
+                    <div class="inner wow fadeInUp" data-wow-duration='0.8s' data-wow-delay="200ms" >
+                        <aside id="nav_menu-6" class="widget clearfix widget_nav_menu">
+                            <h3 class="widget-title"><span>Telecommunication Works</span></h3>
+                            <div class="menu-footer-1-container">
+                                <ul id="menu-footer-4" class="menu">
+                                    <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-34"><a href="#">Installation</a></li>
+                                    <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-35"><a href="#">Maintanance</a></li>
 
                                 </ul>
                             </div>

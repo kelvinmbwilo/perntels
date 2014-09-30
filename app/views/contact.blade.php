@@ -35,7 +35,11 @@
                             </script>
                         </div>
                     </div>
-                </div></div></section><section class="clearfix wpb-container "><div class="wpb-inner " ><div class="row">
+                </div></div></section>
+
+        <section class="clearfix wpb-container ">
+            <div class="wpb-inner " >
+                <div class="row">
                     <div class="col-sm-6 wpb_column vc_column_container">
                         <div class="wpb_wrapper">
 
