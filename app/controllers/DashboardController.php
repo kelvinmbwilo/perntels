@@ -27,6 +27,13 @@ class DashboardController extends BaseController {
         return View::make('contact');
     }
 
+    public function planning(){
+       return View::make('PlanningAndOptimization.planning');
+    }
+
+    public function civil(){
+        return View::make('civilworks.civilworks');
+    }
 
     /**
      * Display the specified resource.
