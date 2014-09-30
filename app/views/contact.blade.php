@@ -35,7 +35,11 @@
                             </script>
                         </div>
                     </div>
-                </div></div></section><section class="clearfix wpb-container "><div class="wpb-inner " ><div class="row">
+                </div></div></section>
+
+        <section class="clearfix wpb-container ">
+            <div class="wpb-inner " >
+                <div class="row">
                     <div class="col-sm-6 wpb_column vc_column_container">
                         <div class="wpb_wrapper">
 
@@ -103,7 +107,9 @@
                                     <div class="wpcf7-response-output wpcf7-display-none"></div></form></div>
                         </div>
                     </div>
-                </div></div></section>
+                </div>
+            </div>
+        </section>
     </article><!-- #post -->
 </div>
 <!-- //MAIN CONTENT -->
