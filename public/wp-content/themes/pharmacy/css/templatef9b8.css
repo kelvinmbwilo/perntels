@@ -211,7 +211,7 @@
   padding-right: inherit;
 }
 .wpo-header ul > li a, .wpo-header ol > li a {
-  font-size: 13px;
+  font-size: 17px;
 }
 .wpo-header ul > li:last-child, .wpo-header ol > li:last-child {
   padding-right: 0px;
@@ -2918,7 +2918,7 @@ html[dir="ltr"] .off-canvas-right.wpo-off-canvas {
 .navbar-mega .navbar-nav > li > a {
   position: relative;
   font-family: "Raleway", sans-serif;
-  font-weight: 900;
+  font-weight: 700;
   text-transform: uppercase;
   padding-left: 25px;
   padding-right: 25px;

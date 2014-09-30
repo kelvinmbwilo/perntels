@@ -129,16 +129,15 @@
 <!-- START Wrapper -->
 <div class="wpo-wrapper">
 <!-- Top bar -->
-<section class="wpo-topbar wrapper-topbar" >
+<section class="wpo-topbar wrapper-topbar" style="padding-left: 0px" >
     <div class="container">
         <div class="container-inner clearfix" style="background: #146e4a;">
 
-            <div class="pull-left">
+            <div style="padding-left:30px ;" class="pull-left">
                 <h3><small>POWER AND TELECOMMUNICATION COMPANY SERVICES</small> </h3>
             </div>
-            <div class="pull-right">
-                Phone: 0782378232<br>
-                Email: info@perntels.co.tz
+            <div class="pull-right" style="margin-right: 36px; margin-top: 10px">
+                Phone: 0782378232 | Email: info@perntels.co.tz
             </div>
         </div>
     </div>
@@ -153,7 +152,7 @@
 <!-- LOGO -->
 <div class="logo-in-theme  text-center col-md-3">
     <div class="logo" style="margin: 0px">
-        <a href="#">
+        <a href="{{ route('home') }}">
             <img src="{{ asset('wp-content/perntels/perntels.png" alt="perntels')}}" style="height: 100px">
         </a>
     </div>
@@ -181,7 +180,7 @@
                 <div class="mega-col col-md-3 " >
                     <div class="mega-col-inner">
                         <div id="wid-30" class="wpo-widget">
-                            <h3 class="widget-title"><a href="{{route('networkdesign')}}">Planning and Optimization</a></h3>
+                            <h3 class="widget-title"><a style="text-decoration: none;" href="{{route('networkdesign')}}">Planning and Optimization</a></h3>
                             <div class="menu-footer-2-container">
                                 <ul id="menu-footer-2" class="megamenu-items">
                                     <li id="menu-item-43" class="menu-item-43" data-id="43"    data-alignsub="left" data-level="2"><a href="{{route('networkdesign')}}">Network Design And Optimization</a></li>
@@ -195,7 +194,7 @@
                 <div class="mega-col col-md-3 " >
                     <div class="mega-col-inner">
                         <div id="wid-31" class="wpo-widget">
-                            <h3 class="widget-title"><a href="{{route('power')}}">Power Constructs</a></h3>
+                            <h3 class="widget-title"><a style="text-decoration: none;" href="{{route('power')}}">Power Constructs</a></h3>
                             <div class="menu-footer-3-container">
                                 <ul id="menu-footer-3" class="megamenu-items">
                                     <li id="menu-item-48" class="menu-item-48" data-id="48"    data-alignsub="left" data-level="2"><a href="{{ route('power_line') }}">Power Line Installation & Commissioning,LV, HT Lines, Transformers</a>
@@ -210,21 +209,21 @@
                 <div class="mega-col col-md-3 " >
                     <div class="mega-col-inner">
                         <div id="wid-35" class="wpo-widget">
-                            <h3 class="widget-title">Civil Works & Building</h3>
+                            <h3 class="widget-title"><a href="{{ route('civilhome') }}">Civil Works & Building</a></h3>
                             <div class="menu-products-container">
                                 <ul id="menu-products" class="megamenu-items">
-                                    <li id="menu-item-2403" class="menu-item-2403" data-id="2403"    data-alignsub="left" data-level="2"><a href="{{ route('civil') }}">Tower construction</a></li>
-                                    <li id="menu-item-2404" class="menu-item-2404" data-id="2404"    data-alignsub="left" data-level="2"><a href="{{ route('civil') }}">Site Sharing Preparations</a></li>
-                                    <li id="menu-item-2405" class="menu-item-2405" data-id="2405"    data-alignsub="left" data-level="2"><a href="{{ route('civil') }}">Supply and Installations of Telecom, Civil and Power Materials</a></li>
-                                    <li id="menu-item-2406" class="menu-item-2406" data-id="2406"    data-alignsub="left" data-level="2"><a href="{{ route('civil') }}">Access Road Construction</a></li>
-                                    <li id="menu-item-2406" class="menu-item-2406" data-id="2406"    data-alignsub="left" data-level="2"><a href="{{ route('civil') }}">Road Constructions</a></li>
+                                    <li id="menu-item-2403" class="menu-item-2403" data-id="2403"    data-alignsub="left" data-level="2"><a href="{{ route('tower') }}">Tower construction</a></li>
+                                    <li id="menu-item-2404" class="menu-item-2404" data-id="2404"    data-alignsub="left" data-level="2"><a href="{{ route('site') }}">Site Sharing Preparations</a></li>
+                                    <li id="menu-item-2405" class="menu-item-2405" data-id="2405"    data-alignsub="left" data-level="2"><a href="{{ route('supply') }}">Supply and Installations of Telecom, Civil and Power Materials</a></li>
+                                    <li id="menu-item-2406" class="menu-item-2406" data-id="2406"    data-alignsub="left" data-level="2"><a href="{{ route('access') }}">Access Road Construction</a></li>
+                                    <li id="menu-item-2406" class="menu-item-2406" data-id="2406"    data-alignsub="left" data-level="2"><a href="{{ route('road') }}">Road Constructions</a></li>
                                 </ul>
                             </div></div></div></div>
 
                 <div class="mega-col col-md-3 " >
                     <div class="mega-col-inner">
                         <div id="wid-26" class="wpo-widget">
-                            <h3 class="widget-title"><a href="{{ route('telecoms') }}"> Telecommunication Works</a></h3>
+                            <h3 class="widget-title"><a style="text-decoration: none;" href="{{ route('telecoms') }}"> Telecommunication Works</a></h3>
                             <div class="menu-footer-1-container">
                                 <ul id="menu-footer-1" class="megamenu-items">
                                     <li id="menu-item-34" class="menu-item-34" data-id="34"    data-alignsub="left" data-level="2"><a href="{{ route('links') }}">MW Links Installations</a></li>
@@ -424,11 +423,11 @@
                             </h3>
                             <div class="menu-footer-4-container">
                                 <ul id="menu-footer-7" class="menu">
-                                    <li id="menu-item-2261" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2261"><a href="#">Tower Construction</a></li>
-                                    <li id="menu-item-2262" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2262"><a href="#">Site Sharing Preparations</a></li>
-                                    <li id="menu-item-2263" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2263"><a href="#">Supply &#038; Installation of Telecoms, Civil and Power Materials  </a></li>
-                                    <li id="menu-item-2264" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2264"><a href="#">Access Road Construction</a></li>
-                                    <li id="menu-item-2265" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2265"><a href="#">Road Construction</a></li>
+                                    <li id="menu-item-2261" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2261"><a href="{{ route('tower') }}">Tower Construction</a></li>
+                                    <li id="menu-item-2262" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2262"><a href="{{ route('site') }}">Site Sharing Preparations</a></li>
+                                    <li id="menu-item-2263" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2263"><a href="{{ route('supply') }}">Supply &#038; Installation of Telecoms, Civil and Power Materials  </a></li>
+                                    <li id="menu-item-2264" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2264"><a href="{{ route('access') }}">Access Road Construction</a></li>
+                                    <li id="menu-item-2265" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2265"><a href="{{ route('road') }}">Road Construction</a></li>
                                 </ul>
                             </div>
                         </aside>
@@ -471,9 +470,7 @@
                     </div>
                 </div>
 
-
-
-                <div class="col-md-2 col-sm-4 col-xs-12">
+                <div class="col-md-3 col-sm-4 col-xs-12">
                     <div class="inner wow fadeInUp" data-wow-duration='0.8s' data-wow-delay="200ms" >
                         <aside id="nav_menu-6" class="widget clearfix widget_nav_menu">
                             <h3 class="widget-title"><span>Telecommunication Works</span></h3>

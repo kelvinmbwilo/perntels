@@ -1,6 +1,6 @@
 @extends ('layout.master')
 @section('body')
-<div class="col-sm-12 wpb_column vc_column_container">
+<div class="col-sm-12 wpb_column vc_column_container" style="padding: 0px">
 <div class="wpb_wrapper">
 <div class="wpb_revslider_element no-margin-bottom wpb_content_element full-width"><!-- START REVOLUTION SLIDER 4.1.4 fullwidth mode -->
 
