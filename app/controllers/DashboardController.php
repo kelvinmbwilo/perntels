@@ -35,6 +35,26 @@ class DashboardController extends BaseController {
         return View::make('civilworks.civilworks');
     }
 
+    public function telecoms()
+    {
+        return View::make('telecommunications.telecomms_intro');
+    }
+
+    public function telecoms_links()
+    {
+        return View::make('telecommunications.links_installations');
+    }
+
+    public function telecoms_2g()
+    {
+        return View::make('telecommunications.2g_3g');
+    }
+
+    public function telecoms_fiber()
+    {
+        return View::make('telecommunications.fiber');
+    }
+
     /**
 	 * Show the form for creating a new resource.
 	 *

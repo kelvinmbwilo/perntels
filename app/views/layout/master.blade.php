@@ -301,35 +301,35 @@
 
                                                 <!-- Product Item -->
                                                 <div class="item-brands col-sm-2 col-md-2">
-                                                    <a href="#"><img src="{{ asset('wp-content/uploads/2014/03/videohive-160x80.png')}}" class="attachment-brand-logo wp-post-image" alt="videohive" /></a>
+                                                    <a href="#"><img src="{{ asset('wp-content/perntels/partners/logo-shantagold.png')}}" class="attachment-brand-logo wp-post-image" alt="videohive" /></a>
                                                 </div>
                                                 <!-- End Product Item -->
 
                                                 <!-- Product Item -->
                                                 <div class="item-brands col-sm-2 col-md-2">
-                                                    <a href="#"><img src="{{ asset('wp-content/uploads/2014/03/audiojungle-160x80.png')}}" class="attachment-brand-logo wp-post-image" alt="audiojungle" /></a>
+                                                    <a href="#"><img src="{{ asset('wp-content/perntels/partners/vodacom.png')}}" class="attachment-brand-logo wp-post-image" alt="audiojungle" /></a>
                                                 </div>
                                                 <!-- End Product Item -->
 
                                                 <!-- Product Item -->
                                                 <div class="item-brands col-sm-2 col-md-2">
-                                                    <a href="#"><img src="{{ asset('wp-content/uploads/2014/03/activeden-160x80.png')}}" class="attachment-brand-logo wp-post-image" alt="activeden" /></a>
+                                                    <a href="#"><img src="{{ asset('wp-content/perntels/partners/airtel_logo.png')}}" class="attachment-brand-logo wp-post-image" alt="activeden" /></a>
                                                 </div>
                                                 <!-- End Product Item -->
 
                                                 <!-- Product Item -->
                                                 <div class="item-brands col-sm-2 col-md-2">
-                                                    <a href="#"><img src="{{ asset('wp-content/uploads/2014/03/photodune-160x80.png')}}" class="attachment-brand-logo wp-post-image" alt="photodune" /></a>
+                                                    <a href="#"><img src="{{ asset('wp-content/perntels/partners/maktec-logo.png')}}" class="attachment-brand-logo wp-post-image" alt="photodune" /></a>
                                                 </div>
                                                 <!-- End Product Item -->
                                                 <!-- Product Item -->
                                                 <div class="item-brands col-sm-2 col-md-2">
-                                                    <a href="#"><img src="{{ asset('wp-content/uploads/2014/03/codecanyon-160x80.png')}}" class="attachment-brand-logo wp-post-image" alt="codecanyon" /></a>
+                                                    <a href="#"><img src="{{ asset('wp-content/perntels/partners/automech.png')}}" class="attachment-brand-logo wp-post-image" alt="codecanyon" /></a>
                                                 </div>
                                                 <!-- End Product Item -->
                                                 <!-- Product Item -->
                                                 <div class="item-brands col-sm-2 col-md-2">
-                                                    <a href="#"><img src="{{ asset('wp-content/uploads/2014/03/graphicriver-160x80.png')}}" class="attachment-brand-logo wp-post-image" alt="graphicriver" /></a>
+                                                    <a href="#"><img src="{{ asset('wp-content/perntels/partners/rea_logo.png')}}" class="attachment-brand-logo wp-post-image" alt="graphicriver" /></a>
                                                 </div>
                                                 <!-- End Product Item -->
 
@@ -339,37 +339,37 @@
                                             <div class="row">
                                                 <!-- Product Item -->
                                                 <div class="item-brands col-sm-2 col-md-2">
-                                                    <a href="#"><img src="{{ asset('wp-content/uploads/2014/03/codecanyon-160x80.png')}}" class="attachment-brand-logo wp-post-image" alt="codecanyon" /></a>
+                                                    <a href="#"><img src="{{ asset('wp-content/perntels/partners/egypro.png')}}" class="attachment-brand-logo wp-post-image" alt="codecanyon" /></a>
                                                 </div>
                                                 <!-- End Product Item -->
 
                                                 <!-- Product Item -->
                                                 <div class="item-brands col-sm-2 col-md-2">
-                                                    <a href="#"><img src="{{ asset('wp-content/uploads/2014/03/graphicriver-160x80.png')}}" class="attachment-brand-logo wp-post-image" alt="graphicriver" /></a>
+                                                    <a href="#"><img src="{{ asset('wp-content/perntels/partners/vodacom.png')}}" class="attachment-brand-logo wp-post-image" alt="graphicriver" /></a>
                                                 </div>
                                                 <!-- End Product Item -->
 
                                                 <!-- Product Item -->
                                                 <div class="item-brands col-sm-2 col-md-2">
-                                                    <a href="#"><img src="{{ asset('wp-content/uploads/2014/03/ocean-160x80.png')}}" class="attachment-brand-logo wp-post-image" alt="ocean" /></a>
+                                                    <a href="#"><img src="{{ asset('wp-content/perntels/partners/airtel_logo.png')}}" class="attachment-brand-logo wp-post-image" alt="ocean" /></a>
                                                 </div>
                                                 <!-- End Product Item -->
 
                                                 <!-- Product Item -->
                                                 <div class="item-brands col-sm-2 col-md-2">
-                                                    <a href="#"><img src="{{ asset('wp-content/uploads/2014/03/photodune-160x80.png')}}" class="attachment-brand-logo wp-post-image" alt="photodune" /></a>
+                                                    <a href="#"><img src="{{ asset('wp-content/perntels/partners/zantel_logo.png')}}" class="attachment-brand-logo wp-post-image" alt="photodune" /></a>
                                                 </div>
                                                 <!-- End Product Item -->
 
                                                 <!-- Product Item -->
                                                 <div class="item-brands col-sm-2 col-md-2">
-                                                    <a href="#"><img src="{{ asset('wp-content/uploads/2014/03/graphicriver-160x80.png')}}" class="attachment-brand-logo wp-post-image" alt="graphicriver" /></a>
+                                                    <a href="#"><img src="{{ asset('wp-content/perntels/partners/jwtz.png')}}" class="attachment-brand-logo wp-post-image" alt="graphicriver" /></a>
                                                 </div>
                                                 <!-- End Product Item -->
 
                                                 <!-- Product Item -->
                                                 <div class="item-brands col-sm-2 col-md-2">
-                                                    <a href="#"><img src="{{ asset('wp-content/uploads/2014/03/videohive-160xlo')}}" class="attachment-brand-logo wp-post-image" alt="videohive" /></a>
+                                                    <a href="#"><img src="{{ asset('wp-content/perntels/partners/logo-shantagold.png')}}" class="attachment-brand-logo wp-post-image" alt="videohive" /></a>
                                                 </div>
                                                 <!-- End Product Item -->
 

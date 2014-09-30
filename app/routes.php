@@ -23,3 +23,12 @@ Route::get('contact',array('as' => 'contact' , 'uses' => 'DashboardController@co
 Route::get('planning', array('as' => 'planning', 'uses' => 'DashboardController@planning'));
 
 Route::get('civil', array('as' => 'civil', 'uses' => 'DashboardController@civil'));
+
+
+Route::get('telecommunications',array('as' => 'telecoms' , 'uses' => 'DashboardController@telecoms'));
+
+Route::get('links_installations',array('as' => 'links' , 'uses' => 'DashboardController@telecoms_links'));
+
+Route::get('2g_3g',array('as' => '2g_3g' , 'uses' => 'DashboardController@telecoms_2g'));
+
+Route::get('fiber',array('as' => 'fiber' , 'uses' => 'DashboardController@telecoms_fiber'));
