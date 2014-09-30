@@ -424,11 +424,11 @@
                             </h3>
                             <div class="menu-footer-4-container">
                                 <ul id="menu-footer-7" class="menu">
-                                    <li id="menu-item-2261" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2261"><a href="{{ route('') }}">Tower Construction</a></li>
-                                    <li id="menu-item-2262" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2262"><a href="{{ route('') }}">Site Sharing Preparations</a></li>
-                                    <li id="menu-item-2263" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2263"><a href="{{ route('') }}">Supply &#038; Installation of Telecoms, Civil and Power Materials  </a></li>
-                                    <li id="menu-item-2264" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2264"><a href="{{ route('') }}">Access Road Construction</a></li>
-                                    <li id="menu-item-2265" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2265"><a href="{{ route('') }}">Road Construction</a></li>
+                                    <li id="menu-item-2261" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2261"><a href="#">Tower Construction</a></li>
+                                    <li id="menu-item-2262" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2262"><a href="#">Site Sharing Preparations</a></li>
+                                    <li id="menu-item-2263" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2263"><a href="#">Supply &#038; Installation of Telecoms, Civil and Power Materials  </a></li>
+                                    <li id="menu-item-2264" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2264"><a href="#">Access Road Construction</a></li>
+                                    <li id="menu-item-2265" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2265"><a href="#">Road Construction</a></li>
                                 </ul>
                             </div>
                         </aside>
