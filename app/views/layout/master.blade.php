@@ -209,7 +209,7 @@
                 <div class="mega-col col-md-3 " >
                     <div class="mega-col-inner">
                         <div id="wid-35" class="wpo-widget">
-                            <h3 class="widget-title"><a href="{{ route('civilhome') }}">Civil Works & Building</a></h3>
+                            <h3 class="widget-title"><a href="{{ route('civilhome') }}" style="text-decoration: none">Civil Works & Building</a></h3>
                             <div class="menu-products-container">
                                 <ul id="menu-products" class="megamenu-items">
                                     <li id="menu-item-2403" class="menu-item-2403" data-id="2403"    data-alignsub="left" data-level="2"><a href="{{ route('tower') }}">Tower construction</a></li>
@@ -454,7 +454,7 @@
                     </div>
                 </div>
 
-                <div class="col-md-3 col-sm-4 col-xs-12">
+                <div class="col-md-3 col-sm-4 col-xs-12" style="padding-bottom: 10px">
                     <div class="inner wow fadeInUp" data-wow-duration='0.8s' data-wow-delay="200ms" >
                         <aside id="nav_menu-6" class="widget clearfix widget_nav_menu">
                             <h3 class="widget-title"><span> Project Management </span></h3>
@@ -470,7 +470,7 @@
                     </div>
                 </div>
 
-                <div class="col-md-3 col-sm-4 col-xs-12">
+                <div class="col-md-3 col-sm-4 col-xs-12" style="padding-top: 5px">
                     <div class="inner wow fadeInUp" data-wow-duration='0.8s' data-wow-delay="200ms" >
                         <aside id="nav_menu-6" class="widget clearfix widget_nav_menu">
                             <h3 class="widget-title"><span>Telecommunication Works</span></h3>

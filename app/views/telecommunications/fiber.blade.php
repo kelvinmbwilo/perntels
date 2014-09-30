@@ -27,7 +27,7 @@
                      <div class="panel-heading"><h5 itemprop="name">Our Services in fiber includes:</h5></div>
                     
                     <div class="panel-body" itemprop="description">
-                        <ul>
+                        <ul style="list-style: outside">
                         <li>Supplying and installation of all kind of fiber cables</li>
                         <li>Fiber Optic cable termination</li>
                         <li>Fiber cable splicing</li>
