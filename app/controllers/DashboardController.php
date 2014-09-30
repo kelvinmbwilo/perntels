@@ -93,12 +93,36 @@ class DashboardController extends BaseController {
     }
 
 
-
+    //civil starts
     /**
      * @return mixed
      */
     public function civil(){
         return View::make('civilworks.civilworks');
+    }
+
+    public function access(){
+        return View::make('civilworks.access');
+    }
+
+    public function civilhome(){
+        return View::make('civilworks.civilhome');
+    }
+
+    public function road(){
+        return View::make('civilworks.road');
+    }
+
+    public function site(){
+        return View::make('civilworks.site');
+    }
+
+    public function supply(){
+        return View::make('civilworks.supply');
+    }
+
+    public function tower(){
+        return View::make('civilworks.tower');
     }
 
     //civil ends here

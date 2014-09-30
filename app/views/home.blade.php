@@ -205,35 +205,43 @@
 
 <!-- END REVOLUTION SLIDER --></div>
 
-</div>
-</div>
+
 
 <!--activities-->
-<section class="widget wpb_text_column wpb_content_element ">
+
+<section class="widget blog-type ">
+
     <div class="wpb_wrapper widget-content">
         <div class="contact-form-content">
- <b>   Perntels Company Limited</b> was established and incorporated on 25th of September in 2006. Perntels established with main objective being to provide total engineering solution.<br>
-    <i>Perntels Co Limited</i>  is a fast growing company that provides Electrical works, Civil works and Telecommunications technical Services by giving innovative solutions to meet society
-    requirements with high professionalism in Tanzania, East Africa and the World at large.<br>
-    <i>Perntels Co Limited</i> is fully registered with Contractors Registration Board (CRB) and TCRA as telecommunication service provider.<br>
-    The company is owned by a team of technical personnel with main objectives of providing Power and Telecommunication Services in the industry including RF/TX and Civil works Surveys,
-    telecommunication systems design, Installation, Integration, Commissioning and optimization. On the other hand Perntels
-    aiming at providing Maintenance Services and support for electrical, civil works and telecommunication systems in the industries to meet the required customer satisfaction at reasonable prices, cost effective and professionalisms.<br>
-    <i>Our mission is to provide high quality, reliable and timely services to our prospective clients to meet International standards, at competitive prices.</i>
-    The company vision is to be a professional Civil Work, Building, Electrical and Telecommunications Engineering contractor in the market, a company able to provide such services most effectively, affordable and operating
-    at the highest professional engineering standards.
+  <div class="col-md-4">
+      <b>Perntels Company Limited</b> was established and incorporated on 25th of September in 2006. Perntels established with main objective being to provide total engineering solution.<br>
+        <i>Perntels Co Limited</i>  is a fast growing company that provides Electrical works, Civil works and Telecommunications technical Services by giving innovative solutions to meet society
+        requirements with high professionalism in Tanzania, East Africa and the World at large.
+            <br>  <i>Perntels Co Limited</i> is fully registered with Contractors Registration Board (CRB) and TCRA as telecommunication service provider.<br><br>
 
 </div>
-</div>
-    </section>
+        <div class="col-md-4">
+     The company is owned by a team of technical personnel with main objectives of providing Power and Telecommunication Services in the industry including RF/TX and Civil works Surveys,
+    telecommunication systems design, Installation, Integration, Commissioning and optimization. On the other hand Perntels
+    aiming at providing Maintenance Services and support for electrical, civil works and telecommunication systems in the industries to meet the required customer satisfaction at reasonable prices, cost effective and professionalisms.
+      <br>
+        </div>
+        <div class="col-md-4">
+     <h6>MISSION</h6>
+    <i>Our mission is to provide high quality, reliable and timely services to our prospective clients to meet International standards, at competitive prices.</i><br>
+     <h6>VISION</h6>
+    The company vision is to be a professional Civil Work, Building, Electrical and Telecommunications Engineering contractor in the market, a company able to provide such services most effectively, affordable and operating
+    at the highest professional engineering standards.
+       </div>
+        </div></div></section>
 <section class="widget blog-type ">
-    <section class="widget wpb_text_column wpb_content_element ">
+
         <div class="wpb_wrapper widget-content">
             <div class="contact-form-content">
 <h4>PROJECTS</h4>
-                </div></div></section>
+                </div></div>
     <div class="widget-content">
-        <div class="clearfix loop-posts">
+
             <div class="col-sm-4 col-md-4 wow fadeInUp " data-wow-duration="0.6s" data-wow-delay="150ms">
                 <article class="blog">
                     <figure class="entry-thumb zoom">
@@ -285,8 +293,9 @@
                     </div>
                 </article>
             </div>
-        </div>
+
     </div>
 </section>
-
+</div>
+</div>
 @stop
