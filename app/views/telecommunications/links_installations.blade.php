@@ -18,12 +18,11 @@
 
 </div>
 </div>
-<div class="col-md-6 col-sm-6">
+<div class="col-md-5 col-sm-5">
 <div class="summary entry-summary">
-							
+    <br>
 <h5 itemprop="name">Our services in MW Links includes:</h5>
-<div class="description" itemprop="description">	
-    
+<div class="description" itemprop="description">
 <ul>
 <li>Indoor installation of Microwave Transmission equipment</li>
 <li>All size of MW poles supply and installation</li>

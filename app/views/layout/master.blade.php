@@ -184,11 +184,11 @@
                             <h3 class="widget-title">Planning and Optimization</h3>
                             <div class="menu-footer-2-container">
                                 <ul id="menu-footer-2" class="megamenu-items">
-                                    <li id="menu-item-43" class="menu-item-43" data-id="43"    data-alignsub="left" data-level="2"><a href="{{ route('planning') }}">Network Design And Optimization</a></li>
-                                    <li id="menu-item-44" class="menu-item-44" data-id="44"    data-alignsub="left" data-level="2"><a href="{{ route('planning') }}">Transmission Planning</a></li>
-                                    <li id="menu-item-45" class="menu-item-45" data-id="45"    data-alignsub="left" data-level="2"><a href="{{ route('planning') }}">Site Sharing Plans </a></li>
-                                    <li id="menu-item-46" class="menu-item-46" data-id="46"    data-alignsub="left" data-level="2"><a href="{{ route('planning') }}">Site Audit</a></li>
-                                    <li id="menu-item-47" class="menu-item-47" data-id="47"    data-alignsub="left" data-level="2"><a href="{{ route('planning') }}">Drive Test And Optimization</a></li>
+                                    <li id="menu-item-43" class="menu-item-43" data-id="43"    data-alignsub="left" data-level="2"><a href="{{route('networkdesign')}}">Network Design And Optimization</a></li>
+                                    <li id="menu-item-44" class="menu-item-44" data-id="44"    data-alignsub="left" data-level="2"><a href="{{ route('transmission') }}">Transmission Planning</a></li>
+                                    <li id="menu-item-45" class="menu-item-45" data-id="45"    data-alignsub="left" data-level="2"><a href="{{ route('sitesharing') }}">Site Sharing Plans </a></li>
+                                    <li id="menu-item-46" class="menu-item-46" data-id="46"    data-alignsub="left" data-level="2"><a href="{{ route('siteaudit') }}">Site Audit</a></li>
+                                    <li id="menu-item-47" class="menu-item-47" data-id="47"    data-alignsub="left" data-level="2"><a href="{{ route('drivetest') }}">Drive Test And Optimization</a></li>
                                 </ul>
                             </div></div></div></div>
 

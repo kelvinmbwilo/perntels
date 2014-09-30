@@ -20,9 +20,25 @@ Route::get('about_us',array('as' => 'about' , 'uses' => 'DashboardController@abo
 
 Route::get('contact',array('as' => 'contact' , 'uses' => 'DashboardController@contact'));
 
+
+
 Route::get('planning', array('as' => 'planning', 'uses' => 'DashboardController@planning'));
 
+Route::get('networkdesign', array('as' => 'networkdesign', 'uses' => 'DashboardController@networkOptimization'));
+
+Route::get('transmission', array('as' => 'transmission', 'uses' => 'DashboardController@transmission'));
+
+Route::get('sitesharing', array('as' => 'sitesharing', 'uses' => 'DashboardController@sitesharing'));
+
+Route::get('siteaudit', array('as' => 'siteaudit', 'uses' => 'DashboardController@siteaudit'));
+
+Route::get('drivetest', array('as' => 'drivetest', 'uses' => 'DashboardController@drivetest'));
+
+
+
 Route::get('civil', array('as' => 'civil', 'uses' => 'DashboardController@civil'));Route::get('contact',array('as' => 'contact' , 'uses' => 'DashboardController@contact'));
+
+
 
 Route::get('project/{id}',array('as' => 'contact' , 'uses' => 'DashboardController@project'));
 

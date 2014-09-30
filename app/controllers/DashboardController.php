@@ -27,10 +27,43 @@ class DashboardController extends BaseController {
         return View::make('contact');
     }
 
+    /**
+     * planing and optimization starts here
+     * @return mixed
+     */
+
     public function planning(){
-       return View::make('PlanningAndOptimization.planning');
+       return View::make('PlanningAndOptimization.planningMaster');
     }
 
+    public function networkOptimization(){
+        return View::make('PlanningAndOptimization.networkdesign');
+    }
+
+    public function transmission(){
+        return View::make('PlanningAndOptimization.transmissionPlanning');
+    }
+
+    public function sitesharing(){
+        return View::make('PlanningAndOptimization.sitesharing');
+    }
+
+    public function siteaudit(){
+        return View::make('PlanningAndOptimization.siteaudit');
+    }
+
+    public function drivetest(){
+        return View::make('PlanningAndOptimization.drivetest');
+    }
+
+    /**
+     *planning and optimization ends here
+     */
+
+
+    /**
+     * @return mixed
+     */
     public function civil(){
         return View::make('civilworks.civilworks');
     }
