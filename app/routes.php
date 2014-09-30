@@ -35,9 +35,21 @@ Route::get('siteaudit', array('as' => 'siteaudit', 'uses' => 'DashboardControlle
 Route::get('drivetest', array('as' => 'drivetest', 'uses' => 'DashboardController@drivetest'));
 
 
+//civil works starts
+Route::get('access', array('as' => 'access', 'uses' => 'DashboardController@access'));
 
-Route::get('civil', array('as' => 'civil', 'uses' => 'DashboardController@civil'));Route::get('contact',array('as' => 'contact' , 'uses' => 'DashboardController@contact'));
+Route::get('civilhome', array('as' => 'civilhome', 'uses' => 'DashboardController@civilhome'));
 
+Route::get('road', array('as' => 'road', 'uses' => 'DashboardController@road'));
+
+Route::get('site', array('as' => 'site', 'uses' => 'DashboardController@site'));
+
+Route::get('supply', array('as' => 'supply', 'uses' => 'DashboardController@supply'));
+
+Route::get('tower', array('as' => 'tower', 'uses' => 'DashboardController@tower'));
+
+
+//civil ends
 
 
 Route::get('project/{id}',array('as' => 'contact' , 'uses' => 'DashboardController@project'));
