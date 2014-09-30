@@ -230,7 +230,7 @@
     <section class="widget wpb_text_column wpb_content_element ">
         <div class="wpb_wrapper widget-content">
             <div class="contact-form-content">
-<h4>Projects</h4>
+<h4>PROJECTS</h4>
                 </div></div></section>
     <div class="widget-content">
         <div class="clearfix loop-posts">
