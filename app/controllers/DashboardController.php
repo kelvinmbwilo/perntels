@@ -56,9 +56,42 @@ class DashboardController extends BaseController {
         return View::make('PlanningAndOptimization.drivetest');
     }
 
-    /**
-     *planning and optimization ends here
-     */
+
+    //planning and optimization ends here
+
+
+    //POWER CONSTRUCTS
+
+    public function power()
+    {
+        return View::make('power_constructs.power');
+    }
+
+    public function generator()
+    {
+        return View::make('power_constructs.generator');
+    }
+
+    public function power_line()
+    {
+        return View::make('power_constructs.power_line');
+    }
+
+
+    public function power_optimization()
+    {
+        return View::make('power_constructs.power_optimization');
+    }
+    public function site_maintainance()
+    {
+        return View::make('power_constructs.site_maintainance');
+    }
+
+    public function solar_power()
+    {
+        return View::make('power_constructs.solar_power');
+    }
+
 
 
     /**
@@ -67,6 +100,10 @@ class DashboardController extends BaseController {
     public function civil(){
         return View::make('civilworks.civilworks');
     }
+
+    //civil ends here
+
+    //telecom starts
 
     public function telecoms()
     {
@@ -87,6 +124,7 @@ class DashboardController extends BaseController {
     {
         return View::make('telecommunications.fiber');
     }
+//telecom ends
 
     /**
      * Display the specified resource.

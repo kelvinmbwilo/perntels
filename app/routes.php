@@ -52,3 +52,19 @@ Route::get('links_installations',array('as' => 'links' , 'uses' => 'DashboardCon
 Route::get('2g_3g',array('as' => '2g_3g' , 'uses' => 'DashboardController@telecoms_2g'));
 
 Route::get('fiber',array('as' => 'fiber' , 'uses' => 'DashboardController@telecoms_fiber'));
+
+//power construct
+
+
+Route::get('power_constructs',array('as' => 'power' , 'uses' => 'DashboardController@power'));
+
+Route::get('generator',array('as' => 'generator' , 'uses' => 'DashboardController@generator'));
+
+Route::get('power_line',array('as' => 'power_line' , 'uses' => 'DashboardController@power_line'));
+
+Route::get('power_optimization',array('as' => 'optimization' , 'uses' => 'DashboardController@power_optimization'));
+
+Route::get('solar_power',array('as' => 'solar' , 'uses' => 'DashboardController@solar_power'));
+
+Route::get('site_maintainance',array('as' => 'maintainace' , 'uses' => 'DashboardController@site_maintainance'));
+
