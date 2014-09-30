@@ -181,30 +181,29 @@
                 <div class="mega-col col-md-3 " >
                     <div class="mega-col-inner">
                         <div id="wid-30" class="wpo-widget">
-                            <h3 class="widget-title">Planning and Optimization</h3>
+                            <h3 class="widget-title"><a href="{{route('networkdesign')}}">Planning and Optimization</a></h3>
                             <div class="menu-footer-2-container">
                                 <ul id="menu-footer-2" class="megamenu-items">
-                                    <li id="menu-item-43" class="menu-item-43" data-id="43"    data-alignsub="left" data-level="2"><a href="{{ route('planning') }}">Network Design And Optimization</a></li>
-                                    <li id="menu-item-44" class="menu-item-44" data-id="44"    data-alignsub="left" data-level="2"><a href="{{ route('planning') }}">Transmission Planning</a></li>
-                                    <li id="menu-item-45" class="menu-item-45" data-id="45"    data-alignsub="left" data-level="2"><a href="{{ route('planning') }}">Site Sharing Plans </a></li>
-                                    <li id="menu-item-46" class="menu-item-46" data-id="46"    data-alignsub="left" data-level="2"><a href="{{ route('planning') }}">Site Audit</a></li>
-                                    <li id="menu-item-47" class="menu-item-47" data-id="47"    data-alignsub="left" data-level="2"><a href="{{ route('planning') }}">Drive Test And Optimization</a></li>
+                                    <li id="menu-item-43" class="menu-item-43" data-id="43"    data-alignsub="left" data-level="2"><a href="{{route('networkdesign')}}">Network Design And Optimization</a></li>
+                                    <li id="menu-item-44" class="menu-item-44" data-id="44"    data-alignsub="left" data-level="2"><a href="{{ route('transmission') }}">Transmission Planning</a></li>
+                                    <li id="menu-item-45" class="menu-item-45" data-id="45"    data-alignsub="left" data-level="2"><a href="{{ route('sitesharing') }}">Site Sharing Plans </a></li>
+                                    <li id="menu-item-46" class="menu-item-46" data-id="46"    data-alignsub="left" data-level="2"><a href="{{ route('siteaudit') }}">Site Audit</a></li>
+                                    <li id="menu-item-47" class="menu-item-47" data-id="47"    data-alignsub="left" data-level="2"><a href="{{ route('drivetest') }}">Drive Test And Optimization</a></li>
                                 </ul>
                             </div></div></div></div>
 
                 <div class="mega-col col-md-3 " >
                     <div class="mega-col-inner">
                         <div id="wid-31" class="wpo-widget">
-                            <h3 class="widget-title">Power Constracts</h3>
+                            <h3 class="widget-title"><a href="{{route('power')}}">Power Constructs</a></h3>
                             <div class="menu-footer-3-container">
                                 <ul id="menu-footer-3" class="megamenu-items">
-                                    <li id="menu-item-48" class="menu-item-48" data-id="48"    data-alignsub="left" data-level="2"><a href="#">Power Line Installation & Commissioning,LV, HT Lines, Transformers</a>
+                                    <li id="menu-item-48" class="menu-item-48" data-id="48"    data-alignsub="left" data-level="2"><a href="{{ route('power_line') }}">Power Line Installation & Commissioning,LV, HT Lines, Transformers</a>
                                 </li>
-                                    <li id="menu-item-49" class="menu-item-49" data-id="49"    data-alignsub="left" data-level="2"><a href="#">Generator Installation </a></li>
-                                    <li id="menu-item-50" class="menu-item-50" data-id="50"    data-alignsub="left" data-level="2"><a href="#">Site Maintanance</a></li>
-                                    <li id="menu-item-50" class="menu-item-50" data-id="50"    data-alignsub="left" data-level="2"><a href="#">Power Optimization Systems</a></li>
-                                    <li id="menu-item-50" class="menu-item-50" data-id="50"    data-alignsub="left" data-level="2"><a href="#"> Solar Power Systems</a></li>
-                                    <li id="menu-item-51" class="menu-item-51" data-id="51"    data-alignsub="left" data-level="2"><a href="#"> Power Equipment Supplies</a></li>
+                                    <li id="menu-item-49" class="menu-item-49" data-id="49"    data-alignsub="left" data-level="2"><a href="{{route('generator')}}">Generator Installation </a></li>
+                                    <li id="menu-item-50" class="menu-item-50" data-id="50"    data-alignsub="left" data-level="2"><a href="{{route('maintainace')}}">Site Maintenance</a></li>
+                                    <li id="menu-item-50" class="menu-item-50" data-id="50"    data-alignsub="left" data-level="2"><a href="{{route('optimization')}}">Power Optimization</a></li>
+                                    <li id="menu-item-50" class="menu-item-50" data-id="50"    data-alignsub="left" data-level="2"><a href="{{route('solar')}}"> Solar Power Systems installation</a></li>
                                 </ul>
                             </div></div></div></div>
 
@@ -225,11 +224,12 @@
                 <div class="mega-col col-md-3 " >
                     <div class="mega-col-inner">
                         <div id="wid-26" class="wpo-widget">
-                            <h3 class="widget-title">Telecommunication Works</h3>
+                            <h3 class="widget-title"><a href="{{ route('telecoms') }}"> Telecommunication Works</a></h3>
                             <div class="menu-footer-1-container">
                                 <ul id="menu-footer-1" class="megamenu-items">
-                                    <li id="menu-item-34" class="menu-item-34" data-id="34"    data-alignsub="left" data-level="2"><a href="#">Installation</a></li>
-                                    <li id="menu-item-35" class="menu-item-35" data-id="35"    data-alignsub="left" data-level="2"><a href="#">Maintanance</a></li>
+                                    <li id="menu-item-34" class="menu-item-34" data-id="34"    data-alignsub="left" data-level="2"><a href="{{ route('links') }}">MW Links Installations</a></li>
+                                    <li id="menu-item-35" class="menu-item-35" data-id="35"    data-alignsub="left" data-level="2"><a href="{{ route('2g_3g') }}">2G/3G Systems Installations</a></li>
+                                    <li id="menu-item-35" class="menu-item-35" data-id="35"    data-alignsub="left" data-level="2"><a href="{{ route('fiber') }}">Optical Fibre Installations</a></li>
                                 </ul>
                             </div></div></div></div>
 
@@ -301,35 +301,35 @@
 
                                                 <!-- Product Item -->
                                                 <div class="item-brands col-sm-2 col-md-2">
-                                                    <a href="#"><img src="{{ asset('wp-content/uploads/2014/03/videohive-160x80.png')}}" class="attachment-brand-logo wp-post-image" alt="videohive" /></a>
+                                                    <a href="#"><img src="{{ asset('wp-content/perntels/partners/logo-shantagold.png')}}" class="attachment-brand-logo wp-post-image" alt="videohive" /></a>
                                                 </div>
                                                 <!-- End Product Item -->
 
                                                 <!-- Product Item -->
                                                 <div class="item-brands col-sm-2 col-md-2">
-                                                    <a href="#"><img src="{{ asset('wp-content/uploads/2014/03/audiojungle-160x80.png')}}" class="attachment-brand-logo wp-post-image" alt="audiojungle" /></a>
+                                                    <a href="#"><img src="{{ asset('wp-content/perntels/partners/vodacom.png')}}" class="attachment-brand-logo wp-post-image" alt="audiojungle" /></a>
                                                 </div>
                                                 <!-- End Product Item -->
 
                                                 <!-- Product Item -->
                                                 <div class="item-brands col-sm-2 col-md-2">
-                                                    <a href="#"><img src="{{ asset('wp-content/uploads/2014/03/activeden-160x80.png')}}" class="attachment-brand-logo wp-post-image" alt="activeden" /></a>
+                                                    <a href="#"><img src="{{ asset('wp-content/perntels/partners/airtel_logo.png')}}" class="attachment-brand-logo wp-post-image" alt="activeden" /></a>
                                                 </div>
                                                 <!-- End Product Item -->
 
                                                 <!-- Product Item -->
                                                 <div class="item-brands col-sm-2 col-md-2">
-                                                    <a href="#"><img src="{{ asset('wp-content/uploads/2014/03/photodune-160x80.png')}}" class="attachment-brand-logo wp-post-image" alt="photodune" /></a>
+                                                    <a href="#"><img src="{{ asset('wp-content/perntels/partners/maktec-logo.png')}}" class="attachment-brand-logo wp-post-image" alt="photodune" /></a>
                                                 </div>
                                                 <!-- End Product Item -->
                                                 <!-- Product Item -->
                                                 <div class="item-brands col-sm-2 col-md-2">
-                                                    <a href="#"><img src="{{ asset('wp-content/uploads/2014/03/codecanyon-160x80.png')}}" class="attachment-brand-logo wp-post-image" alt="codecanyon" /></a>
+                                                    <a href="#"><img src="{{ asset('wp-content/perntels/partners/automech.png')}}" class="attachment-brand-logo wp-post-image" alt="codecanyon" /></a>
                                                 </div>
                                                 <!-- End Product Item -->
                                                 <!-- Product Item -->
                                                 <div class="item-brands col-sm-2 col-md-2">
-                                                    <a href="#"><img src="{{ asset('wp-content/uploads/2014/03/graphicriver-160x80.png')}}" class="attachment-brand-logo wp-post-image" alt="graphicriver" /></a>
+                                                    <a href="#"><img src="{{ asset('wp-content/perntels/partners/rea_logo.png')}}" class="attachment-brand-logo wp-post-image" alt="graphicriver" /></a>
                                                 </div>
                                                 <!-- End Product Item -->
 
@@ -339,37 +339,37 @@
                                             <div class="row">
                                                 <!-- Product Item -->
                                                 <div class="item-brands col-sm-2 col-md-2">
-                                                    <a href="#"><img src="{{ asset('wp-content/uploads/2014/03/codecanyon-160x80.png')}}" class="attachment-brand-logo wp-post-image" alt="codecanyon" /></a>
+                                                    <a href="#"><img src="{{ asset('wp-content/perntels/partners/egypro.png')}}" class="attachment-brand-logo wp-post-image" alt="codecanyon" /></a>
                                                 </div>
                                                 <!-- End Product Item -->
 
                                                 <!-- Product Item -->
                                                 <div class="item-brands col-sm-2 col-md-2">
-                                                    <a href="#"><img src="{{ asset('wp-content/uploads/2014/03/graphicriver-160x80.png')}}" class="attachment-brand-logo wp-post-image" alt="graphicriver" /></a>
+                                                    <a href="#"><img src="{{ asset('wp-content/perntels/partners/vodacom.png')}}" class="attachment-brand-logo wp-post-image" alt="graphicriver" /></a>
                                                 </div>
                                                 <!-- End Product Item -->
 
                                                 <!-- Product Item -->
                                                 <div class="item-brands col-sm-2 col-md-2">
-                                                    <a href="#"><img src="{{ asset('wp-content/uploads/2014/03/ocean-160x80.png')}}" class="attachment-brand-logo wp-post-image" alt="ocean" /></a>
+                                                    <a href="#"><img src="{{ asset('wp-content/perntels/partners/airtel_logo.png')}}" class="attachment-brand-logo wp-post-image" alt="ocean" /></a>
                                                 </div>
                                                 <!-- End Product Item -->
 
                                                 <!-- Product Item -->
                                                 <div class="item-brands col-sm-2 col-md-2">
-                                                    <a href="#"><img src="{{ asset('wp-content/uploads/2014/03/photodune-160x80.png')}}" class="attachment-brand-logo wp-post-image" alt="photodune" /></a>
+                                                    <a href="#"><img src="{{ asset('wp-content/perntels/partners/zantel_logo.png')}}" class="attachment-brand-logo wp-post-image" alt="photodune" /></a>
                                                 </div>
                                                 <!-- End Product Item -->
 
                                                 <!-- Product Item -->
                                                 <div class="item-brands col-sm-2 col-md-2">
-                                                    <a href="#"><img src="{{ asset('wp-content/uploads/2014/03/graphicriver-160x80.png')}}" class="attachment-brand-logo wp-post-image" alt="graphicriver" /></a>
+                                                    <a href="#"><img src="{{ asset('wp-content/perntels/partners/jwtz.png')}}" class="attachment-brand-logo wp-post-image" alt="graphicriver" /></a>
                                                 </div>
                                                 <!-- End Product Item -->
 
                                                 <!-- Product Item -->
                                                 <div class="item-brands col-sm-2 col-md-2">
-                                                    <a href="#"><img src="{{ asset('wp-content/uploads/2014/03/videohive-160xlo')}}" class="attachment-brand-logo wp-post-image" alt="videohive" /></a>
+                                                    <a href="#"><img src="{{ asset('wp-content/perntels/partners/logo-shantagold.png')}}" class="attachment-brand-logo wp-post-image" alt="videohive" /></a>
                                                 </div>
                                                 <!-- End Product Item -->
 
@@ -404,11 +404,11 @@
                             <h3 class="widget-title"><span>Planning & Optimization</span></h3>
                             <div class="menu-footer-2-container">
                                 <ul id="menu-footer-5" class="menu">
-                                    <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-43"><a href="#">Site Planning Tools</a></li>
-                                    <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-44"><a href="#">Site Survey</a></li>
-                                    <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-45"><a href="#">Site Audit, Site Sharing plans & Power Audit</a></li>
-                                    <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-46"><a href="#">Drive Test</a></li>
-                                    <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-47"><a href="#">Site Tunning</a></li>
+                                    <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-43"><a href="{{ route('networkdesign') }}">Network Design And Planning</a></li>
+                                    <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-44"><a href="{{ route('transmission') }}">Transmission Planning</a></li>
+                                    <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-45"><a href="{{ route('sitesharing') }}">Site Sharing Plans</a></li>
+                                    <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-46"><a href="{{ route('siteaudit') }}">Site Audits</a></li>
+                                    <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-47"><a href="{{ route('drivetest') }}">Drive Test And Optimization</a></li>
                                 </ul>
                             </div>
                         </aside>
@@ -424,11 +424,11 @@
                             </h3>
                             <div class="menu-footer-4-container">
                                 <ul id="menu-footer-7" class="menu">
-                                    <li id="menu-item-2261" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2261"><a href="#">Towr Construction</a></li>
+                                    <li id="menu-item-2261" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2261"><a href="#">Tower Construction</a></li>
                                     <li id="menu-item-2262" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2262"><a href="#">Site Sharing Preparations</a></li>
-                                    <li id="menu-item-2263" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2263"><a href="#">Supply &#038; Install HFrames, Slabs, Poles ans Special Brackets etc</a></li>
+                                    <li id="menu-item-2263" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2263"><a href="#">Supply &#038; Installation of Telecoms, Civil and Power Materials  </a></li>
                                     <li id="menu-item-2264" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2264"><a href="#">Access Road Construction</a></li>
-                                    <li id="menu-item-2265" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2265"><a href="#">building Construction Systems</a></li>
+                                    <li id="menu-item-2265" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2265"><a href="#">Road Construction</a></li>
                                 </ul>
                             </div>
                         </aside>
@@ -440,16 +440,15 @@
                     <div class="inner wow fadeInUp" data-wow-duration='0.8s' data-wow-delay="600ms" >
                         <aside id="nav_menu-3" class="widget clearfix widget_nav_menu">
                             <h3 class="widget-title">
-                                <span>Power Contracts</span>
+                                <span>Power Contructs</span>
                             </h3>
                             <div class="menu-footer-3-container">
                                 <ul id="menu-footer-6" class="menu">
-                                    <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-48"><a href="#">Power Lines Installation & Commissioning <br> LV, HT Lines, Transformers</a></li>
-                                    <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-49"><a href="#">Generator Installation</a></li>
-                                    <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-50"><a href="#">Site Maintanance</a></li>
-                                    <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-51"><a href="#">Power Optimization Systems</a></li>
-                                    <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-51"><a href="#">Solar Power Systems</a></li>
-                                    <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-51"><a href="#">Power Equipments Supplies</a></li>
+                                    <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-48"><a href="{{ route('power_line') }}">Power Lines Installation & Commissioning <br> LV, HT Lines &#038; Transformers</a></li>
+                                    <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-49"><a href="{{ route('generator') }}">Generator Installation</a></li>
+                                    <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-50"><a href="{{ route('maintainace') }}">Site Maintenance</a></li>
+                                    <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-51"><a href="{{ route('optimization') }}">Power Optimization</a></li>
+                                    <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-51"><a href="{{ route('solar') }}">Solar Power Systems Installations</a></li>
                                 </ul>
                             </div>
                         </aside>
@@ -480,8 +479,9 @@
                             <h3 class="widget-title"><span>Telecommunication Works</span></h3>
                             <div class="menu-footer-1-container">
                                 <ul id="menu-footer-4" class="menu">
-                                    <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-34"><a href="#">Installation</a></li>
-                                    <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-35"><a href="#">Maintanance</a></li>
+                                    <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-34"><a href="{{ route('links') }}">MW Installations</a></li>
+                                    <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-35"><a href="{{ route('2g_3g') }}">2G/3G Systems Installations</a></li>
+                                    <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-35"><a href="{{ route('fiber') }}">Optical Fiber Installations</a></li>
 
                                 </ul>
                             </div>
