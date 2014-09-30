@@ -564,9 +564,11 @@ div.wpcf7-validation-errors {
 }
 
 .contact-form-content {
-  padding: 18px;
+  padding-left: 18px;
+  padding-top: 18px;
+ 
   background: white;
-  margin-bottom: 0px;
+  margin-bottom: 10px;
   min-height: 1px;
 }
 .contact-form-content .rounded {
