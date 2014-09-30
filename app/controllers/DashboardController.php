@@ -29,6 +29,20 @@ class DashboardController extends BaseController {
 
 
     /**
+     * Display the specified resource.
+     *
+     * @param  int  $id
+     * @return Response
+     */
+    public function project($id)
+    {
+        $projectName="the project name";
+        $projectContent="the projcet content";
+
+        return View::make('project',compact('projectName','projectContent'));
+    }
+
+    /**
 	 * Show the form for creating a new resource.
 	 *
 	 * @return Response

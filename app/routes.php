@@ -19,3 +19,7 @@ Route::get('dashboard',array('as' => 'dashboard' , 'uses' => 'DashboardControlle
 Route::get('about_us',array('as' => 'about' , 'uses' => 'DashboardController@about'));
 
 Route::get('contact',array('as' => 'contact' , 'uses' => 'DashboardController@contact'));
+
+Route::get('project/{id}',array('as' => 'contact' , 'uses' => 'DashboardController@project'));
+
+Route::get('contact',array('as' => 'contact' , 'uses' => 'DashboardController@contact'));

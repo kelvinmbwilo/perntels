@@ -209,59 +209,79 @@
 </div>
 
 <!--activities-->
-<h2>Welcome contents here</h2>
+<section class="widget wpb_text_column wpb_content_element ">
+    <div class="wpb_wrapper widget-content">
+        <div class="contact-form-content">
+ <b>   Perntels Company Limited</b> was established and incorporated on 25th of September in 2006. Perntels established with main objective being to provide total engineering solution.<br>
+    <i>Perntels Co Limited</i>  is a fast growing company that provides Electrical works, Civil works and Telecommunications technical Services by giving innovative solutions to meet society
+    requirements with high professionalism in Tanzania, East Africa and the World at large.<br>
+    <i>Perntels Co Limited</i> is fully registered with Contractors Registration Board (CRB) and TCRA as telecommunication service provider.<br>
+    The company is owned by a team of technical personnel with main objectives of providing Power and Telecommunication Services in the industry including RF/TX and Civil works Surveys,
+    telecommunication systems design, Installation, Integration, Commissioning and optimization. On the other hand Perntels
+    aiming at providing Maintenance Services and support for electrical, civil works and telecommunication systems in the industries to meet the required customer satisfaction at reasonable prices, cost effective and professionalisms.<br>
+    <i>Our mission is to provide high quality, reliable and timely services to our prospective clients to meet International standards, at competitive prices.</i>
+    The company vision is to be a professional Civil Work, Building, Electrical and Telecommunications Engineering contractor in the market, a company able to provide such services most effectively, affordable and operating
+    at the highest professional engineering standards.
+
+</div>
+</div>
+    </section>
 <section class="widget blog-type ">
-<h4>Activities</h4>
+    <section class="widget wpb_text_column wpb_content_element ">
+        <div class="wpb_wrapper widget-content">
+            <div class="contact-form-content">
+<h4>Projects</h4>
+                </div></div></section>
     <div class="widget-content">
         <div class="clearfix loop-posts">
             <div class="col-sm-4 col-md-4 wow fadeInUp " data-wow-duration="0.6s" data-wow-delay="150ms">
                 <article class="blog">
                     <figure class="entry-thumb zoom">
-                        <a href="template-sticky/index.html" title="" class="entry-image">
+                        <a href="{{ url('project/1') }}" title="" class="entry-image">
                             <img src="{{ asset('activity1.jpg') }}" style="height: 240px" class="attachment-blog-thumbnails wp-post-image" alt="post2" />                        </a>
                     </figure>
                     <div class="information">
                         <p class="blog-meta">
-                            <span class="blog-date"><span>07</span> <span>Jan</span> ,<span>2012</span> </span>
+                            <span class="blog-date"><span>07</span> <span>Jan</span> ,<span>2014</span> </span>
                         </p>
                         <h4 class="entry-title">
-                            <a href="template-sticky/index.html">Morbi accumsan ipsum velit. This is a sticky post. There are a few things to verify:</a>
+                            <a href="{{ url('project/1') }}">TUNKEY PROJECTS:</a>
                         </h4>
-                        <a class="read-more" href="template-sticky/index.html">Read More <i class="fa fa-caret-right"></i></a>
+                        <a class="read-more" href="{{ url('project/1') }}">Read More <i class="fa fa-caret-right"></i></a>
                     </div>
                 </article>
             </div>
             <div class="col-sm-4 col-md-4 wow fadeInUp " data-wow-duration="0.6s" data-wow-delay="350ms">
                 <article class="blog">
                     <figure class="entry-thumb zoom">
-                        <a href="edge-case-nested-and-mixed-lists/index.html" title="" class="entry-image">
+                        <a href="{{ url('project/2') }}" title="" class="entry-image">
                             <img src="{{ asset('activity2.jpg') }}" style="height: 240px" class="attachment-blog-thumbnails wp-post-image" alt="post1" />                        </a>
                     </figure>
                     <div class="information">
                         <p class="blog-meta">
-                            <span class="blog-date"><span>15</span> <span>May</span> ,<span>2009</span> </span>
+                            <span class="blog-date"><span>15</span> <span>May</span> ,<span>2014</span> </span>
                         </p>
                         <h4 class="entry-title">
-                            <a href="edge-case-nested-and-mixed-lists/index.html">Lists within lists do not break the ordered list numbering order</a>
+                            <a href="{{ url('project/2') }}">LINE PROJECTS</a>
                         </h4>
-                        <a class="read-more" href="edge-case-nested-and-mixed-lists/index.html">Read More <i class="fa fa-caret-right"></i></a>
+                        <a class="read-more" href="{{ url('project/{2}') }}">Read More <i class="fa fa-caret-right"></i></a>
                     </div>
                 </article>
             </div>
             <div class="col-sm-4 col-md-4 wow fadeInUp " data-wow-duration="0.6s" data-wow-delay="550ms">
                 <article class="blog">
                     <figure class="entry-thumb zoom">
-                        <a href="edge-case-many-tags/index.html" title="" class="entry-image">
+                        <a href="{{ url('project/3') }}" title="" class="entry-image">
                             <img src="{{ asset('activity3.jpg') }}" style="height: 240px" class="attachment-blog-thumbnails wp-post-image" alt="post3" />                        </a>
                     </figure>
                     <div class="information">
                         <p class="blog-meta">
-                            <span class="blog-date"><span>01</span> <span>Jun</span> ,<span>2009</span> </span>
+                            <span class="blog-date"><span>01</span> <span>Jun</span> ,<span>2013</span> </span>
                         </p>
                         <h4 class="entry-title">
-                            <a href="edge-case-many-tags/index.html">iPhone is a revolutionary new mobile phone that allows you to make &#8230;</a>
+                            <a href="{{ url('project/3') }}">TEAM MANAGEMENTS &#8230;</a>
                         </h4>
-                        <a class="read-more" href="edge-case-many-tags/index.html">Read More <i class="fa fa-caret-right"></i></a>
+                        <a class="read-more" href="{{ url('project/3') }}">Read More <i class="fa fa-caret-right"></i></a>
                     </div>
                 </article>
             </div>

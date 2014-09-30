@@ -566,7 +566,7 @@ div.wpcf7-validation-errors {
   padding: 18px;
   background: white;
   margin-bottom: 28px;
-  min-height: 260px;
+  min-height: 1px;
 }
 .contact-form-content .rounded {
   display: table;
