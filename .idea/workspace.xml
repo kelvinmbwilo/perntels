@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="10ce7531-86f6-4495-9471-7b0a35b9653f" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layout/master.blade.php" afterPath="$PROJECT_DIR$/app/views/layout/master.blade.php" />
     </list>
     <ignored path="perntels.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -25,157 +25,22 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="transmissionPlanning.blade.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/PlanningAndOptimization/transmissionPlanning.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="19" selection-start="473" selection-end="473" vertical-scroll-proportion="-11.875" vertical-offset="0" max-vertical-offset="585">
-              <folding>
-                <element signature="e#79#161#0" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="sitesharing.blade.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/PlanningAndOptimization/sitesharing.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="17" selection-start="183" selection-end="183" vertical-scroll-proportion="-7.5" vertical-offset="0" max-vertical-offset="585">
-              <folding>
-                <element signature="e#79#161#0" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="tower.blade.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/civilworks/tower.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="31" selection-start="31" selection-end="31" vertical-scroll-proportion="2.5" vertical-offset="60" max-vertical-offset="555">
-              <folding>
-                <element signature="e#62#143#0" expanded="true" />
-                <marker date="1412076467000" expanded="true" signature="164:643" placeholder="..." />
-                <marker date="1412076467000" expanded="true" signature="203:636" placeholder="..." />
-                <marker date="1412076467000" expanded="true" signature="238:625" placeholder="..." />
-                <marker date="1412076467000" expanded="true" signature="264:301" placeholder="..." />
-                <marker date="1412076467000" expanded="true" signature="316:609" placeholder="..." />
-                <marker date="1412076467000" expanded="true" signature="360:431" placeholder="..." />
-                <marker date="1412076467000" expanded="true" signature="472:590" placeholder="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="civilhome.blade.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/civilworks/civilhome.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="31" selection-start="31" selection-end="31" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="660">
-              <folding>
-                <element signature="e#62#143#0" expanded="true" />
-                <marker date="1412076467000" expanded="true" signature="164:1554" placeholder="..." />
-                <marker date="1412076467000" expanded="true" signature="203:1547" placeholder="..." />
-                <marker date="1412076467000" expanded="true" signature="238:1536" placeholder="..." />
-                <marker date="1412076467000" expanded="true" signature="264:301" placeholder="..." />
-                <marker date="1412076467000" expanded="true" signature="316:1520" placeholder="..." />
-                <marker date="1412076467000" expanded="true" signature="360:436" placeholder="..." />
-                <marker date="1412076467000" expanded="true" signature="477:1501" placeholder="..." />
-                <marker date="1412076467000" expanded="true" signature="502:1014" placeholder="..." />
-                <marker date="1412076467000" expanded="true" signature="1063:1452" placeholder="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="road.blade.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/civilworks/road.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="20" selection-start="10" selection-end="20" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="585">
-              <folding>
-                <element signature="e#62#143#0" expanded="true" />
-                <marker date="1412076467000" expanded="true" signature="164:833" placeholder="..." />
-                <marker date="1412076467000" expanded="true" signature="203:826" placeholder="..." />
-                <marker date="1412076467000" expanded="true" signature="238:815" placeholder="..." />
-                <marker date="1412076467000" expanded="true" signature="264:301" placeholder="..." />
-                <marker date="1412076467000" expanded="true" signature="316:799" placeholder="..." />
-                <marker date="1412076467000" expanded="true" signature="360:431" placeholder="..." />
-                <marker date="1412076467000" expanded="true" signature="472:780" placeholder="..." />
-                <marker date="1412076467000" expanded="true" signature="497:731" placeholder="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="civilworks.blade.php" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/views/civilworks/civilworks.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="49" column="193" selection-start="3259" selection-end="3259" vertical-scroll-proportion="0.83557045" vertical-offset="411" max-vertical-offset="900">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="access.blade.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/civilworks/access.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="31" selection-start="31" selection-end="31" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="615">
-              <folding>
-                <element signature="e#62#143#0" expanded="true" />
-                <marker date="1412076467000" expanded="true" signature="164:942" placeholder="..." />
-                <marker date="1412076467000" expanded="true" signature="203:935" placeholder="..." />
-                <marker date="1412076467000" expanded="true" signature="238:924" placeholder="..." />
-                <marker date="1412076467000" expanded="true" signature="264:301" placeholder="..." />
-                <marker date="1412076467000" expanded="true" signature="316:908" placeholder="..." />
-                <marker date="1412076467000" expanded="true" signature="360:437" placeholder="..." />
-                <marker date="1412076467000" expanded="true" signature="478:889" placeholder="..." />
-                <marker date="1412076467000" expanded="true" signature="503:839" placeholder="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="supply.blade.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/civilworks/supply.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="31" selection-start="31" selection-end="31" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="690">
-              <folding>
-                <element signature="e#62#143#0" expanded="true" />
-                <marker date="1412076467000" expanded="true" signature="164:1353" placeholder="..." />
-                <marker date="1412076467000" expanded="true" signature="203:1346" placeholder="..." />
-                <marker date="1412076467000" expanded="true" signature="238:1335" placeholder="..." />
-                <marker date="1412076467000" expanded="true" signature="264:301" placeholder="..." />
-                <marker date="1412076467000" expanded="true" signature="316:1319" placeholder="..." />
-                <marker date="1412076467000" expanded="true" signature="360:474" placeholder="..." />
-                <marker date="1412076467000" expanded="true" signature="515:1300" placeholder="..." />
-                <marker date="1412076467000" expanded="true" signature="747:785" placeholder="..." />
-                <marker date="1412076467000" expanded="true" signature="786:1251" placeholder="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="site.blade.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/civilworks/site.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
             <state line="0" column="31" selection-start="31" selection-end="31" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="585">
               <folding>
-                <element signature="e#62#143#0" expanded="true" />
-                <marker date="1412076467000" expanded="true" signature="164:1045" placeholder="..." />
-                <marker date="1412076467000" expanded="true" signature="203:1038" placeholder="..." />
-                <marker date="1412076467000" expanded="true" signature="238:1027" placeholder="..." />
-                <marker date="1412076467000" expanded="true" signature="264:301" placeholder="..." />
-                <marker date="1412076467000" expanded="true" signature="316:1011" placeholder="..." />
-                <marker date="1412076467000" expanded="true" signature="360:438" placeholder="..." />
-                <marker date="1412076467000" expanded="true" signature="479:992" placeholder="..." />
+                <marker date="1412076467000" expanded="true" signature="316:1520" placeholder="..." />
+                <marker date="1412076467000" expanded="true" signature="360:436" placeholder="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="power.blade.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/power_constructs/power.blade.php">
+      <file leaf-file-name="master.blade.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/views/layout/master.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="32" selection-start="483" selection-end="483" vertical-scroll-proportion="-6.25" vertical-offset="0" max-vertical-offset="555">
+            <state line="473" column="36" selection-start="32261" selection-end="32261" vertical-scroll-proportion="1.0" vertical-offset="6613" max-vertical-offset="8910">
               <folding />
             </state>
           </provider>
@@ -217,8 +82,8 @@
         <option value="$PROJECT_DIR$/app/views/civilworks/tower.blade.php" />
         <option value="$PROJECT_DIR$/app/routes.php" />
         <option value="$PROJECT_DIR$/app/controllers/DashboardController.php" />
-        <option value="$PROJECT_DIR$/app/views/layout/master.blade.php" />
         <option value="$PROJECT_DIR$/app/views/civilworks/civilworks.blade.php" />
+        <option value="$PROJECT_DIR$/app/views/layout/master.blade.php" />
       </list>
     </option>
   </component>
@@ -254,6 +119,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -390,7 +256,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -427,14 +292,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="741" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.40523884" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15716487" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21163167" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21486267" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32973805" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -468,9 +333,7 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/app/views/PlanningAndOptimization/planning.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="97" column="64" selection-start="6727" selection-end="6727" vertical-scroll-proportion="0.0" vertical-offset="1455" max-vertical-offset="2175">
-          <folding />
-        </state>
+        <state line="97" column="64" selection-start="6727" selection-end="6727" vertical-scroll-proportion="0.0" vertical-offset="1455" max-vertical-offset="2175" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/DashboardController.php">
@@ -628,16 +491,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/PlanningAndOptimization/planning.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="0" selection-start="137" selection-end="251" vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="2175">
-          <folding />
-        </state>
+        <state line="12" column="0" selection-start="137" selection-end="251" vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="2175" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/telecommunications/2g_3g.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="0" selection-start="194" selection-end="194" vertical-scroll-proportion="0.0" vertical-offset="120" max-vertical-offset="420">
-          <folding />
-        </state>
+        <state line="8" column="0" selection-start="194" selection-end="194" vertical-scroll-proportion="0.0" vertical-offset="120" max-vertical-offset="420" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/telecommunications/telecoms.blade.php">
@@ -673,13 +532,6 @@
         <state line="0" column="0" selection-start="0" selection-end="1043" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="585">
           <folding>
             <element signature="e#79#161#0" expanded="false" />
-            <marker date="1412070721000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1412070721000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1412070721000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1412070721000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1412070721000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1412070721000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1412070721000" expanded="true" signature="-1:-1" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -698,25 +550,20 @@
         <state line="13" column="24" selection-start="208" selection-end="208" vertical-scroll-proportion="-0.25" vertical-offset="189" max-vertical-offset="750">
           <folding>
             <element signature="e#79#161#0" expanded="false" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#ul#0;n#div#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/PlanningAndOptimization/transmissionPlanning.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="19" selection-start="473" selection-end="473" vertical-scroll-proportion="-11.875" vertical-offset="0" max-vertical-offset="585">
-          <folding>
-            <element signature="e#79#161#0" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
+        <state line="19" column="19" selection-start="473" selection-end="473" vertical-scroll-proportion="0.0" vertical-offset="285" max-vertical-offset="585">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/power_constructs/power.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="32" selection-start="483" selection-end="483" vertical-scroll-proportion="-6.25" vertical-offset="0" max-vertical-offset="555">
+        <state line="10" column="32" selection-start="483" selection-end="483" vertical-scroll-proportion="0.0" vertical-offset="150" max-vertical-offset="555">
           <folding />
         </state>
       </provider>
@@ -730,11 +577,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/PlanningAndOptimization/sitesharing.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="17" selection-start="183" selection-end="183" vertical-scroll-proportion="-7.5" vertical-offset="0" max-vertical-offset="585">
-          <folding>
-            <element signature="e#79#161#0" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
+        <state line="12" column="17" selection-start="183" selection-end="183" vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="585">
+          <folding />
         </state>
       </provider>
     </entry>
@@ -742,50 +586,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="31" selection-start="31" selection-end="31" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="615">
           <folding>
-            <element signature="e#62#143#0" expanded="true" />
-            <marker date="1412076467000" expanded="true" signature="164:942" placeholder="..." />
-            <marker date="1412076467000" expanded="true" signature="203:935" placeholder="..." />
-            <marker date="1412076467000" expanded="true" signature="238:924" placeholder="..." />
-            <marker date="1412076467000" expanded="true" signature="264:301" placeholder="..." />
-            <marker date="1412076467000" expanded="true" signature="316:908" placeholder="..." />
-            <marker date="1412076467000" expanded="true" signature="360:437" placeholder="..." />
-            <marker date="1412076467000" expanded="true" signature="478:889" placeholder="..." />
-            <marker date="1412076467000" expanded="true" signature="503:839" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/civilworks/civilhome.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="31" selection-start="31" selection-end="31" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="660">
-          <folding>
-            <element signature="e#62#143#0" expanded="true" />
-            <marker date="1412076467000" expanded="true" signature="164:1554" placeholder="..." />
-            <marker date="1412076467000" expanded="true" signature="203:1547" placeholder="..." />
-            <marker date="1412076467000" expanded="true" signature="238:1536" placeholder="..." />
-            <marker date="1412076467000" expanded="true" signature="264:301" placeholder="..." />
-            <marker date="1412076467000" expanded="true" signature="316:1520" placeholder="..." />
-            <marker date="1412076467000" expanded="true" signature="360:436" placeholder="..." />
-            <marker date="1412076467000" expanded="true" signature="477:1501" placeholder="..." />
-            <marker date="1412076467000" expanded="true" signature="502:1014" placeholder="..." />
-            <marker date="1412076467000" expanded="true" signature="1063:1452" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/civilworks/road.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="20" selection-start="10" selection-end="20" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="585">
-          <folding>
-            <element signature="e#62#143#0" expanded="true" />
-            <marker date="1412076467000" expanded="true" signature="164:833" placeholder="..." />
-            <marker date="1412076467000" expanded="true" signature="203:826" placeholder="..." />
-            <marker date="1412076467000" expanded="true" signature="238:815" placeholder="..." />
-            <marker date="1412076467000" expanded="true" signature="264:301" placeholder="..." />
-            <marker date="1412076467000" expanded="true" signature="316:799" placeholder="..." />
-            <marker date="1412076467000" expanded="true" signature="360:431" placeholder="..." />
-            <marker date="1412076467000" expanded="true" signature="472:780" placeholder="..." />
-            <marker date="1412076467000" expanded="true" signature="497:731" placeholder="..." />
+            <marker date="1412076467000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1412076467000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1412076467000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1412076467000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1412076467000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1412076467000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1412076467000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1412076467000" expanded="true" signature="-1:-1" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -794,14 +602,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="31" selection-start="31" selection-end="31" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="585">
           <folding>
-            <element signature="e#62#143#0" expanded="true" />
-            <marker date="1412076467000" expanded="true" signature="164:1045" placeholder="..." />
-            <marker date="1412076467000" expanded="true" signature="203:1038" placeholder="..." />
-            <marker date="1412076467000" expanded="true" signature="238:1027" placeholder="..." />
-            <marker date="1412076467000" expanded="true" signature="264:301" placeholder="..." />
-            <marker date="1412076467000" expanded="true" signature="316:1011" placeholder="..." />
-            <marker date="1412076467000" expanded="true" signature="360:438" placeholder="..." />
-            <marker date="1412076467000" expanded="true" signature="479:992" placeholder="..." />
+            <marker date="1412076467000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1412076467000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1412076467000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1412076467000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1412076467000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1412076467000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1412076467000" expanded="true" signature="-1:-1" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -810,32 +617,30 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="31" selection-start="31" selection-end="31" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="690">
           <folding>
-            <element signature="e#62#143#0" expanded="true" />
-            <marker date="1412076467000" expanded="true" signature="164:1353" placeholder="..." />
-            <marker date="1412076467000" expanded="true" signature="203:1346" placeholder="..." />
-            <marker date="1412076467000" expanded="true" signature="238:1335" placeholder="..." />
-            <marker date="1412076467000" expanded="true" signature="264:301" placeholder="..." />
-            <marker date="1412076467000" expanded="true" signature="316:1319" placeholder="..." />
-            <marker date="1412076467000" expanded="true" signature="360:474" placeholder="..." />
-            <marker date="1412076467000" expanded="true" signature="515:1300" placeholder="..." />
-            <marker date="1412076467000" expanded="true" signature="747:785" placeholder="..." />
-            <marker date="1412076467000" expanded="true" signature="786:1251" placeholder="..." />
+            <marker date="1412076467000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1412076467000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1412076467000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1412076467000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1412076467000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1412076467000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1412076467000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1412076467000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1412076467000" expanded="true" signature="-1:-1" placeholder="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/civilworks/tower.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="31" selection-start="31" selection-end="31" vertical-scroll-proportion="2.5" vertical-offset="60" max-vertical-offset="555">
+        <state line="0" column="31" selection-start="31" selection-end="31" vertical-scroll-proportion="0.0" vertical-offset="60" max-vertical-offset="555">
           <folding>
-            <element signature="e#62#143#0" expanded="true" />
-            <marker date="1412076467000" expanded="true" signature="164:643" placeholder="..." />
-            <marker date="1412076467000" expanded="true" signature="203:636" placeholder="..." />
-            <marker date="1412076467000" expanded="true" signature="238:625" placeholder="..." />
-            <marker date="1412076467000" expanded="true" signature="264:301" placeholder="..." />
-            <marker date="1412076467000" expanded="true" signature="316:609" placeholder="..." />
-            <marker date="1412076467000" expanded="true" signature="360:431" placeholder="..." />
-            <marker date="1412076467000" expanded="true" signature="472:590" placeholder="..." />
+            <marker date="1412076467000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1412076467000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1412076467000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1412076467000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1412076467000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1412076467000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1412076467000" expanded="true" signature="-1:-1" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -854,16 +659,36 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layout/master.blade.php">
+    <entry file="file://$PROJECT_DIR$/app/views/civilworks/civilworks.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="212" column="81" selection-start="13569" selection-end="13569" vertical-scroll-proportion="0.1574642" vertical-offset="3103" max-vertical-offset="8940">
+        <state line="49" column="193" selection-start="3259" selection-end="3259" vertical-scroll-proportion="0.47712418" vertical-offset="441" max-vertical-offset="900">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/civilworks/civilworks.blade.php">
+    <entry file="file://$PROJECT_DIR$/app/views/civilworks/road.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="49" column="193" selection-start="3259" selection-end="3259" vertical-scroll-proportion="0.83557045" vertical-offset="411" max-vertical-offset="900">
+        <state line="0" column="20" selection-start="10" selection-end="20" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="585">
+          <folding>
+            <marker date="1412076467000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1412076467000" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/civilworks/civilhome.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="31" selection-start="31" selection-end="31" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="660">
+          <folding>
+            <marker date="1412076467000" expanded="true" signature="316:1520" placeholder="..." />
+            <marker date="1412076467000" expanded="true" signature="360:436" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layout/master.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="473" column="36" selection-start="32261" selection-end="32261" vertical-scroll-proportion="1.0" vertical-offset="6613" max-vertical-offset="8910">
           <folding />
         </state>
       </provider>
