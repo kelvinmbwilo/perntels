@@ -470,6 +470,10 @@
                         </aside>
                     </div>
                 </div>
+<<<<<<< HEAD
+=======
+
+>>>>>>> 7d3d2c2f8c5ad0e01d55032ba32e3f9907216a9f
                 <div class="col-md-3 col-sm-4 col-xs-12">
                     <div class="inner wow fadeInUp" data-wow-duration='0.8s' data-wow-delay="200ms" >
                         <aside id="nav_menu-6" class="widget clearfix widget_nav_menu">
