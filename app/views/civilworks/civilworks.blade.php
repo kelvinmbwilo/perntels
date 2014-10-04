@@ -34,7 +34,10 @@
         <div class="wpo-sidebar wpo-sidebar-1 col-xs-12  col-md-3 col-md-pull-9">
             <div class="sidebar-inner clearfix">
                 <aside id="wpo_menu_vertical-3" class="widget  clearfix widget_wpo_menu_vertical">
-                    <h3 class="widget-title title-default"><span>Planning and optimization</span></h3>
+                    <h3 class="widget-title title-default" style="margin-bottom: 0px"><span>Civil Works and Buildings</span></h3>
+
+                        <img class="image img-responsive col-lg-12" src="{{ asset('slide3.jpg') }}"/>
+
                     <div class="collapse navbar-collapse navbar-ex1-collapse vertical-menu menu-left">
                         <ul id="menu-vertical-menu" class="nav navbar-nav megamenu">
 

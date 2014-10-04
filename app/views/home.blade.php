@@ -1,6 +1,6 @@
 @extends ('layout.master')
 @section('body')
-<div class="col-sm-12 wpb_column vc_column_container">
+<div class="col-sm-12 wpb_column vc_column_container" style="padding: 0px">
 <div class="wpb_wrapper">
 <div class="wpb_revslider_element no-margin-bottom wpb_content_element full-width"><!-- START REVOLUTION SLIDER 4.1.4 fullwidth mode -->
 
@@ -215,9 +215,9 @@
         <div class="contact-form-content">
   <div class="col-md-4">
       <b>Perntels Company Limited</b> was established and incorporated on 25th of September in 2006. Perntels established with main objective being to provide total engineering solution.<br>
-        <i>Perntels Co Limited</i>  is a fast growing company that provides Electrical works, Civil works and Telecommunications technical Services by giving innovative solutions to meet society
+        Perntels Co Limited  is a fast growing company that provides Electrical works, Civil works and Telecommunications technical Services by giving innovative solutions to meet society
         requirements with high professionalism in Tanzania, East Africa and the World at large.
-            <br>  <i>Perntels Co Limited</i> is fully registered with Contractors Registration Board (CRB) and TCRA as telecommunication service provider.<br><br>
+            <br>  Perntels Co Limited is fully registered with Contractors Registration Board (CRB) and TCRA as telecommunication service provider.<br><br>
 
 </div>
         <div class="col-md-4">

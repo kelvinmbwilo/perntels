@@ -10,7 +10,6 @@
 <html lang="en-US">
 <!--<![endif]-->
 
-<!-- Mirrored from pavodemo.com/wpopal/pharmacy/ by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 12 Sep 2014 13:16:28 GMT -->
 <!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
 <head>
 
@@ -129,16 +128,15 @@
 <!-- START Wrapper -->
 <div class="wpo-wrapper">
 <!-- Top bar -->
-<section class="wpo-topbar wrapper-topbar" >
+<section class="wpo-topbar wrapper-topbar" style="padding-left: 0px" >
     <div class="container">
         <div class="container-inner clearfix" style="background: #146e4a;">
 
             <div style="padding-left:30px ;" class="pull-left">
                 <h3><small>POWER AND TELECOMMUNICATION COMPANY SERVICES</small> </h3>
             </div>
-            <div class="pull-right">
-                Phone: 0782378232<br>
-                Email: info@perntels.co.tz
+            <div class="pull-right" style="margin-right: 36px; margin-top: 10px">
+                Phone: 0782378232 | Email: info@perntels.co.tz
             </div>
         </div>
     </div>
@@ -153,7 +151,7 @@
 <!-- LOGO -->
 <div class="logo-in-theme  text-center col-md-3">
     <div class="logo" style="margin: 0px">
-        <a href="#">
+        <a href="{{ route('home') }}">
             <img src="{{ asset('wp-content/perntels/perntels.png" alt="perntels')}}" style="height: 100px">
         </a>
     </div>
@@ -210,7 +208,7 @@
                 <div class="mega-col col-md-3 " >
                     <div class="mega-col-inner">
                         <div id="wid-35" class="wpo-widget">
-                            <h3 class="widget-title"><a href="{{ route('civilhome') }}">Civil Works & Building</a></h3>
+                            <h3 class="widget-title"><a href="{{ route('civilhome') }}" style="text-decoration: none">Civil Works & Building</a></h3>
                             <div class="menu-products-container">
                                 <ul id="menu-products" class="megamenu-items">
                                     <li id="menu-item-2403" class="menu-item-2403" data-id="2403"    data-alignsub="left" data-level="2"><a href="{{ route('tower') }}">Tower construction</a></li>
@@ -455,7 +453,7 @@
                     </div>
                 </div>
 
-                <div class="col-md-3 col-sm-4 col-xs-12">
+                <div class="col-md-3 col-sm-4 col-xs-12" style="padding-bottom: 10px">
                     <div class="inner wow fadeInUp" data-wow-duration='0.8s' data-wow-delay="200ms" >
                         <aside id="nav_menu-6" class="widget clearfix widget_nav_menu">
                             <h3 class="widget-title"><span> Project Management </span></h3>
@@ -470,11 +468,9 @@
                         </aside>
                     </div>
                 </div>
-<<<<<<< HEAD
-=======
 
->>>>>>> 7d3d2c2f8c5ad0e01d55032ba32e3f9907216a9f
                 <div class="col-md-3 col-sm-4 col-xs-12">
+                <div class="col-md-3 col-sm-4 col-xs-12" style="padding-top: 5px">
                     <div class="inner wow fadeInUp" data-wow-duration='0.8s' data-wow-delay="200ms" >
                         <aside id="nav_menu-6" class="widget clearfix widget_nav_menu">
                             <h3 class="widget-title"><span>Telecommunication Works</span></h3>
