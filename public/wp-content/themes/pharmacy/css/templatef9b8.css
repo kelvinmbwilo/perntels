@@ -2382,7 +2382,7 @@ ul .hasicon li .fa {
 }
 .woocommerce-breadcrumb a,
 .breadcrumb-theme a {
-  color: #aaaaaa;
+  color:rgba(19, 179, 66, 1);
   text-decoration: none;
 }
 .woocommerce-breadcrumb a:hover, .woocommerce-breadcrumb a:active, .woocommerce-breadcrumb a :focus,
