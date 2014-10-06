@@ -250,7 +250,7 @@
     </li>
 
 <li class="menu-item-2593" data-id="2593"    data-alignsub="left" data-level="1"><a href="{{route('dashboard')}}" ">Team</a></li>
-<li class="menu-item-2593" data-id="2593"    data-alignsub="left" data-level="1"><a href="{{route('dashboard')}}" ">Environment</a></li>
+<li class="menu-item-2593" data-id="2593"    data-alignsub="left" data-level="1"><a href="{{route('environment')}}" ">Environment</a></li>
 <li class="menu-item-2593" data-id="2593"    data-alignsub="left" data-level="1"><a href="{{route('contact')}}" ">Contact Us</a></li>
 </ul></div>                        </nav>
 <!-- //MENU -->
@@ -455,7 +455,7 @@
                     </div>
                 </div>
 
-                <div class="col-md-3 col-sm-4 col-xs-12" style="padding-bottom: 10px">
+                <div class="col-md-3 col-sm-4 col-xs-12">
                     <div class="inner wow fadeInUp" data-wow-duration='0.8s' data-wow-delay="200ms" >
                         <aside id="nav_menu-6" class="widget clearfix widget_nav_menu">
                             <h3 class="widget-title"><span> Project Management </span></h3>
@@ -471,7 +471,6 @@
                 </div>
 
                 <div class="col-md-3 col-sm-4 col-xs-12">
-                <div class="col-md-3 col-sm-4 col-xs-12" style="padding-top: 5px">
                     <div class="inner wow fadeInUp" data-wow-duration='0.8s' data-wow-delay="200ms" >
                         <aside id="nav_menu-6" class="widget clearfix widget_nav_menu">
                             <h3 class="widget-title"><span>Telecommunications</span></h3>
