@@ -255,7 +255,7 @@
     </li>
 
 <li class="menu-item-2593" data-id="2593"    data-alignsub="left" data-level="1"><a href="{{route('dashboard')}}" ">Team</a></li>
-<li class="menu-item-2593" data-id="2593"    data-alignsub="left" data-level="1"><a href="{{route('dashboard')}}" ">Environment</a></li>
+<li class="menu-item-2593" data-id="2593"    data-alignsub="left" data-level="1"><a href="{{route('environment')}}" ">Environment</a></li>
 <li class="menu-item-2593" data-id="2593"    data-alignsub="left" data-level="1"><a href="{{route('contact')}}" ">Contact Us</a></li>
 </ul></div>                        </nav>
 <!-- //MENU -->
@@ -460,7 +460,7 @@
                     </div>
                 </div>
 
-                <div class="col-md-3 col-sm-4 col-xs-12" style="padding-bottom: 10px">
+                <div class="col-md-3 col-sm-4 col-xs-12">
                     <div class="inner wow fadeInUp" data-wow-duration='0.8s' data-wow-delay="200ms" >
                         <aside id="nav_menu-6" class="widget clearfix widget_nav_menu">
                             <h3 class="widget-title"><span> Project Management </span></h3>
@@ -475,12 +475,11 @@
                     </div>
                 </div>
 
-                 <div class="col-md-3 col-sm-4 col-xs-12" style="padding-bottom: 10px">
+                <div class="col-md-3 col-sm-4 col-xs-12">
                     <div class="inner wow fadeInUp" data-wow-duration='0.8s' data-wow-delay="200ms" >
                         <aside id="nav_menu-6" class="widget clearfix widget_nav_menu">
-                                <h3 class="widget-title"><span>Telecommunications</span></h3>
-                            </h3>
-                            <div class="menu-footer-3-container">
+                            <h3 class="widget-title"><span>Telecommunications</span></h3>
+                            <div class="menu-footer-1-container">
                                 <ul id="menu-footer-4" class="menu">
                                     <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-34"><a href="{{ route('links') }}">MW Installations</a></li>
                                     <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-35"><a href="{{ route('2g_3g') }}">2G/3G Systems Installations</a></li>
@@ -488,10 +487,14 @@
 
                                 </ul>
                             </div>
+<<<<<<< HEAD
                         </aside>                                
                         
+=======
+                        </aside>
+>>>>>>> 55fb201651f9735f2a26babeaa8630381c4aeff8
                     </div>
-                </div>
+                 </div>
 
                 <div class="col-md-0 hidden col-sm-4 col-xs-12">
                     <div class="inner wow fadeInUp" data-wow-duration='0.8s' data-wow-delay="200ms" >
