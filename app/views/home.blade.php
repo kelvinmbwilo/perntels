@@ -82,12 +82,13 @@
                      data-easing="Power1.easeIn"
                      data-endspeed="300"
                      style="z-index: 4"><a href='javascript:alert("click");' class='btn btn-outline btn-outline-lg'>VIEW MORE <i class="fa fa-caret-right"></i> </a>
+                     style="z-index: 4"><a href="{{route('power')}}" class='btn btn-outline btn-outline-lg'>VIEW MORE <i class="fa fa-caret-right"></i> </a>
                 </div>
             </li>
             <!-- SLIDE  -->
             <li data-transition="random" data-slotamount="7" data-masterspeed="300" >
                 <!-- MAIN IMAGE -->
-                <img src="{{ asset('slide2.jpg') }}"  alt="bg-slider3"  data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat">
+                <img src="{{ asset('wp-content/perntels/pc/main2.jpg') }}"  alt="bg-slider3"  data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat">
                 <!-- LAYERS -->
 
                 <!-- LAYER NR. 1 -->
@@ -161,9 +162,10 @@
                      data-easing="Quart.easeIn"
                      data-endspeed="300"
                      style="z-index: 4"><a href='javascript:alert("clicmk");' class='btn btn-outline btn-outline-lg'>VIEW MORE <i class="fa fa-caret-right"></i> </a>
+                     style="z-index: 4"><a href="{{route('networkdesign')}}"' class='btn btn-outline btn-outline-lg'>VIEW MORE <i class="fa fa-caret-right"></i> </a>
                 </div>
             </li>
-            </li>
+           
 
         </ul>
         <div class="tp-bannertimer tp-bottom"></div>	</div>
