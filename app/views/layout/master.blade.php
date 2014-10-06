@@ -583,5 +583,4 @@
 <script type='text/javascript' src='wp-content/plugins/js_composer/assets/lib/jquery-waypoints/waypoints.minb523.js?ver=4.3.3'></script>
 </body>
 
-<!-- Mirrored from pavodemo.com/wpopal/pharmacy/ by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 12 Sep 2014 13:25:13 GMT -->
 </html>
