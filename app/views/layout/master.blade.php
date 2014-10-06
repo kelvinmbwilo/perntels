@@ -471,7 +471,6 @@
                 </div>
 
                 <div class="col-md-3 col-sm-4 col-xs-12">
-                <div class="col-md-3 col-sm-4 col-xs-12" style="padding-top: 5px">
                     <div class="inner wow fadeInUp" data-wow-duration='0.8s' data-wow-delay="200ms" >
                         <aside id="nav_menu-6" class="widget clearfix widget_nav_menu">
                             <h3 class="widget-title"><span>Telecommunications</span></h3>
@@ -485,7 +484,7 @@
                             </div>
                         </aside>
                     </div>
-                </div>
+                 </div>
 
                 <div class="col-md-0 hidden col-sm-4 col-xs-12">
                     <div class="inner wow fadeInUp" data-wow-duration='0.8s' data-wow-delay="200ms" >
