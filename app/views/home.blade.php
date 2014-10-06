@@ -1,15 +1,17 @@
 @extends ('layout.master')
+
 @section('body')
 <div class="col-sm-12 wpb_column vc_column_container" style="padding: 0px">
 <div class="wpb_wrapper">
-<div class="wpb_revslider_element no-margin-bottom wpb_content_element full-width"><!-- START REVOLUTION SLIDER 4.1.4 fullwidth mode -->
+<div class="wpb_revslider_element no-margin-bottom wpb_content_element full-width">
+<!-- START REVOLUTION SLIDER 4.1.4 fullwidth mode -->
 
 <div id="rev_slider_1_1_wrapper" class="rev_slider_wrapper fullwidthbanner-container" style="margin:0px auto;background-color:#E9E9E9;padding:0px;margin-top:0px;margin-bottom:0px;max-height:445px;">
     <div id="rev_slider_1_1" class="rev_slider fullwidthabanner" style="display:none;max-height:445px;height:445;">
         <ul>	<!-- SLIDE  -->
             <li data-transition="random" data-slotamount="7" data-masterspeed="300" >
                 <!-- MAIN IMAGE -->
-                <img src="{{ asset('slide3.jpg')}}"  alt="slide1"  data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat">
+                <img src="{{ asset('wp-content/perntels/pc/main3.jpg')}}"  alt="slide1"  data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat">
                 <!-- LAYERS -->
 
                 <!-- LAYER NR. 1 -->
@@ -31,7 +33,7 @@
                      data-start="800"
                      data-easing="Power2.easeIn"
                      data-endspeed="300"
-                     style="z-index: 3">civil<br/>Works & Building
+                     style="z-index: 3">Telecommunications <br/>Works
                 </div>
 
                 <!-- LAYER NR. 3 -->
@@ -42,13 +44,13 @@
                      data-start="1100"
                      data-easing="Power2.easeIn"
                      data-endspeed="1000"
-                     style="z-index: 4"><a href='javascript:alert("clicmk");' class='btn btn-outline btn-outline-lg'>VIEW MORE <i class="fa fa-caret-right"></i> </a>
+                     style="z-index: 4"><a href="{{route('telecoms')}}" class='btn btn-outline btn-outline-lg'>VIEW MORE <i class="fa fa-caret-right"></i> </a>
                 </div>
             </li>
             <!-- SLIDE  -->
             <li data-transition="random" data-slotamount="7" data-masterspeed="300" >
                 <!-- MAIN IMAGE -->
-                <img src="{{ asset('slide1.jpg') }}"  alt="bg-slider2"  data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat">
+                <img src="{{ asset('wp-content/perntels/pc/main1.jpg') }}"  alt="bg-slider2"  data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat">
                 <!-- LAYERS -->
 
                 <!-- LAYER NR. 1 -->
@@ -70,7 +72,7 @@
                      data-start="800"
                      data-easing="Power1.easeIn"
                      data-endspeed="1000"
-                     style="z-index: 3">power<br/>constructs
+                     style="z-index: 3">Power<br/>works
                 </div>
 
                 <!-- LAYER NR. 3 -->
@@ -81,13 +83,13 @@
                      data-start="1100"
                      data-easing="Power1.easeIn"
                      data-endspeed="300"
-                     style="z-index: 4"><a href='javascript:alert("clicmk");' class='btn btn-outline btn-outline-lg'>VIEW MORE <i class="fa fa-caret-right"></i> </a>
+                     style="z-index: 4"><a href="{{route('power')}}" class='btn btn-outline btn-outline-lg'>VIEW MORE <i class="fa fa-caret-right"></i> </a>
                 </div>
             </li>
             <!-- SLIDE  -->
             <li data-transition="random" data-slotamount="7" data-masterspeed="300" >
                 <!-- MAIN IMAGE -->
-                <img src="{{ asset('slide2.jpg') }}"  alt="bg-slider3"  data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat">
+                <img src="{{ asset('wp-content/perntels/pc/main2.jpg') }}"  alt="bg-slider3"  data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat">
                 <!-- LAYERS -->
 
                 <!-- LAYER NR. 1 -->
@@ -120,7 +122,7 @@
                      data-start="1100"
                      data-easing="Quart.easeIn"
                      data-endspeed="300"
-                     style="z-index: 4"><a href='javascript:alert("clicmk");' class='btn btn-outline btn-outline-lg'>VIEW MORE <i class="fa fa-caret-right"></i> </a>
+                     style="z-index: 4"><a href="{{route('networkdesign')}}"' class='btn btn-outline btn-outline-lg'>VIEW MORE <i class="fa fa-caret-right"></i> </a>
                 </div>
             </li>
         </ul>
