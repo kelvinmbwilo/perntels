@@ -9,7 +9,7 @@
         <ul>	<!-- SLIDE  -->
             <li data-transition="random" data-slotamount="7" data-masterspeed="300" >
                 <!-- MAIN IMAGE -->
-                <img src="{{ asset('slide3.jpg')}}"  alt="slide1"  data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat">
+                <img src="{{ asset('wp-content/perntels/pc/main3.jpg') }}"  alt="slide1"  data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat">
                 <!-- LAYERS -->
 
                 <!-- LAYER NR. 1 -->
@@ -81,8 +81,7 @@
                      data-start="1100"
                      data-easing="Power1.easeIn"
                      data-endspeed="300"
-                     style="z-index: 4"><a href='javascript:alert("click");' class='btn btn-outline btn-outline-lg'>VIEW MORE <i class="fa fa-caret-right"></i> </a>
-                     style="z-index: 4"><a href="{{route('power')}}" class='btn btn-outline btn-outline-lg'>VIEW MORE <i class="fa fa-caret-right"></i> </a>
+                     style="z-index: 4">  <a href="{{route('power')}}" class='btn btn-outline btn-outline-lg'>VIEW MORE <i class="fa fa-caret-right"></i> </a>
                 </div>
             </li>
             <!-- SLIDE  -->
@@ -161,7 +160,6 @@
                      data-start="1100"
                      data-easing="Quart.easeIn"
                      data-endspeed="300"
-                     style="z-index: 4"><a href='javascript:alert("clicmk");' class='btn btn-outline btn-outline-lg'>VIEW MORE <i class="fa fa-caret-right"></i> </a>
                      style="z-index: 4"><a href="{{route('networkdesign')}}"' class='btn btn-outline btn-outline-lg'>VIEW MORE <i class="fa fa-caret-right"></i> </a>
                 </div>
             </li>
