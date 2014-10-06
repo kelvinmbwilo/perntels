@@ -190,7 +190,36 @@
                                 </ul>
                             </div></div></div></div>
 
+
                 <div class="mega-col col-md-3 " >
+                    <div class="mega-col-inner">
+                        <div id="wid-26" class="wpo-widget">
+                            <h3 class="widget-title"><a style="text-decoration: none;" href="{{ route('telecoms') }}"> Telecommunications</a></h3>
+                            <div class="menu-footer-1-container">
+                                <ul id="menu-footer-1" class="megamenu-items">
+                                    <li id="menu-item-34" class="menu-item-34" data-id="34"    data-alignsub="left" data-level="2"><a href="{{ route('links') }}">MW Links Installations</a></li>
+                                    <li id="menu-item-35" class="menu-item-35" data-id="35"    data-alignsub="left" data-level="2"><a href="{{ route('2g_3g') }}">2G/3G Systems Installations</a></li>
+                                    <li id="menu-item-35" class="menu-item-35" data-id="35"    data-alignsub="left" data-level="2"><a href="{{ route('fiber') }}">Optical Fibre Installations</a></li>
+                                </ul>
+                            </div></div></div>
+                            
+                    <div  >
+                    <div class="mega-col-inner" >
+                        <div id="wid-26" class="wpo-widget">
+                            <h3 class="widget-title"><a style="text-decoration: none;" href="{{ route('telecoms') }}">Project Management</a></h3>
+                            <div class="menu-products-container">
+                                <ul id="menu-products" class="megamenu-items">
+                                    <li id="menu-item-2403" class="menu-item-2403" data-id="2403"    data-alignsub="left" data-level="2"><a href="#">Tankey Projects</a></li>
+                                    <li id="menu-item-2405" class="menu-item-2405" data-id="2405"    data-alignsub="left" data-level="2"><a href="#">Team Management</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                </div>
+                                                
+                            
+       <div class="mega-col col-md-3 " >
                     <div class="mega-col-inner">
                         <div id="wid-31" class="wpo-widget">
                             <h3 class="widget-title"><a style="text-decoration: none;" href="{{route('power')}}">Power Works</a></h3>
@@ -217,33 +246,9 @@
                                     <li id="menu-item-2406" class="menu-item-2406" data-id="2406"    data-alignsub="left" data-level="2"><a href="{{ route('access') }}">Access Road Construction</a></li>
                                     <li id="menu-item-2406" class="menu-item-2406" data-id="2406"    data-alignsub="left" data-level="2"><a href="{{ route('road') }}">Road Constructions</a></li>
                                 </ul>
-                            </div></div></div></div>
+                            </div></div></div></div>                                                        
 
-                <div class="mega-col col-md-3 " >
-                    <div class="mega-col-inner">
-                        <div id="wid-26" class="wpo-widget">
-                            <h3 class="widget-title"><a style="text-decoration: none;" href="{{ route('telecoms') }}"> Telecommunications</a></h3>
-                            <div class="menu-footer-1-container">
-                                <ul id="menu-footer-1" class="megamenu-items">
-                                    <li id="menu-item-34" class="menu-item-34" data-id="34"    data-alignsub="left" data-level="2"><a href="{{ route('links') }}">MW Links Installations</a></li>
-                                    <li id="menu-item-35" class="menu-item-35" data-id="35"    data-alignsub="left" data-level="2"><a href="{{ route('2g_3g') }}">2G/3G Systems Installations</a></li>
-                                    <li id="menu-item-35" class="menu-item-35" data-id="35"    data-alignsub="left" data-level="2"><a href="{{ route('fiber') }}">Optical Fibre Installations</a></li>
-                                </ul>
-                            </div></div></div></div>
-
-                <div class="mega-col col-md-3 " >
-                    <div class="mega-col-inner">
-                        <div id="wid-35" class="wpo-widget">
-                            <h3 class="widget-title">Project Management</h3>
-                            <div class="menu-products-container">
-                                <ul id="menu-products" class="megamenu-items">
-                                    <li id="menu-item-2403" class="menu-item-2403" data-id="2403"    data-alignsub="left" data-level="2"><a href="#">Tankey Projects</a></li>
-                                    <li id="menu-item-2405" class="menu-item-2405" data-id="2405"    data-alignsub="left" data-level="2"><a href="#">Team Management</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+           
 
             </div></div></div></li>
 <li class="menu-item-395 dropdown parent mega depth-0 aligned-left" data-id="395"    data-alignsub="left" data-level="1"><a href="{{route('about')}}" class="dropdown-toggle" >About Us </a>
@@ -482,7 +487,12 @@
 
                                 </ul>
                             </div>
+<<<<<<< HEAD
+                        </aside>                                
+                        
+=======
                         </aside>
+>>>>>>> 55fb201651f9735f2a26babeaa8630381c4aeff8
                     </div>
                  </div>
 
@@ -509,7 +519,16 @@
         <div class="container-inner clearfix" style="padding: 10px">
             <div class="copyright col-md-12">
                 <span>
-                    © 2014 perntels
+            © <a href="{{route('home')}}">Perntels</a>
+                    <script language="JavaScript" type="text/javascript">
+                          now = new Date
+                          theYear=now.getYear()
+                          if (theYear < 1900)
+                          theYear=theYear+1900
+                          document.write(theYear)
+                    </script 
+                    
+                    
                 </span>
             </div>
         </div>
