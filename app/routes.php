@@ -49,14 +49,14 @@ Route::get('supply', array('as' => 'supply', 'uses' => 'DashboardController@supp
 Route::get('tower', array('as' => 'tower', 'uses' => 'DashboardController@tower'));
 
 
-//civil ends
-
-
+//projects starts
 Route::get('project/{id}',array('as' => 'contact' , 'uses' => 'DashboardController@project'));
 
-Route::get('contact',array('as' => 'contact' , 'uses' => 'DashboardController@contact'));Route::get('civil', array('as' => 'civil', 'uses' => 'DashboardController@civil'));
+Route::get('contact',array('as' => 'contact' , 'uses' => 'DashboardController@contact'));
 
+Route::get('civil', array('as' => 'civil', 'uses' => 'DashboardController@civil'));
 
+//telecommunications starts
 Route::get('telecommunications',array('as' => 'telecoms' , 'uses' => 'DashboardController@telecoms'));
 
 Route::get('links_installations',array('as' => 'links' , 'uses' => 'DashboardController@telecoms_links'));
@@ -65,9 +65,8 @@ Route::get('2g_3g',array('as' => '2g_3g' , 'uses' => 'DashboardController@teleco
 
 Route::get('fiber',array('as' => 'fiber' , 'uses' => 'DashboardController@telecoms_fiber'));
 
-//power construct
 
-
+//power construct starts
 Route::get('power_constructs',array('as' => 'power' , 'uses' => 'DashboardController@power'));
 
 Route::get('generator',array('as' => 'generator' , 'uses' => 'DashboardController@generator'));
