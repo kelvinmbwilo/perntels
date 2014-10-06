@@ -487,12 +487,10 @@
 
                                 </ul>
                             </div>
-<<<<<<< HEAD
                         </aside>                                
                         
-=======
                         </aside>
->>>>>>> 55fb201651f9735f2a26babeaa8630381c4aeff8
+
                     </div>
                  </div>
 
