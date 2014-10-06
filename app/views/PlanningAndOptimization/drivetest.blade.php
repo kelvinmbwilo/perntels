@@ -11,16 +11,28 @@
  */ ?>
 
 <div class="row">
-    <div class="col-md-12 col-sm-12 ">
-        <div class="image-detail">
-            <div style="padding-top: 20px; padding-left: 8px;" class="panel">
+    <div class="col-md-6 col-sm-6 pull-left">
+        <div class="image">
+            <div class="panel">
                 <div class="panel-heading">
-                    <h5>Drive Test And Optimization</h5>
+                    <h3 class="bold">Drive Test And Optimization</h3>
                 </div>
                 <div class="panel-body">
+                    <img class="image img-responsive" src="{{ asset('wp-content/perntels/pno/drivetest.png')}}"/><br><br>
 
                     <p> Perntels has a competent team specialized in network optimization we help our clients to manage their Quality of Service for their complex GSM/GPRS/EDGE/WCDMA/HSDPA/LTE network.  </p>
-                    <br>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="col-md-6 col-sm-6 ">
+        <div class="image-detail">
+            <div style="padding-top: 20px; padding-left: 8px;" class="panel">
+                <div class="panel-body">
+
+
                     <p> Perntels will work with client to analyze and profile hotspots in a network to identify the best solution to optimize the existing capacity and expand the network. In network optimization what a client can expect from us is  </p>
 
                     <ul style="list-style: outside; margin-left: 56px">
