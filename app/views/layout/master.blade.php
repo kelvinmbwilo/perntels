@@ -193,7 +193,7 @@
                 <div class="mega-col col-md-3 " >
                     <div class="mega-col-inner">
                         <div id="wid-31" class="wpo-widget">
-                            <h3 class="widget-title"><a style="text-decoration: none;" href="{{route('power')}}">Power Constructs</a></h3>
+                            <h3 class="widget-title"><a style="text-decoration: none;" href="{{route('power')}}">Power Works</a></h3>
                             <div class="menu-footer-3-container">
                                 <ul id="menu-footer-3" class="megamenu-items">
                                     <li id="menu-item-48" class="menu-item-48" data-id="48"    data-alignsub="left" data-level="2"><a href="{{ route('power_line') }}">Power Line Installation & Commissioning,LV, HT Lines, Transformers</a>
@@ -208,7 +208,7 @@
                 <div class="mega-col col-md-3 " >
                     <div class="mega-col-inner">
                         <div id="wid-35" class="wpo-widget">
-                            <h3 class="widget-title"><a href="{{ route('civilhome') }}" style="text-decoration: none">Civil Works & Building</a></h3>
+                            <h3 class="widget-title"><a href="{{ route('civilhome') }}" style="text-decoration: none">Civil Works & Construction</a></h3>
                             <div class="menu-products-container">
                                 <ul id="menu-products" class="megamenu-items">
                                     <li id="menu-item-2403" class="menu-item-2403" data-id="2403"    data-alignsub="left" data-level="2"><a href="{{ route('tower') }}">Tower construction</a></li>
@@ -222,7 +222,7 @@
                 <div class="mega-col col-md-3 " >
                     <div class="mega-col-inner">
                         <div id="wid-26" class="wpo-widget">
-                            <h3 class="widget-title"><a style="text-decoration: none;" href="{{ route('telecoms') }}"> Telecommunication Works</a></h3>
+                            <h3 class="widget-title"><a style="text-decoration: none;" href="{{ route('telecoms') }}"> Telecommunications</a></h3>
                             <div class="menu-footer-1-container">
                                 <ul id="menu-footer-1" class="megamenu-items">
                                     <li id="menu-item-34" class="menu-item-34" data-id="34"    data-alignsub="left" data-level="2"><a href="{{ route('links') }}">MW Links Installations</a></li>
@@ -238,10 +238,12 @@
                             <div class="menu-products-container">
                                 <ul id="menu-products" class="megamenu-items">
                                     <li id="menu-item-2403" class="menu-item-2403" data-id="2403"    data-alignsub="left" data-level="2"><a href="#">Tankey Projects</a></li>
-                                    <li id="menu-item-2404" class="menu-item-2404" data-id="2404"    data-alignsub="left" data-level="2"><a href="#">Line Projects</a></li>
                                     <li id="menu-item-2405" class="menu-item-2405" data-id="2405"    data-alignsub="left" data-level="2"><a href="#">Team Management</a></li>
                                 </ul>
-                            </div></div></div></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
             </div></div></div></li>
 <li class="menu-item-395 dropdown parent mega depth-0 aligned-left" data-id="395"    data-alignsub="left" data-level="1"><a href="{{route('about')}}" class="dropdown-toggle" >About Us </a>
@@ -305,13 +307,13 @@
 
                                                 <!-- Product Item -->
                                                 <div class="item-brands col-sm-2 col-md-2">
-                                                    <a href="#"><img src="{{ asset('wp-content/perntels/partners/vodacom.png')}}" class="attachment-brand-logo wp-post-image" alt="audiojungle" /></a>
+                                                    <a href="#"><img src="{{ asset('wp-content/perntels/partners/mbh.png')}}" class="attachment-brand-logo wp-post-image" alt="audiojungle" /></a>
                                                 </div>
                                                 <!-- End Product Item -->
 
                                                 <!-- Product Item -->
                                                 <div class="item-brands col-sm-2 col-md-2">
-                                                    <a href="#"><img src="{{ asset('wp-content/perntels/partners/airtel_logo.png')}}" class="attachment-brand-logo wp-post-image" alt="activeden" /></a>
+                                                    <a href="#"><img src="{{ asset('wp-content/perntels/partners/tanesco.png')}}" class="attachment-brand-logo wp-post-image" alt="activeden" /></a>
                                                 </div>
                                                 <!-- End Product Item -->
 
@@ -322,7 +324,7 @@
                                                 <!-- End Product Item -->
                                                 <!-- Product Item -->
                                                 <div class="item-brands col-sm-2 col-md-2">
-                                                    <a href="#"><img src="{{ asset('wp-content/perntels/partners/automech.png')}}" class="attachment-brand-logo wp-post-image" alt="codecanyon" /></a>
+                                                    <a href="#"><img src="{{ asset('wp-content/perntels/partners/mnkanda.png')}}" class="attachment-brand-logo wp-post-image" alt="codecanyon" /></a>
                                                 </div>
                                                 <!-- End Product Item -->
                                                 <!-- Product Item -->
@@ -337,7 +339,7 @@
                                             <div class="row">
                                                 <!-- Product Item -->
                                                 <div class="item-brands col-sm-2 col-md-2">
-                                                    <a href="#"><img src="{{ asset('wp-content/perntels/partners/egypro.png')}}" class="attachment-brand-logo wp-post-image" alt="codecanyon" /></a>
+                                                    <a href="#"><img src="{{ asset('wp-content/perntels/partners/mobiserve.png')}}" class="attachment-brand-logo wp-post-image" alt="codecanyon" /></a>
                                                 </div>
                                                 <!-- End Product Item -->
 
@@ -418,7 +420,7 @@
                     <div class="inner wow fadeInUp" data-wow-duration='0.8s' data-wow-delay="800ms" >
                         <aside id="nav_menu-8" class="widget clearfix widget_nav_menu">
                             <h3 class="widget-title">
-                                <span>Civil Works &#038; Buildings</span>
+                                <span>Civil Works &#038; Construction</span>
                             </h3>
                             <div class="menu-footer-4-container">
                                 <ul id="menu-footer-7" class="menu">
@@ -438,7 +440,7 @@
                     <div class="inner wow fadeInUp" data-wow-duration='0.8s' data-wow-delay="600ms" >
                         <aside id="nav_menu-3" class="widget clearfix widget_nav_menu">
                             <h3 class="widget-title">
-                                <span>Power Contructs</span>
+                                <span>Power Works</span>
                             </h3>
                             <div class="menu-footer-3-container">
                                 <ul id="menu-footer-6" class="menu">
@@ -460,7 +462,6 @@
                             <div class="menu-footer-1-container">
                                 <ul id="menu-footer-4" class="menu">
                                     <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-34"><a href="#">Tamkey Projects</a></li>
-                                    <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-35"><a href="#">Line Projects</a></li>
                                     <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-35"><a href="#">Team Management</a></li>
 
                                 </ul>
@@ -473,7 +474,7 @@
                 <div class="col-md-3 col-sm-4 col-xs-12" style="padding-top: 5px">
                     <div class="inner wow fadeInUp" data-wow-duration='0.8s' data-wow-delay="200ms" >
                         <aside id="nav_menu-6" class="widget clearfix widget_nav_menu">
-                            <h3 class="widget-title"><span>Telecommunication Works</span></h3>
+                            <h3 class="widget-title"><span>Telecommunications</span></h3>
                             <div class="menu-footer-1-container">
                                 <ul id="menu-footer-4" class="menu">
                                     <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-34"><a href="{{ route('links') }}">MW Installations</a></li>
