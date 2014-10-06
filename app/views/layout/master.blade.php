@@ -470,12 +470,12 @@
                     </div>
                 </div>
 
-                <div class="col-md-3 col-sm-4 col-xs-12">
-                <div class="col-md-3 col-sm-4 col-xs-12" style="padding-top: 5px">
+                 <div class="col-md-3 col-sm-4 col-xs-12" style="padding-bottom: 10px">
                     <div class="inner wow fadeInUp" data-wow-duration='0.8s' data-wow-delay="200ms" >
                         <aside id="nav_menu-6" class="widget clearfix widget_nav_menu">
-                            <h3 class="widget-title"><span>Telecommunications</span></h3>
-                            <div class="menu-footer-1-container">
+                                <h3 class="widget-title"><span>Telecommunications</span></h3>
+                            </h3>
+                            <div class="menu-footer-3-container">
                                 <ul id="menu-footer-4" class="menu">
                                     <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-34"><a href="{{ route('links') }}">MW Installations</a></li>
                                     <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-35"><a href="{{ route('2g_3g') }}">2G/3G Systems Installations</a></li>
@@ -484,6 +484,7 @@
                                 </ul>
                             </div>
                         </aside>
+                        
                     </div>
                 </div>
 
