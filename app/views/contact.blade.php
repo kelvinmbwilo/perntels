@@ -12,30 +12,13 @@
                         <div class="wpb_wrapper">
 
                             <div id="map_canvas_YH9G4" class="map_canvas" style="width:100%;height:300px;"></div>
-                            <script type="text/javascript">
-                                jQuery(document).ready(function($) {
-                                    var stmapdefault = '39.87093928730387,-104.79356541265878';
-                                    var marker = {position:stmapdefault}
-                                    jQuery('#map_canvas_YH9G4').gmap({
-                                        'zoom': 14  ,
-                                        'center': stmapdefault,
-                                        'mapTypeId':google.maps.MapTypeId.ROADMAP,
-                                        'callback': function() {
-                                            var self = this;
-                                            self.addMarker(marker).click(function(){
-                                                //self.openInfoWindow({'content': '$location'}, self.instance.markers[0]);
-                                            });
-                                        },
-                                        panControl: true		});
-                                });
-                                // jQuery(window).resize(function(){
-                                // 	var stct = new google.maps.LatLng('{$latitude}','{$longitude}');
-                                // 	jQuery('#map_canvas').gmap('option', 'center', stct);
-                                // });
-                            </script>
+
+
                         </div>
                     </div>
-                </div></div></section>
+                </div>
+            </div>
+        </section>
 
         <section class="clearfix wpb-container ">
             <div class="wpb-inner " >
@@ -115,6 +98,29 @@
 </div>
 </div>
 </section>
+
+<script>
+     function init_map() {
+        var var_location = new google.maps.LatLng(-6.764601,39.244148);
+        var var_mapoptions = {
+              center: var_location,
+              zoom: 17
+            };
+        var var_marker = new google.maps.Marker({
+        position: var_location,
+        map: var_map,
+        title:"Rank No: 12BF60"
+
+        });
+        var var_map = new google.maps.Map(document.getElementById("map_canvas_YH9G4"),
+        var_mapoptions);
+        var_marker.setMap(var_map);
+
+        }
+
+          google.maps.event.addDomListener(window, 'load', init_map);
+
+    </script>
 
 
 @stop
