@@ -10,7 +10,6 @@
 <html lang="en-US">
 <!--<![endif]-->
 
-<!-- Mirrored from pavodemo.com/wpopal/pharmacy/ by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 12 Sep 2014 13:16:28 GMT -->
 <!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
 <head>
 
@@ -471,6 +470,7 @@
                     </div>
                 </div>
 
+                <div class="col-md-3 col-sm-4 col-xs-12">
                 <div class="col-md-3 col-sm-4 col-xs-12" style="padding-top: 5px">
                     <div class="inner wow fadeInUp" data-wow-duration='0.8s' data-wow-delay="200ms" >
                         <aside id="nav_menu-6" class="widget clearfix widget_nav_menu">
@@ -584,5 +584,4 @@
 <script type='text/javascript' src='wp-content/plugins/js_composer/assets/lib/jquery-waypoints/waypoints.minb523.js?ver=4.3.3'></script>
 </body>
 
-<!-- Mirrored from pavodemo.com/wpopal/pharmacy/ by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 12 Sep 2014 13:25:13 GMT -->
 </html>
