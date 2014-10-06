@@ -20,6 +20,8 @@ Route::get('about_us',array('as' => 'about' , 'uses' => 'DashboardController@abo
 
 Route::get('contact',array('as' => 'contact' , 'uses' => 'DashboardController@contact'));
 
+Route::get('environment',array('as' => 'environment' , 'uses' => 'DashboardController@env'));
+
 
 
 Route::get('planning', array('as' => 'planning', 'uses' => 'DashboardController@planning'));
