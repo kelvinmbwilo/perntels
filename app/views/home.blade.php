@@ -48,7 +48,7 @@
             <!-- SLIDE  -->
             <li data-transition="random" data-slotamount="7" data-masterspeed="300" >
                 <!-- MAIN IMAGE -->
-                <img src="{{ asset('slide11.jpg') }}"  alt="bg-slider2"  data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat">
+                <img src="{{ asset('slide3.jpg') }}"  alt="bg-slider2"  data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat">
                 <!-- LAYERS -->
 
                 <!-- LAYER NR. 1 -->
