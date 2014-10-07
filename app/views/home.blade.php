@@ -31,7 +31,7 @@
                      data-start="800"
                      data-easing="Power2.easeIn"
                      data-endspeed="300"
-                     style="z-index: 3">civil<br/>Works & Building
+                     style="z-index: 3">Telecommunication</br> Works
                 </div>
 
                 <!-- LAYER NR. 3 -->
@@ -42,13 +42,13 @@
                      data-start="1100"
                      data-easing="Power2.easeIn"
                      data-endspeed="1000"
-                     style="z-index: 4"><a href='javascript:alert("clicmk");' class='btn btn-outline btn-outline-lg'>VIEW MORE <i class="fa fa-caret-right"></i> </a>
+                     style="z-index: 4"><a href="{{route('telecoms')}}" class='btn btn-outline btn-outline-lg'>VIEW MORE <i class="fa fa-caret-right"></i> </a>
                 </div>
             </li>
             <!-- SLIDE  -->
             <li data-transition="random" data-slotamount="7" data-masterspeed="300" >
                 <!-- MAIN IMAGE -->
-                <img src="{{ asset('slide3.jpg') }}"  alt="bg-slider2"  data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat">
+                <img src="{{ asset('wp-content/perntels/pc/main1.jpg') }}"  alt="bg-slider2"  data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat">
                 <!-- LAYERS -->
 
                 <!-- LAYER NR. 1 -->
@@ -70,7 +70,7 @@
                      data-start="800"
                      data-easing="Power1.easeIn"
                      data-endspeed="1000"
-                     style="z-index: 3">power<br/>constructs
+                     style="z-index: 3">Electrical<br/>Works
                 </div>
 
                 <!-- LAYER NR. 3 -->
@@ -120,50 +120,11 @@
                      data-start="1100"
                      data-easing="Quart.easeIn"
                      data-endspeed="300"
-                     style="z-index: 4"><a href='javascript:alert("click");' class='btn btn-outline btn-outline-lg'>VIEW MORE <i class="fa fa-caret-right"></i> </a>
+                     style="z-index: 4"><a href= "{{asset(route('networkdesign'))}}" class='btn btn-outline btn-outline-lg'>VIEW MORE <i class="fa fa-caret-right"></i> </a>
                 </div>
             </li>
             </li>
-            <!-- SLIDE  -->
-            <li data-transition="random" data-slotamount="7" data-masterspeed="300" >
-                <!-- MAIN IMAGE -->
-                <img src="{{ asset('slide8.jpg') }}"  alt="bg-slider3"  data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat">
-                <!-- LAYERS -->
-
-                <!-- LAYER NR. 1 -->
-                <div class="tp-caption layer_1 lfr tp-resizeme"
-                     data-x="93"
-                     data-y="99"
-                     data-speed="1000"
-                     data-start="500"
-                     data-easing="Cubic.easeIn"
-                     data-endspeed="1000"
-                     style="z-index: 2">WE HELP YOU WITH
-                </div>
-
-                <!-- LAYER NR. 2 -->
-                <div class="tp-caption layer_2 lfl tp-resizeme"
-                     data-x="89"
-                     data-y="126"
-                     data-speed="1000"
-                     data-start="800"
-                     data-easing="Cubic.easeIn"
-                     data-endspeed="1000"
-                     style="z-index: 3">Telecommunication
-                </div>
-
-                <!-- LAYER NR. 3 -->
-                <div class="tp-caption layer_button randomrotate tp-resizeme"
-                     data-x="89"
-                     data-y="303"
-                     data-speed="1000"
-                     data-start="1100"
-                     data-easing="Quart.easeIn"
-                     data-endspeed="300"
-                     style="z-index: 4"><a href="{{route('networkdesign')}}"' class='btn btn-outline btn-outline-lg'>VIEW MORE <i class="fa fa-caret-right"></i> </a>
-                </div>
-            </li>
-           
+            
 
         </ul>
         <div class="tp-bannertimer tp-bottom"></div>	</div>
