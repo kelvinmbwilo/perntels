@@ -35,9 +35,6 @@
             <div class="sidebar-inner clearfix">
                 <aside id="wpo_menu_vertical-3" class="widget  clearfix widget_wpo_menu_vertical">
                     <h3 class="widget-title title-default"><span>Planning and optimization</span></h3>
-                    <div class="col-lg-12">
-                        <img class="image img-responsive" src="{{ asset('slide2.jpg') }}"/>
-                    </div>
                     <div class="collapse navbar-collapse navbar-ex1-collapse vertical-menu menu-left">
                         <ul id="menu-vertical-menu" class="nav navbar-nav megamenu">
 

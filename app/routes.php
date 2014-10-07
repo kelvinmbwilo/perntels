@@ -22,6 +22,7 @@ Route::get('contact',array('as' => 'contact' , 'uses' => 'DashboardController@co
 
 Route::get('environment',array('as' => 'environment' , 'uses' => 'DashboardController@env'));
 
+Route::get('team',array('as' => 'team' , 'uses' => 'DashboardController@team'));
 
 
 Route::get('planning', array('as' => 'planning', 'uses' => 'DashboardController@planning'));

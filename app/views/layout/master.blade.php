@@ -254,7 +254,7 @@
 <li class="menu-item-395 dropdown parent mega depth-0 aligned-left" data-id="395"    data-alignsub="left" data-level="1"><a href="{{route('about')}}" class="dropdown-toggle" >About Us </a>
     </li>
 
-<li class="menu-item-2593" data-id="2593"    data-alignsub="left" data-level="1"><a href="{{route('dashboard')}}" ">Team</a></li>
+<li class="menu-item-2593" data-id="2593"    data-alignsub="left" data-level="1"><a href="{{route('team')}}" ">Teams</a></li>
 <li class="menu-item-2593" data-id="2593"    data-alignsub="left" data-level="1"><a href="{{route('environment')}}" ">Environment</a></li>
 <li class="menu-item-2593" data-id="2593"    data-alignsub="left" data-level="1"><a href="{{route('contact')}}" ">Contact Us</a></li>
 </ul></div>                        </nav>

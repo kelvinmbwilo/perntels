@@ -31,6 +31,11 @@ class DashboardController extends BaseController {
     {
         return View::make('enviroment');
     }
+    
+      public function team()
+    {
+        return View::make('team');
+    }
 
     /**
      * planing and optimization starts here
