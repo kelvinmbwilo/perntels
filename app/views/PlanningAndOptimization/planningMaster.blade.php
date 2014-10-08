@@ -5,14 +5,14 @@
 <?php
 /**
  * Created by PhpStorm.
- * User: isaiah
+ * User: macbook
  * Date: 9/30/14
  * Time: 10:49 AM
  */ ?>
 
 <div class="container-inner">
     <nav class="woocommerce-breadcrumb" itemprop="breadcrumb">
-        <a class="home" href="http://pavodemo.com/wpopal/pharmacy">Home</a> &#47; CIVIL WORKS AND BUILDINGS </nav>
+        <a class="home" href="http://pavodemo.com/wpopal/pharmacy">Home</a> &#47; PLANNING AND OPTIMIZATION </nav>
     <div class="row">
         <section id="wpo-content" class="col-xs-12  col-md-9 col-md-push-3 no-sidebar-right" style="margin-bottom: 20px;">
             <section class=" woo-single-product" style="background-color: white; text-decoration-color: black;">
@@ -29,7 +29,7 @@
 
             <!-- <aside class="wpo-sidebar col-md-3">
                     </aside> -->
-        </section>
+         </section>
 
         <div class="wpo-sidebar wpo-sidebar-1 col-xs-12  col-md-3 col-md-pull-9">
             <div class="sidebar-inner clearfix">
@@ -39,21 +39,21 @@
                         <ul id="menu-vertical-menu" class="nav navbar-nav megamenu">
 
                             <!-- MW LINKS INSTALLATIONS -->
-                            <li id="menu-item-2407" class="menu-item-2407 dropdown parent mega depth-0 aligned-left" data-id="2407"    data-alignsub="left" data-level="1"><a href="{{route('tower')}}"  ><span class="menu-title">TOWER CONSTRUCTION</span> <b class="caret"></b></a></li>
+                            <li id="menu-item-2407" class="menu-item-2407 dropdown parent mega depth-0 aligned-left" data-id="2407"    data-alignsub="left" data-level="1"><a href="{{route('networkdesign')}}"  ><span class="menu-title">NETWORK DESIGN AND PLANNING</span> <b class="caret"></b></a></li>
                             <!--2G/3G SYSTEMS INSTALATIONS -->
-                            <li id="menu-item-2407" class="menu-item-2407 dropdown parent mega depth-0 aligned-left" data-id="2407"    data-alignsub="left" data-level="1"><a href="{{route('site')}}"  ><span class="menu-title">SITE SHARING PREPARATIONS</span> <b class="caret"></b></a></li>
+                            <li id="menu-item-2407" class="menu-item-2407 dropdown parent mega depth-0 aligned-left" data-id="2407"    data-alignsub="left" data-level="1"><a href="{{route('transmission')}}"  ><span class="menu-title">TRANSMISSION PLANNING</span> <b class="caret"></b></a></li>
                             <!-- -->
-                            <li id="menu-item-2407" class="menu-item-2407 dropdown parent mega depth-0 aligned-left" data-id="2407"    data-alignsub="left" data-level="1"><a href="{{route('supply')}}"  ><span class="menu-title">SUPPLY AND INSTALLATION OF TELECOM, CIVIL AND POWER MATERIALS</span> <b class="caret"></b></a></li>
+                            <li id="menu-item-2407" class="menu-item-2407 dropdown parent mega depth-0 aligned-left" data-id="2407"    data-alignsub="left" data-level="1"><a href="{{route('sitesharing')}}"  ><span class="menu-title">SITE SHARING PLANS</span> <b class="caret"></b></a></li>
 
-                            <li id="menu-item-2407" class="menu-item-2407 dropdown parent mega depth-0 aligned-left" data-id="2407"    data-alignsub="left" data-level="1"><a href="{{route('access')}}"  ><span class="menu-title">ACCESS ROAD CONSTRUCTION</span> <b class="caret"></b></a></li>
+                            <li id="menu-item-2407" class="menu-item-2407 dropdown parent mega depth-0 aligned-left" data-id="2407"    data-alignsub="left" data-level="1"><a href="{{route('siteaudit')}}"  ><span class="menu-title">SITE AUDITS</span> <b class="caret"></b></a></li>
 
-                            <li id="menu-item-2407" class="menu-item-2407 dropdown parent mega depth-0 aligned-left" data-id="2407"    data-alignsub="left" data-level="1"><a href="{{route('road')}}"  ><span class="menu-title">ROAD CONSTRUCTION</span> <b class="caret"></b></a></li>
+                            <li id="menu-item-2407" class="menu-item-2407 dropdown parent mega depth-0 aligned-left" data-id="2407"    data-alignsub="left" data-level="1"><a href="{{route('drivetest')}}"  ><span class="menu-title">DRIVE TEST AND OPTIMIZATION</span> <b class="caret"></b></a></li>
 
                         </ul>
                     </div>
                 </aside>
             </div>
         </div>
+     </div>
     </div>
-</div>
 @stop

@@ -27,13 +27,128 @@ class DashboardController extends BaseController {
         return View::make('contact');
     }
 
+    /**
+     * planing and optimization starts here
+     * @return mixed
+     */
+
     public function planning(){
-       return View::make('PlanningAndOptimization.planning');
+       return View::make('PlanningAndOptimization.planningMaster');
     }
 
+    public function networkOptimization(){
+        return View::make('PlanningAndOptimization.networkdesign');
+    }
+
+    public function transmission(){
+        return View::make('PlanningAndOptimization.transmissionPlanning');
+    }
+
+    public function sitesharing(){
+        return View::make('PlanningAndOptimization.sitesharing');
+    }
+
+    public function siteaudit(){
+        return View::make('PlanningAndOptimization.siteaudit');
+    }
+
+    public function drivetest(){
+        return View::make('PlanningAndOptimization.drivetest');
+    }
+
+
+    //planning and optimization ends here
+
+
+    //POWER CONSTRUCTS
+
+    public function power()
+    {
+        return View::make('power_constructs.power');
+    }
+
+    public function generator()
+    {
+        return View::make('power_constructs.generator');
+    }
+
+    public function power_line()
+    {
+        return View::make('power_constructs.power_line');
+    }
+
+
+    public function power_optimization()
+    {
+        return View::make('power_constructs.power_optimization');
+    }
+    public function site_maintainance()
+    {
+        return View::make('power_constructs.site_maintainance');
+    }
+
+    public function solar_power()
+    {
+        return View::make('power_constructs.solar_power');
+    }
+
+
+    //civil starts
+    /**
+     * @return mixed
+     */
     public function civil(){
         return View::make('civilworks.civilworks');
     }
+
+    public function access(){
+        return View::make('civilworks.access');
+    }
+
+    public function civilhome(){
+        return View::make('civilworks.civilhome');
+    }
+
+    public function road(){
+        return View::make('civilworks.road');
+    }
+
+    public function site(){
+        return View::make('civilworks.site');
+    }
+
+    public function supply(){
+        return View::make('civilworks.supply');
+    }
+
+    public function tower(){
+        return View::make('civilworks.tower');
+    }
+
+    //civil ends here
+
+    //telecom starts
+
+    public function telecoms()
+    {
+        return View::make('telecommunications.telecomms_intro');
+    }
+
+    public function telecoms_links()
+    {
+        return View::make('telecommunications.links_installations');
+    }
+
+    public function telecoms_2g()
+    {
+        return View::make('telecommunications.2g_3g');
+    }
+
+    public function telecoms_fiber()
+    {
+        return View::make('telecommunications.fiber');
+    }
+//telecom ends
 
     /**
      * Display the specified resource.

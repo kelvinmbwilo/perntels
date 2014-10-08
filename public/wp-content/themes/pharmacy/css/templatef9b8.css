@@ -211,7 +211,7 @@
   padding-right: inherit;
 }
 .wpo-header ul > li a, .wpo-header ol > li a {
-  font-size: 13px;
+  font-size: 17px;
 }
 .wpo-header ul > li:last-child, .wpo-header ol > li:last-child {
   padding-right: 0px;
@@ -564,9 +564,11 @@ div.wpcf7-validation-errors {
 }
 
 .contact-form-content {
-  padding: 18px;
+  padding-left: 18px;
+  padding-top: 18px;
+ 
   background: white;
-  margin-bottom: 28px;
+  margin-bottom: 10px;
   min-height: 1px;
 }
 .contact-form-content .rounded {
@@ -920,7 +922,7 @@ body .blog:hover:before {
   /* block styles */
 }
 .widget .widget-content {
-  padding: 18px 9px;
+  padding: 1px 1px;
 }
 .widget .widget-content:before, .widget .widget-content:after {
   content: " ";
@@ -2916,7 +2918,7 @@ html[dir="ltr"] .off-canvas-right.wpo-off-canvas {
 .navbar-mega .navbar-nav > li > a {
   position: relative;
   font-family: "Raleway", sans-serif;
-  font-weight: 900;
+  font-weight: 700;
   text-transform: uppercase;
   padding-left: 25px;
   padding-right: 25px;
