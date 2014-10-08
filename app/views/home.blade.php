@@ -9,7 +9,7 @@
         <ul>	<!-- SLIDE  -->
             <li data-transition="random" data-slotamount="7" data-masterspeed="300" >
                 <!-- MAIN IMAGE -->
-                <img src="{{ asset('wp-content/perntels/pc/main3.jpg') }}"  alt="slide1"  data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat">
+                <img src="{{ asset('wp-content/perntels/pc/main3.JPG') }}"  alt="slide1"  data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat">
                 <!-- LAYERS -->
 
                 <!-- LAYER NR. 1 -->
@@ -48,7 +48,7 @@
             <!-- SLIDE  -->
             <li data-transition="random" data-slotamount="7" data-masterspeed="300" >
                 <!-- MAIN IMAGE -->
-                <img src="{{ asset('wp-content/perntels/pc/main1.jpg') }}"  alt="bg-slider2"  data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat">
+                <img src="{{ asset('wp-content/perntels/pc/main1.JPG') }}"  alt="bg-slider2"  data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat">
                 <!-- LAYERS -->
 
                 <!-- LAYER NR. 1 -->
