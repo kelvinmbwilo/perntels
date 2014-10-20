@@ -124,9 +124,9 @@
 
     <style type="text/css" data-type="vc_shortcodes-custom-css">.vc_custom_1407916691611{background-color: #80b848 !important;}.vc_custom_1409715519549{padding-top: 70px !important;background-color: #80b848 !important;}.vc_custom_1409715525786{background-color: #80b848 !important;}</style></head>
 
-<body class="home page page-id-6 page-template page-template-template-visual-php wpb-js-composer js-comp-ver-4.3.3 vc_responsive">
+<body   class="home page page-id-6 page-template page-template-template-visual-php wpb-js-composer js-comp-ver-4.3.3 vc_responsive">
 <!-- START Wrapper -->
-<div class="wpo-wrapper">
+<div class="wpo-wrapper" style="background-image: url({{ asset('fourth.jpg') }})">
 <!-- Top bar -->
 <section class="wpo-topbar wrapper-topbar" style="padding-left: 0px" >
     <div class="container">
@@ -145,14 +145,14 @@
 
 
 <!-- HEADER -->
-<header id="wpo-header" class="wpo-header wrapper-header">
+<header id="wpo-header" class="wpo-header wrapper-header" >
 <div class="container">
 <div class="container-inner header-wrap clearfix">
 <!-- LOGO -->
-<div class="logo-in-theme  text-center col-md-3">
+<div class="logo-in-theme  text-center col-md-3" style="padding:0px">
     <div class="logo" style="margin: 0px">
         <a href="{{ route('home') }}">
-            <img src="{{ asset('wp-content/perntels/perntels.png" alt="perntels')}}" style="height: 100px">
+            <img src="{{ asset('wp-content/perntels/perntels.png" alt="perntels')}}" style="height: 90px">
         </a>
     </div>
 </div>
@@ -168,9 +168,10 @@
     </a>
 </div><!-- //END #navbar-header -->
 
-<div class="collapse navbar-collapse navbar-ex1-collapse"><ul id="main-menu" class="nav navbar-nav megamenu navbar-left"><li class="active menu-item-1755 dropdown parent mega depth-0 aligned-left" data-id="1755"    data-alignsub="left" data-level="1"><a href="{{ route('home') }}" class="dropdown-toggle" >Home </a>
+<div class="collapse navbar-collapse navbar-ex1-collapse"><ul id="main-menu" class="nav navbar-nav megamenu navbar-left"><li class="active menu-item-1755 dropdown parent mega depth-0 aligned-left" data-id="1755"    data-alignsub="left" data-level="1"><a href="{{ route('home') }}" class="dropdown-toggle" ><i class="fa fa-home"></i> Home </a>
 </li>
-
+        <li class="menu-item-395 dropdown parent mega depth-0 aligned-left" data-id="395"    data-alignsub="left" data-level="1"><a href="{{route('about')}}" class="dropdown-toggle" >About Us </a>
+        </li>
 <li class="menu-item-1725 dropdown parent mega depth-0 aligned-fullwidth" data-id="1725"    data-alignsub="fullwidth" data-level="1"><a href="{{ route('dashboard') }}" class="dropdown-toggle" >Services <b class="caret"></b></a>
 
     <div class="dropdown-menu mega-dropdown-menu"  ><div class="dropdown-menu-inner">
@@ -206,11 +207,11 @@
                     <div  >
                     <div class="mega-col-inner" >
                         <div id="wid-26" class="wpo-widget">
-                            <h3 class="widget-title"><a style="text-decoration: none;" href="{{ route('telecoms') }}">Project Management</a></h3>
+                            <h3 class="widget-title"><a style="text-decoration: none;" href="{{ route('tunkey') }}">Project Management</a></h3>
                             <div class="menu-products-container">
                                 <ul id="menu-products" class="megamenu-items">
-                                    <li id="menu-item-2403" class="menu-item-2403" data-id="2403"    data-alignsub="left" data-level="2"><a href="#">Tankey Projects</a></li>
-                                    <li id="menu-item-2405" class="menu-item-2405" data-id="2405"    data-alignsub="left" data-level="2"><a href="#">Team Management</a></li>
+                                    <li id="menu-item-2403" class="menu-item-2403" data-id="2403"    data-alignsub="left" data-level="2"><a href="{{ route('tunkey') }}">Tankey Projects</a></li>
+                                    <li id="menu-item-2405" class="menu-item-2405" data-id="2405"    data-alignsub="left" data-level="2"><a href="{{ route('teammanager') }}">Team Management</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -251,8 +252,7 @@
            
 
             </div></div></div></li>
-<li class="menu-item-395 dropdown parent mega depth-0 aligned-left" data-id="395"    data-alignsub="left" data-level="1"><a href="{{route('about')}}" class="dropdown-toggle" >About Us </a>
-    </li>
+
 
 <li class="menu-item-2593" data-id="2593"    data-alignsub="left" data-level="1"><a href="{{route('team')}}" ">Teams</a></li>
 <li class="menu-item-2593" data-id="2593"    data-alignsub="left" data-level="1"><a href="{{route('environment')}}" ">Environment</a></li>
@@ -469,8 +469,8 @@
                             <h3 class="widget-title"><span> Project Management </span></h3>
                             <div class="menu-footer-1-container">
                                 <ul id="menu-footer-4" class="menu">
-                                    <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-34"><a href="#">Tamkey Projects</a></li>
-                                    <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-35"><a href="#">Team Management</a></li>
+                                    <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-34"><a href="{{ route('tunkey') }}">Tankey Projects</a></li>
+                                    <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-35"><a href="{{ route('teammanager') }}">Team Management</a></li>
 
                                 </ul>
                             </div>
@@ -478,7 +478,7 @@
                     </div>
                 </div>
 
-                <div class="col-md-3 col-sm-4 col-xs-12">
+                <div class="col-md-3 col-sm-4 col-xs-12" style="padding-top: 0px">
                     <div class="inner wow fadeInUp" data-wow-duration='0.8s' data-wow-delay="200ms" >
                         <aside id="nav_menu-6" class="widget clearfix widget_nav_menu">
                             <h3 class="widget-title"><span>Telecommunications</span></h3>

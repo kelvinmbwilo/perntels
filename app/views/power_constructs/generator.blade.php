@@ -6,12 +6,11 @@
     <div class="col-md-6 col-sm-6 pull-left">
         <div class="image">
             <div class="panel">
-                <div class="panel-heading">
-                    <h3 class="bold">Generator Installation</h3><br>
+                <div class="panel-heading" style="padding: 2px ">
+                    <h3 class="bold">Generator Installation</h3>
                 </div>
-                <div class="panel-body">
-                    <img class="image img-responsive" src="{{ asset('wp-content/perntels/pc/generator.png')}}"/><br><br>
-
+                <div class="panel-body" style="padding: 2px ">
+                    <img class="image img-responsive" src="{{ asset('wp-content/perntels/pc/generator.png')}}" style="height: 300px;width: 100%"/>
                 </div>
             </div>
         </div>

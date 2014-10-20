@@ -243,5 +243,12 @@ class DashboardController extends BaseController {
 		//
 	}
 
+    public function teammanager(){
+        return View::make('projects.team');
+    }
+
+    public function tunkey(){
+        return View::make('projects.tunkey');
+    }
 
 }

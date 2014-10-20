@@ -3,8 +3,6 @@
 @section('body')
 
 <div class="container-inner">
-<nav class="woocommerce-breadcrumb" itemprop="breadcrumb">
-<a class="home" href="http://pavodemo.com/wpopal/pharmacy">Home</a> &#47; POWER CONSTRUCTS</nav>
 
 <div class="row">
 <section id="wpo-content" class="col-xs-12  col-md-9 col-md-push-3 no-sidebar-right" style="margin-bottom: 20px;">

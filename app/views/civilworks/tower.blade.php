@@ -18,7 +18,7 @@
                     <h3 class="bold">Tower Construction</h3>
                 </div>
                 <div class="panel-body">
-                    <img class="image img-responsive" src="{{ asset('wp-content/perntels/cwnb/tower.png')}}"/><br><br>
+                    <img class="image img-responsive" src="{{ asset('wp-content/perntels/cwnb/tower.png')}}"/>
 
                 </div>
             </div>
