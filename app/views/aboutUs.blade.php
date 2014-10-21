@@ -16,21 +16,15 @@
                 </div>
             </div>
         <div class="col-md-12">
-            <div class="panel-body col-lg-6">
-                    <b>Perntels Company Limited</b> was established and incorporated on 25th of September in 2006. Perntels established with main objective being to provide total engineering solution.
-                    Perntels Co Limited is a fast growing company that provides Electrical works, Civil works and Telecommunications technical Services by giving innovative solutions to meet society
-                    requirements with high professionalism in Tanzania,
-                    East Africa and the World at large.  Perntels Co Limited is fully registered with Contractors Registration Board (CRB) and TCRA as telecommunication service provider.
-             </div>
-                <div class="panel-body col-lg-6">
+            <div class="panel-body col-lg-12">
+                    <b>Perntels Company Limited </b>was established and incorporated on 25th of September 2006 with main objective of providing engineering solutions.
+                            <br>
+                        It is a fast growing company that provides technical services in Telecommunications, Electrical works and Civil works while giving innovative solutions that meet customer requirements with high professionalism in Tanzania, East Africa and the world at large.
+                        The Company is fully registered with Contractors Registration Board (CRB) and TCRA as a telecommunication service provider.<br>
+                        The company is owned by a team of technical personnel with main objectives of providing technical services in power, telecommunication
+                        and civil works in the industry that meet required customer satisfaction at reasonable prices, cost effective and professionalisms.
+            </div>
 
-                    The company is owned by a team of technical personnel with main objectives of
-                    providing Power and Telecommunication Services in the industry including RF/TX and Civil works
-                    Surveys, telecommunication systems design, Installation, Integration, Commissioning and optimization. On the other hand Perntels aiming at providing Maintenance Services and support for electrical,
-                    civil works and telecommunication systems in the industries
-                    to meet the required customer satisfaction at reasonable prices, cost effective and professionalisms.
-                <br>
-                </div>
             </div>
         <div class="col-md-12">
             <div class="panel-heading col-lg-12 ">
