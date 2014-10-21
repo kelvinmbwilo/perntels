@@ -1,0 +1,68 @@
+
+var _mxmMetadata = {};
+_mxmMetadata["artist"]="Ed Sheeran";
+_mxmMetadata["track"]="Photograph";
+_mxmMetadata["api_application_id"]=1409608050492;
+_mxmMetadata["track_id"]=72165068;
+
+var _mxmPixel = document.createElement("img");
+
+			_mxmPixel.border='0';
+			_mxmPixel.width='0';
+			_mxmPixel.heigth='0';
+			_mxmPixel.alt='';
+			var myrand=Math.floor(Math.random()*99999999999);
+			_mxmPixel.src='http://adv.musixmatch.com/p1.0/xnSqJnVAdMqOuUtTTV1Xn1DDwB/HEwEU0nx2gIIIjmSwzPi/VDNUKQwOPO8Y0cz68jgnoV54VK7Lt4xGOai7n2c3nXMue2fuofOXvPDN3Hc7LXFay98E8cdMfx0keSC2OVmcFFrpgnBPcNc/zDHf6W7QAoA+LJ67ykYKdWy5h351TbWuqKHXnIS/NYOXN7+U5K3IJw1/pmbejeNr3lJ3tpUYXXG1wv64SNFKesrOP+RJZFTV1dr4Oam7j7VBdJy9PQOQEwoW+Snh7b5BF6xIk4ydJut20d4XJQ0Eh0Qqhh6DiW8UTYoqXXwidxTXYk3MJ+O/3Nyoh6ly2SeruK2nA99fYh1A4BzaorGSeaDDV9RJ9uoB0aBpfNZ/gR7W8X/d/?rnd='+myrand;
+			
+			document.getElementsByTagName('head')[0].appendChild(_mxmPixel);
+
+
+var google_tag_params = {      
+ua_is_windows:1,
+ua_is_chrome:1,
+user_agent:"Mozilla\/5.0 (Windows NT 6.2; WOW64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/37.0.2062.124 Safari\/537.36",
+api_account_id:2445580183802,
+api_application_id:1409608050492};
+var google_custom_params = window.google_tag_params;
+            var google_conversion_id = 996558311;
+            var google_conversion_label = "X12wCKng8AEQ54uZ2wM";
+            var google_remarketing_only = true;
+            var google_custom_params = window.google_tag_params;
+            
+
+
+				var _gaq = _gaq || [];
+
+			_gaq.push(
+					[
+					'_setCustomVar',
+					1,
+					'Artist',
+					"Ed Sheeran"
+					]
+				 );
+
+			_gaq.push(
+					[
+					'_setCustomVar',
+					1,
+					'Track',
+					"Photograph"
+					]
+				 );
+            _gaq.push(
+                ['_setCustomVar',1,'TrackingMode','active']
+            );
+
+			_gaq.push(
+					['_setAccount', 'UA-27006971-1'],
+					['_trackPageview', '/'+ _mxmMetadata['api_application_id'] +'/lyricsview/' + _mxmMetadata['artist'] + '_' + '/' + _mxmMetadata['track'] + '_'+ _mxmMetadata['track_id'] 
+					] 
+				 );
+			(function() {
+			 var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+			 ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+			 var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+			 })();
+
+			

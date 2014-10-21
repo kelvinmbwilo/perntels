@@ -1,0 +1,1 @@
+cf_criteo_content = ''; (function(){document.cookie = 'cto_rtt=' + escape(cf_criteo_content) + '; path=/; expires=Fri, 14 Nov 2014 11:57:00 GMT; domain=azlyrics.com';})();
