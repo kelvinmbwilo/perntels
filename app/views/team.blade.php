@@ -23,8 +23,7 @@
                 </div>
                 
                 <div class = "panel-body">
-                  <p> The firm has seasonal, temporally and permanent staffs depending on the requirement at times.
-                  The company has experienced teams of Electrical, Civil Works & Telecommunication Engineers, Technicians, Linesmen and Electricians; Mechanical Engineers, technicians and artisans who are equipped with skills acquired while working in a variety of conditions and scenarios.</p>
+                  <p>The company has experienced teams of electrical, civil works & telecommunication engineers, technicians, linesmen and electricians and artisans who are equipped with skills required while working in a variety of conditions and scenarios. Sometimes the Company goes for Contracted seasonal, temporary staffs depending on the requirement at times.</p>
                 </div>
                 
 	<div class="col-sm-12 col-md-12 wpb_column vc_column_container">
@@ -40,7 +39,7 @@
 		<!-- LAYERS -->
 
 		<!-- LAYER NR. 1 -->
-		<div class="tp-caption layer_1 randomrotate tp-resizeme"
+		<div style="color: green;" class="tp-caption layer_1 randomrotate tp-resizeme"
 			data-x="98"
 			data-y="100" 
 			data-speed="300"
@@ -51,7 +50,7 @@
 		</div>
 
 		<!-- LAYER NR. 2 -->
-		<div class="tp-caption layer_2 skewfromrightshort tp-resizeme"
+		<div style="color: green;" class="tp-caption layer_2 skewfromrightshort tp-resizeme"
 			data-x="89"
 			data-y="126" 
 			data-speed="300"
@@ -62,7 +61,7 @@
 		</div>
 
 		<!-- LAYER NR. 3 -->
-		<div class="tp-caption layer_button randomrotate tp-resizeme"
+		<div style="color: green;" class="tp-caption layer_button randomrotate tp-resizeme"
 			data-x="89"
 			data-y="303" 
 			data-speed="300"
@@ -79,7 +78,7 @@
 		<!-- LAYERS -->
 
 		<!-- LAYER NR. 1 -->
-		<div class="tp-caption layer_1 randomrotate tp-resizeme"
+		<div style="color: green;" class="tp-caption layer_1 randomrotate tp-resizeme"
 			data-x="165"
 			data-y="105" 
 			data-speed="300"
@@ -90,7 +89,7 @@
 		</div>
 
 		<!-- LAYER NR. 2 -->
-		<div class="tp-caption layer_2 randomrotate tp-resizeme"
+		<div style="color: green;" class="tp-caption layer_2 randomrotate tp-resizeme"
 			data-x="161"
 			data-y="131" 
 			data-speed="1000"
@@ -118,7 +117,7 @@
 		<!-- LAYERS -->
 
 		<!-- LAYER NR. 1 -->
-		<div class="tp-caption layer_1 skewfromright tp-resizeme"
+		<div style="color: green;" style="color: green;" class="tp-caption layer_1 skewfromright tp-resizeme"
 			data-x="93"
 			data-y="97" 
 			data-speed="1000"
@@ -129,7 +128,7 @@
 		</div>
 
 		<!-- LAYER NR. 2 -->
-		<div class="tp-caption layer_2 skewfromleft tp-resizeme"
+		<div style="color: green;" class="tp-caption layer_2 skewfromleft tp-resizeme"
 			data-x="89"
 			data-y="126" 
 			data-speed="1000"
@@ -140,7 +139,7 @@
 		</div>
 
 		<!-- LAYER NR. 3 -->
-		<div class="tp-caption layer_button randomrotate tp-resizeme"
+		<div style="color: green;" class="tp-caption layer_button randomrotate tp-resizeme"
 			data-x="89"
 			data-y="303" 
 			data-speed="1000"
@@ -158,7 +157,7 @@
 		<!-- LAYERS -->
 
 		<!-- LAYER NR. 1 -->
-		<div class="tp-caption layer_1 skewfromright tp-resizeme"
+		<div style="color: green;" class="tp-caption layer_1 skewfromright tp-resizeme"
 			data-x="93"
 			data-y="97" 
 			data-speed="1000"
@@ -169,7 +168,7 @@
 		</div>
 
 		<!-- LAYER NR. 2 -->
-		<div class="tp-caption layer_2 skewfromleft tp-resizeme"
+		<div style="color: green;" class="tp-caption layer_2 skewfromleft tp-resizeme"
 			data-x="89"
 			data-y="126" 
 			data-speed="1000"
@@ -180,7 +179,7 @@
 		</div>
 
 		<!-- LAYER NR. 3 -->
-		<div class="tp-caption layer_button randomrotate tp-resizeme"
+		<div style="color: green;" class="tp-caption layer_button randomrotate tp-resizeme"
 			data-x="89"
 			data-y="303" 
 			data-speed="1000"
