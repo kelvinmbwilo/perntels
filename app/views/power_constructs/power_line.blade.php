@@ -17,8 +17,8 @@
         
 <div class="col-md-6 col-sm-6">
  <div class="panel">
-                <div class="panel-heading"><h5>POWER LINE INSTALLATIONS AND COMMISSIONING LV, HT, TRANSFORMERS</h5></div>
-<div class="panel-body">
+                <div class="panel-heading" style="padding: 2px"><h5>POWER LINE INSTALLATIONS AND COMMISSIONING LV, HT, TRANSFORMERS</h5></div>
+<div class="panel-body" style="padding: 2px">
                 
 <p>Having approved as TANESCO installers PERNTELS construct new Low & Medium Voltage Power lines from 0.4kV to 33 kV (Underground and overhead).
 We have many years experience working with AIRTEL, VODACOM and SHANTA GOLD MINES in installation of back-up systems, solar installation construction and commissioning of power lines all over the country.

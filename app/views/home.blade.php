@@ -9,7 +9,7 @@
         <ul>	<!-- SLIDE  -->
             <li data-transition="random" data-slotamount="7" data-masterspeed="300" >
                 <!-- MAIN IMAGE -->
-                <img src="{{ asset('wp-content/perntels/pc/main3.jpg') }}"  alt="slide1"  data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat">
+                <img src="{{ asset('wp-content/perntels/pc/main3.JPG') }}"  alt="slide1"  data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat">
                 <!-- LAYERS -->
 
                 <!-- LAYER NR. 1 -->
@@ -31,7 +31,7 @@
                      data-start="800"
                      data-easing="Power2.easeIn"
                      data-endspeed="300"
-                     style="z-index: 3">civil<br/>Works & Building
+                     style="z-index: 3">Telecommunication</br> Works
                 </div>
 
                 <!-- LAYER NR. 3 -->
@@ -42,13 +42,13 @@
                      data-start="1100"
                      data-easing="Power2.easeIn"
                      data-endspeed="1000"
-                     style="z-index: 4"><a href='javascript:alert("clicmk");' class='btn btn-outline btn-outline-lg'>VIEW MORE <i class="fa fa-caret-right"></i> </a>
+                     style="z-index: 4"><a href="{{route('telecoms')}}" class='btn btn-outline btn-outline-lg'>VIEW MORE <i class="fa fa-caret-right"></i> </a>
                 </div>
             </li>
             <!-- SLIDE  -->
             <li data-transition="random" data-slotamount="7" data-masterspeed="300" >
                 <!-- MAIN IMAGE -->
-                <img src="{{ asset('slide3.jpg') }}"  alt="bg-slider2"  data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat">
+                <img src="{{ asset('wp-content/perntels/pc/main1.JPG') }}"  alt="bg-slider2"  data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat">
                 <!-- LAYERS -->
 
                 <!-- LAYER NR. 1 -->
@@ -70,7 +70,7 @@
                      data-start="800"
                      data-easing="Power1.easeIn"
                      data-endspeed="1000"
-                     style="z-index: 3">power<br/>constructs
+                     style="z-index: 3">Electrical<br/>Works
                 </div>
 
                 <!-- LAYER NR. 3 -->
@@ -120,50 +120,11 @@
                      data-start="1100"
                      data-easing="Quart.easeIn"
                      data-endspeed="300"
-                     style="z-index: 4"><a href='javascript:alert("click");' class='btn btn-outline btn-outline-lg'>VIEW MORE <i class="fa fa-caret-right"></i> </a>
+                     style="z-index: 4"><a href= "{{asset(route('networkdesign'))}}" class='btn btn-outline btn-outline-lg'>VIEW MORE <i class="fa fa-caret-right"></i> </a>
                 </div>
             </li>
             </li>
-            <!-- SLIDE  -->
-            <li data-transition="random" data-slotamount="7" data-masterspeed="300" >
-                <!-- MAIN IMAGE -->
-                <img src="{{ asset('slide8.jpg') }}"  alt="bg-slider3"  data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat">
-                <!-- LAYERS -->
-
-                <!-- LAYER NR. 1 -->
-                <div class="tp-caption layer_1 lfr tp-resizeme"
-                     data-x="93"
-                     data-y="99"
-                     data-speed="1000"
-                     data-start="500"
-                     data-easing="Cubic.easeIn"
-                     data-endspeed="1000"
-                     style="z-index: 2">WE HELP YOU WITH
-                </div>
-
-                <!-- LAYER NR. 2 -->
-                <div class="tp-caption layer_2 lfl tp-resizeme"
-                     data-x="89"
-                     data-y="126"
-                     data-speed="1000"
-                     data-start="800"
-                     data-easing="Cubic.easeIn"
-                     data-endspeed="1000"
-                     style="z-index: 3">Telecommunication
-                </div>
-
-                <!-- LAYER NR. 3 -->
-                <div class="tp-caption layer_button randomrotate tp-resizeme"
-                     data-x="89"
-                     data-y="303"
-                     data-speed="1000"
-                     data-start="1100"
-                     data-easing="Quart.easeIn"
-                     data-endspeed="300"
-                     style="z-index: 4"><a href="{{route('networkdesign')}}"' class='btn btn-outline btn-outline-lg'>VIEW MORE <i class="fa fa-caret-right"></i> </a>
-                </div>
-            </li>
-           
+            
 
         </ul>
         <div class="tp-bannertimer tp-bottom"></div>	</div>
@@ -253,29 +214,34 @@
 
 <section class="widget blog-type ">
 
-    <div class="wpb_wrapper widget-content">
+    <div class="wpb_wrapper widget-content" style="font-size: small">
         <div class="contact-form-content">
+            <h4>Welcome To PERNTELS Tanzania Limited</h4>
   <div class="col-md-4">
-      <b>Perntels Company Limited</b> is a fast growing company that provides Electrical works, Civil works and Telecommunications technical Services by giving innovative solutions to meet society requirements with high professionalism in Tanzania, East Africa and the World at large.<br> <br> Perntels Co Limited is fully registered with Contractors Registration Board (CRB) and TCRA as telecommunication service provider.
+      <b>Perntels Company Limited</b> is a fast growing company that provides Electrical works, Civil works and Telecommunications technical Services by giving innovative solutions to meet society requirements with high professionalism in Tanzania, East Africa and the World at large.<br>
     <br> Perntels has team of technical personnel with main objectives of providing Power and Telecommunication Services in the industry including RF/TX and Civil works Surveys, telecommunication systems design, Installation, Integration, Commissioning and optimization.
 
 
   </div>
         <div class="col-md-4">
-            <img src="{{ asset('wp-content/perntels/about_us/home2.png') }}"  style="height:350px"  style="width: 500px" class="attachment-blog-thumbnails wp-post-image" alt="post2" />
+            <img src="{{ asset('wp-content/perntels/about_us/home2.png') }}"  style="height:250px" class="attachment-blog-thumbnails wp-post-image img-rounded" alt="post2" />
         </div>
         <div class="col-md-4">
+             Perntels Co Limited is fully registered with Contractors Registration Board (CRB) and TCRA as telecommunication service provider.
+            <br><br>
             In its state of expanding, Perntels has introduced the discipline of civil works that deals with the design, construction, and maintenance of the physical and naturally built environment, including works like roads, bridges,
             canals, dams, and buildings.<br> Civil work takes place in the public sector from municipal through to national governments, and in the private sector from individual homeowners through to international companies.
-           <br><br> We offer design and construction-related services for new building as well as provide expansion, renovation and refurbishment of existing facilities.
-            We listen to understand the needs of our client, form the best team of people with the right attitude, skills and experience and then deliver the project in a timely and responsible manner.
+           <br>
+<!--            <br> We offer design and construction-related services for new building as well as provide expansion, renovation and refurbishment of existing facilities.-->
+<!--            We listen to understand the needs of our client, form the best team of people with the right attitude, skills and experience and then deliver the project in a timely and responsible manner.-->
 
         </div>
-            <div class="col-md-12">
-                On the other hand Perntels aiming at providing Maintenance Services and support for electrical,
-                civil works and telecommunication systems in the industries to meet the required customer satisfaction at reasonable prices, cost effective and professionalisms
-                </div>
-        </div></div></section>
+<!--            <div class="col-md-12">-->
+<!--                On the other hand Perntels aiming at providing Maintenance Services and support for electrical,-->
+<!--                civil works and telecommunication systems in the industries to meet the required customer satisfaction at reasonable prices, cost effective and professionalisms-->
+<!--                </div>-->
+        </div></div>
+</section>
 <section class="widget blog-type ">
 
         <div class="wpb_wrapper widget-content">

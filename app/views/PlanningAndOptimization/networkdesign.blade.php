@@ -19,6 +19,7 @@
 
                 <p> Perntels has a wide experience on RF network design, planning and surveys. We have planned over 1000 sites new sites for both Airtel and Vodacom.  </p>
 
+                <img class="image img-responsive" src="{{ asset('wp-content/perntels/tele/fibre.png')}}"/>
             </div>
 
         </div>

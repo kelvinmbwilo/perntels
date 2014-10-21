@@ -11,8 +11,6 @@
  */ ?>
 
 <div class="container-inner">
-    <nav class="woocommerce-breadcrumb" itemprop="breadcrumb">
-        <a class="home" href="http://pavodemo.com/wpopal/pharmacy">Home</a> &#47; PLANNING AND OPTIMIZATION </nav>
     <div class="row">
         <section id="wpo-content" class="col-xs-12  col-md-9 col-md-push-3 no-sidebar-right" style="margin-bottom: 20px;">
             <section class=" woo-single-product" style="background-color: white; text-decoration-color: black;">
@@ -35,9 +33,6 @@
             <div class="sidebar-inner clearfix">
                 <aside id="wpo_menu_vertical-3" class="widget  clearfix widget_wpo_menu_vertical">
                     <h3 class="widget-title title-default"><span>Planning and optimization</span></h3>
-                    <div class="col-lg-12">
-                        <img class="image img-responsive" src="{{ asset('slide2.jpg') }}"/>
-                    </div>
                     <div class="collapse navbar-collapse navbar-ex1-collapse vertical-menu menu-left">
                         <ul id="menu-vertical-menu" class="nav navbar-nav megamenu">
 
