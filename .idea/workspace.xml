@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="10ce7531-86f6-4495-9471-7b0a35b9653f" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/aboutUs.blade.php" afterPath="$PROJECT_DIR$/app/views/aboutUs.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/home.blade.php" afterPath="$PROJECT_DIR$/app/views/home.blade.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="perntels.iws" />
@@ -26,10 +26,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="home.blade.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="home.blade.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/home.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="256" column="59" selection-start="11372" selection-end="11372" vertical-scroll-proportion="-26.576923" vertical-offset="3661" max-vertical-offset="5355">
+            <state line="255" column="60" selection-start="11262" selection-end="11262" vertical-scroll-proportion="0.051987767" vertical-offset="4318" max-vertical-offset="5355">
               <folding />
             </state>
           </provider>
@@ -71,19 +71,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2014_10_21_174612_create_project_table.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/database/migrations/2014_10_21_174612_create_project_table.php">
+      <file leaf-file-name="project.blade.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/project.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="32" selection-start="458" selection-end="458" vertical-scroll-proportion="0.0" vertical-offset="357" max-vertical-offset="731">
+            <state line="15" column="57" selection-start="741" selection-end="741" vertical-scroll-proportion="-9.0" vertical-offset="21" max-vertical-offset="714">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="aboutUs.blade.php" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/views/aboutUs.blade.php">
+      <file leaf-file-name="2014_10_21_174612_create_project_table.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/database/migrations/2014_10_21_174612_create_project_table.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="52" selection-start="995" selection-end="995" vertical-scroll-proportion="0.3119266" vertical-offset="221" max-vertical-offset="1564">
+            <state line="21" column="32" selection-start="458" selection-end="458" vertical-scroll-proportion="-0.0" vertical-offset="357" max-vertical-offset="731">
               <folding />
             </state>
           </provider>
@@ -140,8 +140,8 @@
         <option value="$PROJECT_DIR$/app/controllers/DashboardController.php" />
         <option value="$PROJECT_DIR$/app/views/project.blade.php" />
         <option value="$PROJECT_DIR$/app/database/migrations/2014_10_21_174612_create_project_table.php" />
-        <option value="$PROJECT_DIR$/app/views/home.blade.php" />
         <option value="$PROJECT_DIR$/app/views/aboutUs.blade.php" />
+        <option value="$PROJECT_DIR$/app/views/home.blade.php" />
       </list>
     </option>
   </component>
@@ -664,23 +664,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/aboutUs.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="52" selection-start="995" selection-end="995" vertical-scroll-proportion="0.3119266" vertical-offset="221" max-vertical-offset="1564">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/project.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="57" selection-start="741" selection-end="741" vertical-scroll-proportion="0.0" vertical-offset="21" max-vertical-offset="714">
+        <state line="15" column="57" selection-start="741" selection-end="741" vertical-scroll-proportion="-9.0" vertical-offset="21" max-vertical-offset="714">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/home.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="256" column="59" selection-start="11372" selection-end="11372" vertical-scroll-proportion="-26.576923" vertical-offset="3661" max-vertical-offset="5355">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/aboutUs.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="52" selection-start="995" selection-end="995" vertical-scroll-proportion="0.3119266" vertical-offset="221" max-vertical-offset="1564">
+        <state line="255" column="60" selection-start="11262" selection-end="11262" vertical-scroll-proportion="0.051987767" vertical-offset="4318" max-vertical-offset="5355">
           <folding />
         </state>
       </provider>

@@ -253,7 +253,7 @@
             <div class="col-sm-4 col-md-4 wow fadeInUp " data-wow-duration="0.6s" data-wow-delay="150ms">
                 <article class="blog">
                     <figure class="entry-thumb zoom">
-                        <a href="{{ url('project/{$pro->id}') }}" title="{{$pro->title}}" class="entry-image">
+                        <a href="{{ url("project/{$pro->id}") }}" title="{{$pro->title}}" class="entry-image">
                             <img src="{{ asset("{$pro->path}") }}" style="height: 240px" class="attachment-blog-thumbnails wp-post-image" alt="post2" />                        </a>
                     </figure>
                     <div class="information">
@@ -261,7 +261,7 @@
                             <span class="blog-date"><span>{{ $pro->date }} </span>
                         </p>
                         <h4 class="entry-title">
-                            <a href="{{ url('project/1') }}">{{$pro->title}}</a>
+                            <a href="{{ url("project/{$pro->id}") }}">{{$pro->title}}</a>
                         </h4>
                         <a class="read-more" href="{{ url("project/{$pro->id}") }}">Read More <i class="fa fa-caret-right"></i></a>
                     </div>
