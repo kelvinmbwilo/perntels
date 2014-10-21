@@ -13,14 +13,17 @@
                                 <div class="media">
                                     <div class=""><i class="fa fa-lightbulb-o"> </i>
                                     <div class="media-body">
-                                       {{ $projectName }}<br />
+                                       {{ $project->title }}<br />
                                        <br />
                                        </div>
                                 </div></div>
                                 <div class="media">
                                     <div class="pull-left rounded"></div>
                                     <div class="media-body">
-                                        {{ $projectContent }}
+                                        <p>{{ $project->introduction }}</p>
+                                        <br>
+                                        <p>{{ $project->body }}</p>
+
                                     </div>
                                 </div>
 

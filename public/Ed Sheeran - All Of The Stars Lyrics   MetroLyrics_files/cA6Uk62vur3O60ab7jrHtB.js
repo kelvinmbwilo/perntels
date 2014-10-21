@@ -1,1 +1,0 @@
-Tynt.sc({"ap":"Read more: ","st":true,"su":false})
