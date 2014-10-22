@@ -13,7 +13,7 @@
                 <!-- LAYERS -->
 
                 <!-- LAYER NR. 1 -->
-                <div class="tp-caption layer_1 randomrotate tp-resizeme"
+                <div style="color: green;" class="tp-caption layer_1 randomrotate tp-resizeme"
                      data-x="91"
                      data-y="81"
                      data-speed="1000"
@@ -24,7 +24,7 @@
                 </div>
 
                 <!-- LAYER NR. 2 -->
-                <div class="tp-caption layer_2 skewfromrightshort tp-resizeme"
+                <div style="color: green;" class="tp-caption layer_2 skewfromrightshort tp-resizeme"
                      data-x="89"
                      data-y="126"
                      data-speed="1000"
@@ -52,7 +52,7 @@
                 <!-- LAYERS -->
 
                 <!-- LAYER NR. 1 -->
-                <div class="tp-caption layer_1 randomrotate tp-resizeme"
+                <div style="color: green;" class="tp-caption layer_1 randomrotate tp-resizeme"
                      data-x="81"
                      data-y="107"
                      data-speed="300"
@@ -63,7 +63,7 @@
                 </div>
 
                 <!-- LAYER NR. 2 -->
-                <div class="tp-caption layer_2 randomrotate tp-resizeme"
+                <div style="color: green;" class="tp-caption layer_2 randomrotate tp-resizeme"
                      data-x="82"
                      data-y="133"
                      data-speed="1000"
@@ -74,7 +74,7 @@
                 </div>
 
                 <!-- LAYER NR. 3 -->
-                <div class="tp-caption layer_button randomrotate tp-resizeme"
+                <div style="color: green;" class="tp-caption layer_button randomrotate tp-resizeme"
                      data-x="82"
                      data-y="307"
                      data-speed="300"
@@ -91,7 +91,7 @@
                 <!-- LAYERS -->
 
                 <!-- LAYER NR. 1 -->
-                <div class="tp-caption layer_1 lfr tp-resizeme"
+                <div style="color: green;" class="tp-caption layer_1 lfr tp-resizeme"
                      data-x="93"
                      data-y="99"
                      data-speed="1000"
@@ -102,7 +102,7 @@
                 </div>
 
                 <!-- LAYER NR. 2 -->
-                <div class="tp-caption layer_2 lfl tp-resizeme"
+                <div style="color: green;" class="tp-caption layer_2 lfl tp-resizeme"
                      data-x="89"
                      data-y="126"
                      data-speed="1000"
@@ -113,7 +113,7 @@
                 </div>
 
                 <!-- LAYER NR. 3 -->
-                <div class="tp-caption layer_button randomrotate tp-resizeme"
+                <div style="color: green;" class="tp-caption layer_button randomrotate tp-resizeme"
                      data-x="89"
                      data-y="303"
                      data-speed="1000"
