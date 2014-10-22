@@ -188,6 +188,7 @@
                                     <li id="menu-item-45" class="menu-item-45" data-id="45"    data-alignsub="left" data-level="2"><a href="{{ route('sitesharing') }}">Site Sharing Plans </a></li>
                                     <li id="menu-item-46" class="menu-item-46" data-id="46"    data-alignsub="left" data-level="2"><a href="{{ route('siteaudit') }}">Site Audit</a></li>
                                     <li id="menu-item-47" class="menu-item-47" data-id="47"    data-alignsub="left" data-level="2"><a href="{{ route('drivetest') }}">Drive Test And Optimization</a></li>
+                                    <li id="menu-item-47" class="menu-item-47" data-id="47"    data-alignsub="left" data-level="2"><a  href="{{route('noptimization')}}">Network Optimization</a></li>
                                 </ul>
                             </div></div></div></div>
 

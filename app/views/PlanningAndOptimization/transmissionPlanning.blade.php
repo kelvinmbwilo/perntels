@@ -30,10 +30,11 @@
 
                 <div class="panel-body">
 
-                    <p> We provide transmission network designing, Line of site Analysis and survey. We also support our clients in Transmission frequency planning and optimization and providing link budgeting.  </p>
-                    <br>
-                    <p> Our planners are competent working with different planning tools such as Mentum planet, Attol, Asset, iBwave and Pathloss. </p>
-                    <br>
+                    <p>
+                        Transmission engineers at Perntels deliver high quality services in transmission network designing, Line Of sight LOS
+                        analysis and technical site surveys. We support our clients in transmission frequency planning and link budgeting.
+                        Our planners are competent working using Pathloss planning tool and others depending on client requirement
+                    </p>
 
                 </div>
             </div>

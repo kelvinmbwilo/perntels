@@ -11,23 +11,37 @@
  */ ?>
 
 <div class="row">
-    <div class="col-md-12 col-sm-12 ">
+    <div class="col-md-6 col-sm-6 pull-left">
         <div class="image-detail">
             <div style="padding-top: 20px; padding-left: 8px;" class="panel">
                 <div class="panel-heading">
-                    <h5>Site Sharing Preparations</h5>
+                    <h5>SITE SHARING PLANS</h5>
                 </div>
                 <div class="panel-body">
-
-                    <p> We have competent civil works engineers for site sharing civil works implementations. Our engineers have good knowledge of telecommunications and power systems that result to quality slab construction as well as good standard installation of poles and power systems on time. </p>
-                    <br>
-                    <p> We have implemented over 200 site sharing sites for Airtel Tanzania, for both 2G systems and 3G systems. </p>
-                    <br>
-
+                    <p>
+                        Increasing competition, along with investments in ever-changing technology, has been pushing telecom operators
+                        towards new ways of maintaining operation costs through site sharing. Perntels surveys existing telecom sites
+                        for new tenants by providing all plans according to the customer needs, like RF plans, transmissions plans,
+                        tower space plans and drawings, equipment space drawings, power plans etc. We have surveyed and implemented
+                        over 200 sites for Airtel Tanzania.
+                    </p>
                 </div>
             </div>
 
         </div>
+    </div>
+    <div class="col-md-6 col-sm-6 pull-right">
+        <div class="image">
+            <div class="panel">
+                <div class="panel-heading">
+
+                </div>
+                <div class="panel-body">
+                    <img class="image img-responsive" src="{{ asset('wp-content/perntels/cwnb/site.png')}}"/>
+                </div>
+            </div>
+        </div>
+
     </div>
 </div>
 

@@ -44,7 +44,7 @@
 <!-- MW LINKS INSTALLATIONS -->
 <li id="menu-item-2407" class="menu-item-2407 dropdown parent mega depth-0 aligned-left" data-id="2407"    data-alignsub="left" data-level="1"><a href="{{route('links')}}"  ><span class="menu-title">MW LINKS INSTALLATIONS</span> <b class="caret"></b></a></li>
 <!--2G/3G SYSTEMS INSTALATIONS -->
-<li id="menu-item-2407" class="menu-item-2407 dropdown parent mega depth-0 aligned-left" data-id="2407"    data-alignsub="left" data-level="1"><a href="{{route('2g_3g')}}"  ><span class="menu-title">2G/3G SYSTEMS INSTALATIONS</span> <b class="caret"></b></a></li>
+<li id="menu-item-2407" class="menu-item-2407 dropdown parent mega depth-0 aligned-left" data-id="2407"    data-alignsub="left" data-level="1"><a href="{{route('2g_3g')}}"  ><span class="menu-title">GSM INSTALLATIONS</span> <b class="caret"></b></a></li>
 <!-- -->
 <li id="menu-item-2407" class="menu-item-2407 dropdown parent mega depth-0 aligned-left" data-id="2407"    data-alignsub="left" data-level="1"><a href="{{route('fiber')}}"  ><span class="menu-title">OPTIC FIBER INSTALLATIONS</span> <b class="caret"></b></a>
 

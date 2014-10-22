@@ -66,6 +66,10 @@ class DashboardController extends BaseController {
         return View::make('PlanningAndOptimization.drivetest');
     }
 
+    public function optimization(){
+        return View::make('PlanningAndOptimization.networkoptimization');
+    }
+
 
     //planning and optimization ends here
 
@@ -168,10 +172,10 @@ class DashboardController extends BaseController {
      */
     public function project($id)
     {
-        $projectName="the project name";
-        $projectContent="the projcet content";
+        $project=Project::find($id);
 
-        return View::make('project',compact('projectName','projectContent'));
+
+        return View::make('project',compact('project'));
     }
 
     /**
