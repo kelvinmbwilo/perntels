@@ -37,6 +37,8 @@ Route::get('siteaudit', array('as' => 'siteaudit', 'uses' => 'DashboardControlle
 
 Route::get('drivetest', array('as' => 'drivetest', 'uses' => 'DashboardController@drivetest'));
 
+Route::get('noptimization', array('as' => 'noptimization', 'uses' => 'DashboardController@optimization'));
+
 
 //civil works starts
 Route::get('access', array('as' => 'access', 'uses' => 'DashboardController@access'));

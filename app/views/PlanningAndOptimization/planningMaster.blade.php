@@ -47,6 +47,8 @@
 
                             <li id="menu-item-2407" class="menu-item-2407 dropdown parent mega depth-0 aligned-left" data-id="2407"    data-alignsub="left" data-level="1"><a href="{{route('drivetest')}}"  ><span class="menu-title">DRIVE TEST AND OPTIMIZATION</span> <b class="caret"></b></a></li>
 
+                            <li id="menu-item-2407" class="menu-item-2407 dropdown parent mega depth-0 aligned-left" data-id="2407"    data-alignsub="left" data-level="1"><a href="{{route('noptimization')}}"  ><span class="menu-title">NETWORK OPTIMIZATION</span> <b class="caret"></b></a></li>
+
                         </ul>
                     </div>
                 </aside>

@@ -66,6 +66,10 @@ class DashboardController extends BaseController {
         return View::make('PlanningAndOptimization.drivetest');
     }
 
+    public function optimization(){
+        return View::make('PlanningAndOptimization.networkoptimization');
+    }
+
 
     //planning and optimization ends here
 
