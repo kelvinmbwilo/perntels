@@ -1,31 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="185da403-529d-4273-97ad-826b3295446d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/projects/projects_master.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/projects/team.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/projects/tunkey.blade.php" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/wp-content/perntels/tele/3g2g (451x301).jpg" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/telecommunications/2g_3g.blade.php" afterPath="$PROJECT_DIR$/app/views/telecommunications/2g_3g.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/DashboardController.php" afterPath="$PROJECT_DIR$/app/controllers/DashboardController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/civilworks/civilworks.blade.php" afterPath="$PROJECT_DIR$/app/views/civilworks/civilworks.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/power_constructs/generator.blade.php" afterPath="$PROJECT_DIR$/app/views/power_constructs/generator.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/home.blade.php" afterPath="$PROJECT_DIR$/app/views/home.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/telecommunications/links_installations.blade.php" afterPath="$PROJECT_DIR$/app/views/telecommunications/links_installations.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layout/master.blade.php" afterPath="$PROJECT_DIR$/app/views/layout/master.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/PlanningAndOptimization/networkdesign.blade.php" afterPath="$PROJECT_DIR$/app/views/PlanningAndOptimization/networkdesign.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/PlanningAndOptimization/planningMaster.blade.php" afterPath="$PROJECT_DIR$/app/views/PlanningAndOptimization/planningMaster.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/power_constructs/power_line.blade.php" afterPath="$PROJECT_DIR$/app/views/power_constructs/power_line.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/power_constructs/power_master.blade.php" afterPath="$PROJECT_DIR$/app/views/power_constructs/power_master.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/routes.php" afterPath="$PROJECT_DIR$/app/routes.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/power_constructs/site_maintainance.blade.php" afterPath="$PROJECT_DIR$/app/views/power_constructs/site_maintainance.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/PlanningAndOptimization/siteaudit.blade.php" afterPath="$PROJECT_DIR$/app/views/PlanningAndOptimization/siteaudit.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/PlanningAndOptimization/sitesharing.blade.php" afterPath="$PROJECT_DIR$/app/views/PlanningAndOptimization/sitesharing.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/telecommunications/telecoms.blade.php" afterPath="$PROJECT_DIR$/app/views/telecommunications/telecoms.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/civilworks/tower.blade.php" afterPath="$PROJECT_DIR$/app/views/civilworks/tower.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/PlanningAndOptimization/transmissionPlanning.blade.php" afterPath="$PROJECT_DIR$/app/views/PlanningAndOptimization/transmissionPlanning.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="185da403-529d-4273-97ad-826b3295446d" name="Default" comment="" />
     <ignored path="perntels.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -485,7 +461,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../NGO" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
