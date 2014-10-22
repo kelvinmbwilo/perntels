@@ -9,7 +9,7 @@
         <ul>	<!-- SLIDE  -->
             <li data-transition="random" data-slotamount="7" data-masterspeed="300" >
                 <!-- MAIN IMAGE -->
-                <img src="{{ asset('wp-content/perntels/pc/main3.jpg') }}"  alt="slide1"  data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat">
+                <img src="{{ asset('wp-content/perntels/pc/main3.JPG') }}"  alt="slide1"  data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat">
                 <!-- LAYERS -->
 
                 <!-- LAYER NR. 1 -->
@@ -48,7 +48,7 @@
             <!-- SLIDE  -->
             <li data-transition="random" data-slotamount="7" data-masterspeed="300" >
                 <!-- MAIN IMAGE -->
-                <img src="{{ asset('wp-content/perntels/pc/main1.jpg') }}"  alt="bg-slider2"  data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat">
+                <img src="{{ asset('wp-content/perntels/pc/main1.JPG') }}"  alt="bg-slider2"  data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat">
                 <!-- LAYERS -->
 
                 <!-- LAYER NR. 1 -->
@@ -214,29 +214,33 @@
 
 <section class="widget blog-type ">
 
-    <div class="wpb_wrapper widget-content">
+    <div class="wpb_wrapper widget-content" style=" line-height:2" style="font-size: small" >
         <div class="contact-form-content">
-  <div class="col-md-4">
-      <b>Perntels Company Limited</b> is a fast growing company that provides Electrical works, Civil works and Telecommunications technical Services by giving innovative solutions to meet society requirements with high professionalism in Tanzania, East Africa and the World at large.<br> <br> Perntels Co Limited is fully registered with Contractors Registration Board (CRB) and TCRA as telecommunication service provider.
-    <br> Perntels has team of technical personnel with main objectives of providing Power and Telecommunication Services in the industry including RF/TX and Civil works Surveys, telecommunication systems design, Installation, Integration, Commissioning and optimization.
+            <h4>Welcome To PERNTELS Tanzania Limited</h4>
+  <div class="col-md-12">
+      <b>Perntels Company Limited</b> is a fast growing company that provides technical services in Telecommunications, Electrical works and Civil works while giving innovative solutions that meet customer requirements with high professionalism in Tanzania,
+      East Africa and the world at large.
+</div>
+            <div class="col-md-4">
+            <img src="{{ asset('wp-content/perntels/about_us/home1.png') }}"  style="width:350px" class="attachment-blog-thumbnails wp-post-image img-rounded" alt="post2" />
+            </div>
+            <div class="col-md-8">
+                The Company is fully registered with Contractors Registration Board (CRB) and TCRA as a telecommunication service provider.<br></div>
+            <div class="col-md-4">
+                The company has a team of technical and management personnel with main objectives of providing technical services and solutions in power, telecommunication and civil works that meet required customer satisfaction at reasonable prices, cost effective and professionalisms.            </div> <div class="col-md-4">
+                <img src="{{ asset('wp-content/perntels/about_us/home2.png') }}"  style="height:250px" class="attachment-blog-thumbnails wp-post-image img-rounded" alt="post2" />
+            </div>
+           </div>
+<!--            <br> We offer design and construction-related services for new building as well as provide expansion, renovation and refurbishment of existing facilities.-->
+<!--            We listen to understand the needs of our client, form the best team of people with the right attitude, skills and experience and then deliver the project in a timely and responsible manner.-->
 
 
-  </div>
-        <div class="col-md-4">
-            <img src="{{ asset('wp-content/perntels/about_us/home2.png') }}"  style="height:350px"  style="width: 500px" class="attachment-blog-thumbnails wp-post-image" alt="post2" />
+<!--            <div class="col-md-12">-->
+<!--                On the other hand Perntels aiming at providing Maintenance Services and support for electrical,-->
+<!--                civil works and telecommunication systems in the industries to meet the required customer satisfaction at reasonable prices, cost effective and professionalisms-->
+<!--                </div>-->
         </div>
-        <div class="col-md-4">
-            In its state of expanding, Perntels has introduced the discipline of civil works that deals with the design, construction, and maintenance of the physical and naturally built environment, including works like roads, bridges,
-            canals, dams, and buildings.<br> Civil work takes place in the public sector from municipal through to national governments, and in the private sector from individual homeowners through to international companies.
-           <br><br> We offer design and construction-related services for new building as well as provide expansion, renovation and refurbishment of existing facilities.
-            We listen to understand the needs of our client, form the best team of people with the right attitude, skills and experience and then deliver the project in a timely and responsible manner.
-
-        </div>
-            <div class="col-md-12">
-                On the other hand Perntels aiming at providing Maintenance Services and support for electrical,
-                civil works and telecommunication systems in the industries to meet the required customer satisfaction at reasonable prices, cost effective and professionalisms
-                </div>
-        </div></div></section>
+</section>
 <section class="widget blog-type ">
 
         <div class="wpb_wrapper widget-content">
@@ -244,58 +248,60 @@
 <h4>PROJECTS</h4>
                 </div></div>
     <div class="widget-content">
-
+<?php  $projects=Project::all(); ?>
+        @foreach($projects as $pro)
             <div class="col-sm-4 col-md-4 wow fadeInUp " data-wow-duration="0.6s" data-wow-delay="150ms">
                 <article class="blog">
                     <figure class="entry-thumb zoom">
-                        <a href="{{ url('project/1') }}" title="" class="entry-image">
-                            <img src="{{ asset('activity1.jpg') }}" style="height: 240px" class="attachment-blog-thumbnails wp-post-image" alt="post2" />                        </a>
+                        <a href="{{ url("project/{$pro->id}") }}" title="{{$pro->title}}" class="entry-image">
+                            <img src="{{ asset("{$pro->path}") }}" style="height: 240px" class="attachment-blog-thumbnails wp-post-image" alt="post2" />                        </a>
                     </figure>
                     <div class="information">
                         <p class="blog-meta">
-                            <span class="blog-date"><span>07</span> <span>Jan</span> ,<span>2014</span> </span>
+                            <span class="blog-date"><span>{{ $pro->date }} </span>
                         </p>
                         <h4 class="entry-title">
-                            <a href="{{ url('project/1') }}">TUNKEY PROJECTS:</a>
+                            <a href="{{ url("project/{$pro->id}") }}">{{$pro->title}}</a>
                         </h4>
-                        <a class="read-more" href="{{ url('project/1') }}">Read More <i class="fa fa-caret-right"></i></a>
+                        <a class="read-more" href="{{ url("project/{$pro->id}") }}">Read More <i class="fa fa-caret-right"></i></a>
                     </div>
                 </article>
             </div>
-            <div class="col-sm-4 col-md-4 wow fadeInUp " data-wow-duration="0.6s" data-wow-delay="350ms">
-                <article class="blog">
-                    <figure class="entry-thumb zoom">
-                        <a href="{{ url('project/2') }}" title="" class="entry-image">
-                            <img src="{{ asset('activity2.jpg') }}" style="height: 240px" class="attachment-blog-thumbnails wp-post-image" alt="post1" />                        </a>
-                    </figure>
-                    <div class="information">
-                        <p class="blog-meta">
-                            <span class="blog-date"><span>15</span> <span>May</span> ,<span>2014</span> </span>
-                        </p>
-                        <h4 class="entry-title">
-                            <a href="{{ url('project/2') }}">LINE PROJECTS</a>
-                        </h4>
-                        <a class="read-more" href="{{ url('project/{2}') }}">Read More <i class="fa fa-caret-right"></i></a>
-                    </div>
-                </article>
-            </div>
-            <div class="col-sm-4 col-md-4 wow fadeInUp " data-wow-duration="0.6s" data-wow-delay="550ms">
-                <article class="blog">
-                    <figure class="entry-thumb zoom">
-                        <a href="{{ url('project/3') }}" title="" class="entry-image">
-                            <img src="{{ asset('activity3.jpg') }}" style="height: 240px" class="attachment-blog-thumbnails wp-post-image" alt="post3" />                        </a>
-                    </figure>
-                    <div class="information">
-                        <p class="blog-meta">
-                            <span class="blog-date"><span>01</span> <span>Jun</span> ,<span>2013</span> </span>
-                        </p>
-                        <h4 class="entry-title">
-                            <a href="{{ url('project/3') }}">TEAM MANAGEMENTS &#8230;</a>
-                        </h4>
-                        <a class="read-more" href="{{ url('project/3') }}">Read More <i class="fa fa-caret-right"></i></a>
-                    </div>
-                </article>
-            </div>
+        @endforeach
+<!--            <div class="col-sm-4 col-md-4 wow fadeInUp " data-wow-duration="0.6s" data-wow-delay="350ms">-->
+<!--                <article class="blog">-->
+<!--                    <figure class="entry-thumb zoom">-->
+<!--                        <a href="{{ url('project/2') }}" title="" class="entry-image">-->
+<!--                            <img src="{{ asset('activity2.jpg') }}" style="height: 240px" class="attachment-blog-thumbnails wp-post-image" alt="post1" />                        </a>-->
+<!--                    </figure>-->
+<!--                    <div class="information">-->
+<!--                        <p class="blog-meta">-->
+<!--                            <span class="blog-date"><span>15</span> <span>May</span> ,<span>2014</span> </span>-->
+<!--                        </p>-->
+<!--                        <h4 class="entry-title">-->
+<!--                            <a href="{{ url('project/2') }}">LINE PROJECTS</a>-->
+<!--                        </h4>-->
+<!--                        <a class="read-more" href="{{ url('project/{2}') }}">Read More <i class="fa fa-caret-right"></i></a>-->
+<!--                    </div>-->
+<!--                </article>-->
+<!--            </div>-->
+<!--            <div class="col-sm-4 col-md-4 wow fadeInUp " data-wow-duration="0.6s" data-wow-delay="550ms">-->
+<!--                <article class="blog">-->
+<!--                    <figure class="entry-thumb zoom">-->
+<!--                        <a href="{{ url('project/3') }}" title="" class="entry-image">-->
+<!--                            <img src="{{ asset('activity3.jpg') }}" style="height: 240px" class="attachment-blog-thumbnails wp-post-image" alt="post3" />                        </a>-->
+<!--                    </figure>-->
+<!--                    <div class="information">-->
+<!--                        <p class="blog-meta">-->
+<!--                            <span class="blog-date"><span>01</span> <span>Jun</span> ,<span>2013</span> </span>-->
+<!--                        </p>-->
+<!--                        <h4 class="entry-title">-->
+<!--                            <a href="{{ url('project/3') }}">TEAM MANAGEMENTS &#8230;</a>-->
+<!--                        </h4>-->
+<!--                        <a class="read-more" href="{{ url('project/3') }}">Read More <i class="fa fa-caret-right"></i></a>-->
+<!--                    </div>-->
+<!--                </article>-->
+<!--            </div>-->
 
     </div>
 </section>

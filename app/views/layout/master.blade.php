@@ -124,9 +124,9 @@
 
     <style type="text/css" data-type="vc_shortcodes-custom-css">.vc_custom_1407916691611{background-color: #80b848 !important;}.vc_custom_1409715519549{padding-top: 70px !important;background-color: #80b848 !important;}.vc_custom_1409715525786{background-color: #80b848 !important;}</style></head>
 
-<body class="home page page-id-6 page-template page-template-template-visual-php wpb-js-composer js-comp-ver-4.3.3 vc_responsive">
+<body   class="home page page-id-6 page-template page-template-template-visual-php wpb-js-composer js-comp-ver-4.3.3 vc_responsive">
 <!-- START Wrapper -->
-<div class="wpo-wrapper">
+<div class="wpo-wrapper" style="background-image: url({{ asset('fourth.jpg') }})">
 <!-- Top bar -->
 <section class="wpo-topbar wrapper-topbar" style="padding-left: 0px" >
     <div class="container">
@@ -145,14 +145,14 @@
 
 
 <!-- HEADER -->
-<header id="wpo-header" class="wpo-header wrapper-header">
+<header id="wpo-header" class="wpo-header wrapper-header" >
 <div class="container">
 <div class="container-inner header-wrap clearfix">
 <!-- LOGO -->
-<div class="logo-in-theme  text-center col-md-3">
+<div class="logo-in-theme  text-center col-md-3" style="padding:0px">
     <div class="logo" style="margin: 0px">
         <a href="{{ route('home') }}">
-            <img src="{{ asset('wp-content/perntels/perntels.png" alt="perntels')}}" style="height: 100px">
+            <img src="{{ asset('wp-content/perntels/perntels.png" alt="perntels')}}" style="height: 90px">
         </a>
     </div>
 </div>
@@ -168,9 +168,10 @@
     </a>
 </div><!-- //END #navbar-header -->
 
-<div class="collapse navbar-collapse navbar-ex1-collapse"><ul id="main-menu" class="nav navbar-nav megamenu navbar-left"><li class="active menu-item-1755 dropdown parent mega depth-0 aligned-left" data-id="1755"    data-alignsub="left" data-level="1"><a href="{{ route('home') }}" class="dropdown-toggle" >Home </a>
+<div class="collapse navbar-collapse navbar-ex1-collapse"><ul id="main-menu" class="nav navbar-nav megamenu navbar-left"><li class="active menu-item-1755 dropdown parent mega depth-0 aligned-left" data-id="1755"    data-alignsub="left" data-level="1"><a href="{{ route('home') }}" class="dropdown-toggle" ><i class="fa fa-home"></i> Home </a>
 </li>
-
+        <li class="menu-item-395 dropdown parent mega depth-0 aligned-left" data-id="395"    data-alignsub="left" data-level="1"><a href="{{route('about')}}" class="dropdown-toggle" >About Us </a>
+        </li>
 <li class="menu-item-1725 dropdown parent mega depth-0 aligned-fullwidth" data-id="1725"    data-alignsub="fullwidth" data-level="1"><a href="{{ route('dashboard') }}" class="dropdown-toggle" >Services <b class="caret"></b></a>
 
     <div class="dropdown-menu mega-dropdown-menu"  ><div class="dropdown-menu-inner">
@@ -206,11 +207,11 @@
                     <div  >
                     <div class="mega-col-inner" >
                         <div id="wid-26" class="wpo-widget">
-                            <h3 class="widget-title"><a style="text-decoration: none;" href="{{ route('telecoms') }}">Project Management</a></h3>
+                            <h3 class="widget-title"><a style="text-decoration: none;" href="{{ route('tunkey') }}">Project Management</a></h3>
                             <div class="menu-products-container">
                                 <ul id="menu-products" class="megamenu-items">
-                                    <li id="menu-item-2403" class="menu-item-2403" data-id="2403"    data-alignsub="left" data-level="2"><a href="#">Tankey Projects</a></li>
-                                    <li id="menu-item-2405" class="menu-item-2405" data-id="2405"    data-alignsub="left" data-level="2"><a href="#">Team Management</a></li>
+                                    <li id="menu-item-2403" class="menu-item-2403" data-id="2403"    data-alignsub="left" data-level="2"><a href="{{ route('tunkey') }}">Tankey Projects</a></li>
+                                    <li id="menu-item-2405" class="menu-item-2405" data-id="2405"    data-alignsub="left" data-level="2"><a href="{{ route('teammanager') }}">Team Management</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -251,8 +252,7 @@
            
 
             </div></div></div></li>
-<li class="menu-item-395 dropdown parent mega depth-0 aligned-left" data-id="395"    data-alignsub="left" data-level="1"><a href="{{route('about')}}" class="dropdown-toggle" >About Us </a>
-    </li>
+
 
 <li class="menu-item-2593" data-id="2593"    data-alignsub="left" data-level="1"><a href="{{route('team')}}" ">Teams</a></li>
 <li class="menu-item-2593" data-id="2593"    data-alignsub="left" data-level="1"><a href="{{route('environment')}}" ">Environment</a></li>
@@ -302,45 +302,7 @@
                                         </a>
                                     </div>
                                     <div class="carousel-inner">
-                                        <div class="item active"><div class="row">
-
-                                                <!-- Product Item -->
-                                                <div class="item-brands col-sm-2 col-md-2">
-                                                    <a href="#"><img src="{{ asset('wp-content/perntels/partners/logo-shantagold.png')}}" class="attachment-brand-logo wp-post-image" alt="videohive" /></a>
-                                                </div>
-                                                <!-- End Product Item -->
-
-                                                <!-- Product Item -->
-                                                <div class="item-brands col-sm-2 col-md-2">
-                                                    <a href="#"><img src="{{ asset('wp-content/perntels/partners/mbh.png')}}" class="attachment-brand-logo wp-post-image" alt="audiojungle" /></a>
-                                                </div>
-                                                <!-- End Product Item -->
-
-                                                <!-- Product Item -->
-                                                <div class="item-brands col-sm-2 col-md-2">
-                                                    <a href="#"><img src="{{ asset('wp-content/perntels/partners/tanesco.png')}}" class="attachment-brand-logo wp-post-image" alt="activeden" /></a>
-                                                </div>
-                                                <!-- End Product Item -->
-
-                                                <!-- Product Item -->
-                                                <div class="item-brands col-sm-2 col-md-2">
-                                                    <a href="#"><img src="{{ asset('wp-content/perntels/partners/maktec-logo.png')}}" class="attachment-brand-logo wp-post-image" alt="photodune" /></a>
-                                                </div>
-                                                <!-- End Product Item -->
-                                                <!-- Product Item -->
-                                                <div class="item-brands col-sm-2 col-md-2">
-                                                    <a href="#"><img src="{{ asset('wp-content/perntels/partners/mnkanda.png')}}" class="attachment-brand-logo wp-post-image" alt="codecanyon" /></a>
-                                                </div>
-                                                <!-- End Product Item -->
-                                                <!-- Product Item -->
-                                                <div class="item-brands col-sm-2 col-md-2">
-                                                    <a href="#"><img src="{{ asset('wp-content/perntels/partners/rea_logo.png')}}" class="attachment-brand-logo wp-post-image" alt="graphicriver" /></a>
-                                                </div>
-                                                <!-- End Product Item -->
-
-                                            </div>
-                                        </div>
-                                        <div class="item">
+                                        <div class="item active">
                                             <div class="row">
                                                 <!-- Product Item -->
                                                 <div class="item-brands col-sm-2 col-md-2">
@@ -378,7 +340,48 @@
                                                 </div>
                                                 <!-- End Product Item -->
 
-                                            </div></div>                                                                        </div>
+                                            </div>
+                                        </div>
+                                        <div class="item">
+
+                                            <div class="row">
+
+                                                <!-- Product Item -->
+                                                <div class="item-brands col-sm-2 col-md-2">
+                                                    <a href="#"><img src="{{ asset('wp-content/perntels/partners/logo-shantagold.png')}}" class="attachment-brand-logo wp-post-image" alt="videohive" /></a>
+                                                </div>
+                                                <!-- End Product Item -->
+
+                                                <!-- Product Item -->
+                                                <div class="item-brands col-sm-2 col-md-2">
+                                                    <a href="#"><img src="{{ asset('wp-content/perntels/partners/mbh.png')}}" class="attachment-brand-logo wp-post-image" alt="audiojungle" /></a>
+                                                </div>
+                                                <!-- End Product Item -->
+
+                                                <!-- Product Item -->
+                                                <div class="item-brands col-sm-2 col-md-2">
+                                                    <a href="#"><img src="{{ asset('wp-content/perntels/partners/tanesco.png')}}" class="attachment-brand-logo wp-post-image" alt="activeden" /></a>
+                                                </div>
+                                                <!-- End Product Item -->
+
+                                                <!-- Product Item -->
+                                                <div class="item-brands col-sm-2 col-md-2">
+                                                    <a href="#"><img src="{{ asset('wp-content/perntels/partners/maktec-logo.png')}}" class="attachment-brand-logo wp-post-image" alt="photodune" /></a>
+                                                </div>
+                                                <!-- End Product Item -->
+                                                <!-- Product Item -->
+                                                <div class="item-brands col-sm-2 col-md-2">
+                                                    <a href="#"><img src="{{ asset('wp-content/perntels/partners/mnkanda.png')}}" class="attachment-brand-logo wp-post-image" alt="codecanyon" /></a>
+                                                </div>
+                                                <!-- End Product Item -->
+                                                <!-- Product Item -->
+                                                <div class="item-brands col-sm-2 col-md-2">
+                                                    <a href="#"><img src="{{ asset('wp-content/perntels/partners/rea_logo.png')}}" class="attachment-brand-logo wp-post-image" alt="graphicriver" /></a>
+                                                </div>
+                                                <!-- End Product Item -->
+
+                                            </div>
+                                        </div>                                                                        </div>
                                 </div>
                             </div>
                         </div>
@@ -466,8 +469,8 @@
                             <h3 class="widget-title"><span> Project Management </span></h3>
                             <div class="menu-footer-1-container">
                                 <ul id="menu-footer-4" class="menu">
-                                    <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-34"><a href="#">Tamkey Projects</a></li>
-                                    <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-35"><a href="#">Team Management</a></li>
+                                    <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-34"><a href="{{ route('tunkey') }}">Tankey Projects</a></li>
+                                    <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-35"><a href="{{ route('teammanager') }}">Team Management</a></li>
 
                                 </ul>
                             </div>
@@ -475,7 +478,7 @@
                     </div>
                 </div>
 
-                <div class="col-md-3 col-sm-4 col-xs-12">
+                <div class="col-md-3 col-sm-4 col-xs-12" style="padding-top: 0px">
                     <div class="inner wow fadeInUp" data-wow-duration='0.8s' data-wow-delay="200ms" >
                         <aside id="nav_menu-6" class="widget clearfix widget_nav_menu">
                             <h3 class="widget-title"><span>Telecommunications</span></h3>
@@ -545,59 +548,59 @@
 </script>
 </div>
 
-<script type='text/javascript' src='wp-content/plugins/wpo-customize/assets/js/colorpickerf9b8.js?ver=4.0'></script>
-<script type='text/javascript' src='wp-content/plugins/wpo-customize/assets/js/customizef9b8.js?ver=4.0'></script>
-<script type='text/javascript' src='wp-content/plugins/contact-form-7/includes/js/jquery.form.mind03d.js?ver=3.51.0-2014.06.20'></script>
+<script type='text/javascript' src='{{ asset("wp-content/plugins/wpo-customize/assets/js/colorpickerf9b8.js?ver=4.0") }}'></script>
+<script type='text/javascript' src='{{ asset("wp-content/plugins/wpo-customize/assets/js/customizef9b8.js?ver=4.0") }}'></script>
+<script type='text/javascript' src='{{ asset("wp-content/plugins/contact-form-7/includes/js/jquery.form.mind03d.js?ver=3.51.0-2014.06.20") }}'></script>
 <script type='text/javascript'>
     /* <![CDATA[ */
     var _wpcf7 = {"loaderUrl":"http:\/\/pavodemo.com\/wpopal\/pharmacy\/wp-content\/plugins\/contact-form-7\/images\/ajax-loader.gif","sending":"Sending ..."};
     /* ]]> */
 </script>
-<script type='text/javascript' src='wp-content/plugins/contact-form-7/includes/js/scripts657a.js?ver=3.9.3'></script>
+<script type='text/javascript' src='{{ asset("wp-content/plugins/contact-form-7/includes/js/scripts657a.js?ver=3.9.3") }}'></script>
 <script type='text/javascript'>
     /* <![CDATA[ */
     var wc_add_to_cart_params = {"ajax_url":"\/wpopal\/pharmacy\/wp-admin\/admin-ajax.php","ajax_loader_url":"\/\/pavodemo.com\/wpopal\/pharmacy\/wp-content\/plugins\/woocommerce\/assets\/images\/ajax-loader@2x.gif","i18n_view_cart":"View Cart","cart_url":"http:\/\/pavodemo.com\/wpopal\/pharmacy\/cart\/","is_cart":"","cart_redirect_after_add":"no"};
     /* ]]> */
 </script>
-<script type='text/javascript' src='wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min7e68.js?ver=2.1.12'></script>
-<script type='text/javascript' src='wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.minc8cb.js?ver=2.60'></script>
+<script type='text/javascript' src='{{ asset("wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min7e68.js?ver=2.1.12") }}'></script>
+<script type='text/javascript' src='{{ asset("wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.minc8cb.js?ver=2.60") }}'></script>
 <script type='text/javascript'>
     /* <![CDATA[ */
     var woocommerce_params = {"ajax_url":"\/wpopal\/pharmacy\/wp-admin\/admin-ajax.php","ajax_loader_url":"\/\/pavodemo.com\/wpopal\/pharmacy\/wp-content\/plugins\/woocommerce\/assets\/images\/ajax-loader@2x.gif"};
     /* ]]> */
 </script>
-<script type='text/javascript' src='wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min7e68.js?ver=2.1.12'></script>
-<script type='text/javascript' src='wp-content/plugins/woocommerce/assets/js/jquery-cookie/jquery.cookie.mine7f0.js?ver=1.3.1'></script>
+<script type='text/javascript' src='{{ asset("wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min7e68.js?ver=2.1.12") }}'></script>
+<script type='text/javascript' src='{{ asset("wp-content/plugins/woocommerce/assets/js/jquery-cookie/jquery.cookie.mine7f0.js?ver=1.3.1") }}'></script>
 <script type='text/javascript'>
     /* <![CDATA[ */
     var wc_cart_fragments_params = {"ajax_url":"\/wpopal\/pharmacy\/wp-admin\/admin-ajax.php","fragment_name":"wc_fragments"};
     /* ]]> */
 </script>
-<script type='text/javascript' src='wp-content/plugins/woocommerce/assets/js/frontend/cart-fragments.min7e68.js?ver=2.1.12'></script>
+<script type='text/javascript' src='{{ asset("wp-content/plugins/woocommerce/assets/js/frontend/cart-fragments.min7e68.js?ver=2.1.12") }}'></script>
 <script type='text/javascript'>
     /* <![CDATA[ */
     var yith_woocompare = {"nonceadd":"2dd3261ecb","nonceremove":"6fc465fe75","nonceview":"dd76a95581","ajaxurl":"http:\/\/pavodemo.com\/wpopal\/pharmacy\/wp-admin\/admin-ajax.php","actionadd":"yith-woocompare-add-product","actionremove":"yith-woocompare-remove-product","actionview":"yith-woocompare-view-table","added_label":"Added","table_title":"Product Comparison","auto_open":"yes"};
     /* ]]> */
 </script>
-<script type='text/javascript' src='wp-content/plugins/yith-woocommerce-compare/assets/js/woocomparecfa9.js?ver=1.1.2'></script>
-<script type='text/javascript' src='wp-content/plugins/yith-woocommerce-compare/assets/js/jquery.colorbox-min13ac.js?ver=1.4.21'></script>
+<script type='text/javascript' src='{{ asset("wp-content/plugins/yith-woocommerce-compare/assets/js/woocomparecfa9.js?ver=1.1.2") }}'></script>
+<script type='text/javascript' src='{{ asset("wp-content/plugins/yith-woocommerce-compare/assets/js/jquery.colorbox-min13ac.js?ver=1.4.21") }}'></script>
 <script type='text/javascript'>
     /* <![CDATA[ */
     var yith_wcwl_l10n = {"out_of_stock":"Cannot add to the cart as product is Out of Stock!"};
     /* ]]> */
 </script>
-<script type='text/javascript' src='wp-content/plugins/yith-woocommerce-wishlist/assets/js/jquery.yith-wcwl5152.js?ver=1.0'></script>
-<script type='text/javascript' src='wp-content/themes/pharmacy/framework/assets/js/woocommercef9b8.js?ver=4.0'></script>
-<script type='text/javascript' src='wp-includes/js/comment-reply.minf9b8.js?ver=4.0'></script>
-<script type='text/javascript' src='wp-content/themes/pharmacy/js/smooth-scrollbarf9b8.js?ver=4.0'></script>
-<script type='text/javascript' src='wp-content/themes/pharmacy/js/dropdown-hoverf9b8.js?ver=4.0'></script>
-<script type='text/javascript' src='wp-content/themes/pharmacy/js/jquery.parallax-1.1.3f9b8.js?ver=4.0'></script>
-<script type='text/javascript' src='wp-content/themes/pharmacy/js/jquery.wow.minf9b8.js?ver=4.0'></script>
-<script type='text/javascript' src='wp-content/themes/pharmacy/js/countdownf9b8.js?ver=4.0'></script>
-<script type='text/javascript' src='wp-content/themes/pharmacy/js/mainf9b8.js?ver=4.0'></script>
-<script type='text/javascript' src='wp-content/themes/pharmacy/framework/assets/js/wpo-pluginf9b8.js?ver=4.0'></script>
-<script type='text/javascript' src='wp-content/themes/pharmacy/framework/assets/js/megamenuf9b8.js?ver=4.0'></script>
-<script type='text/javascript' src='wp-content/plugins/js_composer/assets/lib/jquery-waypoints/waypoints.minb523.js?ver=4.3.3'></script>
+<script type='text/javascript' src='{{ asset("wp-content/plugins/yith-woocommerce-wishlist/assets/js/jquery.yith-wcwl5152.js?ver=1.0") }}'></script>
+<script type='text/javascript' src='{{ asset("wp-content/themes/pharmacy/framework/assets/js/woocommercef9b8.js?ver=4.0") }}'></script>
+<script type='text/javascript' src='{{ asset("wp-includes/js/comment-reply.minf9b8.js?ver=4.0") }}'></script>
+<script type='text/javascript' src='{{ asset("wp-content/themes/pharmacy/js/smooth-scrollbarf9b8.js?ver=4.0") }}'></script>
+<script type='text/javascript' src='{{ asset("wp-content/themes/pharmacy/js/dropdown-hoverf9b8.js?ver=4.0") }}'></script>
+<script type='text/javascript' src='{{ asset("wp-content/themes/pharmacy/js/jquery.parallax-1.1.3f9b8.js?ver=4.0") }}'></script>
+<script type='text/javascript' src='{{ asset("wp-content/themes/pharmacy/js/jquery.wow.minf9b8.js?ver=4.0") }}'></script>
+<script type='text/javascript' src='{{ asset("wp-content/themes/pharmacy/js/countdownf9b8.js?ver=4.0") }}'></script>
+<script type='text/javascript' src='{{ asset("wp-content/themes/pharmacy/js/mainf9b8.js?ver=4.0") }}'></script>
+<script type='text/javascript' src='{{ asset("wp-content/themes/pharmacy/framework/assets/js/wpo-pluginf9b8.js?ver=4.0") }}'></script>
+<script type='text/javascript' src='{{ asset("wp-content/themes/pharmacy/framework/assets/js/megamenuf9b8.js?ver=4.0") }}'></script>
+<script type='text/javascript' src='{{ asset("wp-content/plugins/js_composer/assets/lib/jquery-waypoints/waypoints.minb523.js?ver=4.3.3") }}'></script>
 </body>
 
 </html>

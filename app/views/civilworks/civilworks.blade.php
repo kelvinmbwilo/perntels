@@ -11,8 +11,6 @@
  */ ?>
 
 <div class="container-inner">
-    <nav class="woocommerce-breadcrumb" itemprop="breadcrumb">
-        <a class="home" href="http://pavodemo.com/wpopal/pharmacy">Home</a> &#47; CIVIL WORKS AND BUILDINGS </nav>
     <div class="row">
         <section id="wpo-content" class="col-xs-12  col-md-9 col-md-push-3 no-sidebar-right" style="margin-bottom: 20px;">
             <section class=" woo-single-product" style="background-color: white; text-decoration-color: black;">
@@ -47,7 +45,7 @@
 
                             <li id="menu-item-2407" class="menu-item-2407 dropdown parent mega depth-0 aligned-left" data-id="2407"    data-alignsub="left" data-level="1"><a href="{{route('access')}}"  ><span class="menu-title">ACCESS ROAD CONSTRUCTION</span> <b class="caret"></b></a></li>
 
-                            <li id="menu-item-2407" class="menu-item-2407 dropdown parent mega depth-0 aligned-left" data-id="2407"    data-alignsub="left" data-level="1"><a href="{{route('road')}}"  ><span class="menu-title">ROAD CONSTRUCTION</span> <b class="caret"></b></a></li>
+                            <li id="menu-item-2407" class="menu-item-2407 dropdown parent mega depth-0 aligned-left" data-id="2407"    data-alignsub="left" data-level="1"><a href="{{route('road')}}"  ><span class="menu-title">BUILDING CONSTRUCTION</span> <b class="caret"></b></a></li>
 
                         </ul>
                     </div>

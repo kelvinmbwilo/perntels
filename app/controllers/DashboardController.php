@@ -168,10 +168,10 @@ class DashboardController extends BaseController {
      */
     public function project($id)
     {
-        $projectName="the project name";
-        $projectContent="the projcet content";
+        $project=Project::find($id);
 
-        return View::make('project',compact('projectName','projectContent'));
+
+        return View::make('project',compact('project'));
     }
 
     /**
@@ -243,5 +243,12 @@ class DashboardController extends BaseController {
 		//
 	}
 
+    public function teammanager(){
+        return View::make('projects.team');
+    }
+
+    public function tunkey(){
+        return View::make('projects.tunkey');
+    }
 
 }

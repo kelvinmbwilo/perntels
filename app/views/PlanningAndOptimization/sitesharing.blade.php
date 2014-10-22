@@ -14,11 +14,11 @@
     <div class="col-md-6 col-sm-6 pull-left">
         <div class="image">
             <div class="panel">
-                <div class="panel-heading">
-                    <h3 class="bold">Site Sharing</h3>
+                <div class="panel-heading" style="padding: 2px">
+                    <h3 class="bold" >Site Sharing</h3>
                 </div>
-                <div class="panel-body">
-                    <img class="image img-responsive" src="{{ asset('wp-content/perntels/pno/sitesharingplans.png')}}"/>
+                <div class="panel-body" style="padding: 2px">
+                    <img class="image img-responsive" src="{{ asset('wp-content/perntels/pno/sitesharingplans.png')}}" style="height: 300px;width: 100%"/>
                 </div>
             </div>
         </div>

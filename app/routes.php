@@ -82,3 +82,6 @@ Route::get('solar_power',array('as' => 'solar' , 'uses' => 'DashboardController@
 
 Route::get('site_maintainance',array('as' => 'maintainace' , 'uses' => 'DashboardController@site_maintainance'));
 
+Route::get('tunkey',array('as' => 'tunkey' , 'uses' => 'DashboardController@tunkey'));
+
+Route::get('teammanager',array('as' => 'teammanager' , 'uses' => 'DashboardController@teammanager'));

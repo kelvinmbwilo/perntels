@@ -14,10 +14,10 @@
     <div class="col-md-6 col-sm-6 pull-left">
         <div class="image">
             <div class="panel">
-                <div class="panel-heading">
+                <div class="panel-heading" style="padding: 2px">
                     <h3 class="bold">Transmission Planning</h3>
                 </div>
-                <div class="panel-body">
+                <div class="panel-body" style="padding: 2px">
                     <img class="image img-responsive" src="{{ asset('wp-content/perntels/pno/transmissionplanning.png')}}"/>
                 </div>
             </div>
