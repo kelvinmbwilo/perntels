@@ -20,7 +20,12 @@
                 <div class="panel-body">
                     <img class="image img-responsive" src="{{ asset('wp-content/perntels/pno/drivetest.png')}}"/><br><br>
 
-                    <p> Perntels has a competent team specialized in network optimization we help our clients to manage their Quality of Service for their complex GSM/GPRS/EDGE/WCDMA/HSDPA/LTE network.  </p>
+                    <p>
+                        It is not possible to measure remotely what a mobile subscriber experiences at a given geographical area,
+                        through drive testing an operator can detect and record a wide variety of actual physical and virtual
+                        parameters of mobile cellular service. Perntels offers drive test service for GSM, 3G, WiMAX, EDGE / GPRS,
+                        CDMA, EVDO, LTE using tools such as TERMS Investigation.
+                    </p>
                 </div>
             </div>
         </div>

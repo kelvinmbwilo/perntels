@@ -35,6 +35,9 @@
 
             <div class="col-md-5 col-sm-5">
                 <div class="panel">
+                    <div class="panel-heading">
+
+                    </div>
                 <div class="panel-body">
                 
                   <p>Scope of fiber works includes Route survey, Permits and Right of Way (ROW), Preparation of drawings, Excavation of trench, PVC duct laying, Backfilling, Jointing of cable, Installation of DP poles, thrust boring, HDPE duct laying, pressure testing, blowing fiber cable, brick placing, construction of pillar plinth, installation of pillars, installation of ODF's.</p>

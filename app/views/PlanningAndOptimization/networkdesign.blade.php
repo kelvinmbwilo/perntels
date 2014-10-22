@@ -16,26 +16,29 @@
             <div style="padding-top: 20px; padding-left: 8px;">
 
                 <h5>Network Design and Optimization</h5>
-
-                <p> Perntels has a wide experience on RF network design, planning and surveys. We have planned over 1000 sites new sites for both Airtel and Vodacom.  </p>
-
-                <img class="image img-responsive" src="{{ asset('wp-content/perntels/tele/fibre.png')}}"/>
+                <img class="image img-responsive" src="{{ asset('wp-content/perntels/pno/network.png')}}"/>
+                <br>
+                <br>
+                <p>
+                    Perntels has a wide experience on network design, planning and site surveys where we have planned and surveyed over
+                    1000 sites for Airtel and Vodacom across Tanzania. During survey we provide reports with:
+                </p>
             </div>
 
         </div>
     </div>
-    <div class="col-md-5 col-sm-5">
-        <div class="summary entry-summary">
-            <br>
+    <div class="col-md-6 col-sm-6 pull-right">
+        <div class="panel">
+            <div class="panel-heading" >
 
-            <div class="description" itemprop="description">
+            </div>
+            <div class="panel-body">
                 <ul style="list-style: outside">
-                    <li>	Pre site surveys and site surveys for RF, Microwave and civil</li>
-                    <li>	Detailed Technical Site Survey Report (TSSR) with parameters that complies with customer needs (Capacity sites, Coverage sites)</li>
-                    <li>	Site Documentation which includes Equipments Layout Drawings with supporting pictures.</li>
-                    <li>	Provide coverage map predictions before and after addition of a new site.</li>
-                    <li>	Outdoor and Indoor cable routing plans.</li>
-                    <li>	List, type and quantities of materials to be used for implementation</li>
+                    <li>	Detailed Technical Site Survey Report that complies with Customer Requirements.</li>
+                    <li>	Coverage prediction with Softwares such as Asset, Mentum Planet, IBwave, Attol and Others</li>
+                    <li>	Site Documentation which includes Equipments Layout Drawing.</li>
+                    <li>	Outdoor and Indoor cable routing.</li>
+                    <li>	Quantities of materials.</li>
                 </ul>
             </div>
 
